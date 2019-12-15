@@ -1,24 +1,14 @@
 [connection]
 id=AndroidPoint
-uuid=3c82296b-1639-4e47-8083-40f1b056d4d7
+uuid=591b1fad-6014-494c-a9c9-cc415e780885
 type=wifi
+interface-name=wls1
 permissions=user:mojtaba:;
-secondaries=
 
 [wifi]
-mac-address=1C:4B:D6:D3:77:37
 mac-address-blacklist=
 mode=infrastructure
-seen-bssids=
 ssid=AndroidPoint
-
-[wifi-security]
-auth-alg=open
-group=
-key-mgmt=wpa-psk
-pairwise=
-proto=
-psk=s0ko0t!!!
 
 [ipv4]
 dns-search=
@@ -28,3 +18,5 @@ method=auto
 addr-gen-mode=stable-privacy
 dns-search=
 method=auto
+
+[proxy]
