@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Hve oft ætti að athuga">
+								<longdesc>Hve oft ætti að athuga um nýjar verður upplýsingar</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="GMail notandanafn">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Hve oft ætti að athuga">
+								<longdesc>Hversu oft (í mín) ætti að athuga um póst.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Items">
+						<dir name="DockyItem">
+							<entry name="Hue">
+								<local_schema short_desc="Umhverfislitur Docki hlutar">
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Texti þegar farið er með músina yfir Docky hlut">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Ekki breyta þessu!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Stika þysjar">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Stika sér um alla glugga">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Stika í 3d">
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Stærð teikna í stiku">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Feluhamur stiku">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

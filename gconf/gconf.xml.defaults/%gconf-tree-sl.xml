@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Kako pogosto se bo preverjalo">
+								<longdesc>Kako pogosto se bo preverjalo o novih podrobnostih vremena.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Počitsti dokončane časovnike">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Trenutno izbrani predmet">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Uporabniško ime GMail">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Kako pogosto se bo preverjalo">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="CurrentDesktopOnly">
+								<local_schema>
+									<longdesc>Če označeno, bo Docky prikazoval samo okna na trenutno dejavnem namizju.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="HoverText">
+								<local_schema short_desc="Lebdeči napis sidrišča">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Ukaz predmeta sidrišča">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Ne spreminjajte tega!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Približevanje sidrišča">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Sidrišče upravlja z vsemi okni">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Sidrišče je 3D">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema>
+										<longdesc>Seznam vstavkov, ki so dejavni na tem sidrišču</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Če je sidrišče pult">
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema>
+										<longdesc>Če drži, bodo predmeti z več kot enim oknom imeli dve opozorilni piki namesto ene.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Velikost ikon">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Način skrivanja sidrišča">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ClockTheme">
+							<local_schema short_desc="Izgled analogne ure">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TimerDelay">
+							<local_schema>
+								<longdesc>Kako pogosto preveriti za nove podatke na odložišču (v ms).</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Ne sıklıkla denetlensin">
+								<longdesc>Yeni hava durumu bilgisi için ne sıklıkla denetlensin.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="Hava durumu kaynağı">
+								<longdesc>Hava durumu bilgisinin alınacağı hava durumu kaynağının adı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Metrik birimleri kullan">
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Hava durumu bölgeleri">
+								<longdesc>Denetim için hava durumu konumları listesi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Durdurulmuş zamanlayıcıya tıklanıldığı anda programdan çık">
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Yeni zamanlayıcı uzunluğu">
+								<longdesc>Her yeni zamanlayı için varsayılan zaman (saniye cinsinden).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Yeni zamanlayıcıların hepsini başlat">
+								<longdesc>Eğer doğruysa, tüm yeni zamanlayıcılar otomatik başlayacak.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Tamamlanan zamanlayıcıyı sıfırla">
+								<longdesc>Doğruysa, zamanlayıcı zaman aşımına uğradığında kaybolacak.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Seçili olan nesne">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Son kullanılan belgelerin sayısı">
+								<longdesc>Gösterilecek en son kullanılan belgelerin sayısı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="En son rıhtım&apos;ı göster">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="Ulusal radyo istasyonları">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Gmail Kullanıcı ismi">
+								<longdesc>GMail kullanıcı adını denetle.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Ne sıklıkla denetlensin">
+								<longdesc>Yeni posta için ne sıklıkla denetlensin (dakika cinsinden).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Okunmayan postalar için bir uyarı göster">
+								<longdesc>İşaretliyse, yeni okunmamış posta için bildirim mesajı gösterir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Okunmayan posta için nokta göstergesi göster">
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Denetlenen son zaman">
+								<longdesc>Docky&apos;nin GMail mesajları için son denetleme zamanı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Gmail&apos;i denetle">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema short_desc="Acil göstergesinin renk kayması">
+									<longdesc>Acil göstergesi&apos;nin rengini ne kadar kaldırsın. Bu değer -180&apos;den 180&apos;e olabilir.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Geçerli tema">
+									<longdesc>Şu anki Docky temasının adı.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema short_desc="Acil göstergesinin parıltı canladırması zamanı (saniye cinsinden)">
+									<longdesc>Nesneleri ne kadar süre ile parlatılsın ? 0 = İptal veya -1 sonsuz.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Başlatıcılar için üst metin etiketlerini göster">
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Sadece geçerli masaüstü&apos;ündeki pencereleri göster">
+									<longdesc>Doğruysa, Rıhtım sadece şu an etkin masaüstünü gösterecek.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Öğeler için &apos;Rıhtım&apos;a İğnele&apos;yi göster">
+									<longdesc>Eğer &apos;Rıhtım&apos;a İğnele&apos; seçeneği öğelerin menüsünü gösterecekse, Bunu kalıcı olarak rıhtım&apos;a eklemeyi kabul edeceksiniz.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Ayarlar&apos;ı Docky öğesi menüsü&apos;nün içinde göster">
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Çık&apos;ı, Rıhtım öğesi menüsünün içinde göster">
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Docky öğesini göster">
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Docky öğesi tonu">
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Docky öğesi üst yazı">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Docky nesnesini kapatmaya ayarla">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Bunu değiştirmeyin!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Yakınlaştırma boyutu">
+										<longdesc>Rıhtım&apos;ın, bir yüzdesi olarak büyütme boyutu (eğer etkinleştirilmişse).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Rıhtım yakınlaştırmaları">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Rıhtım tüm pencereleri kontrol etsin">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Rıhtım üç boyutlu">
+										<longdesc>Doğuysa, rıhtım 3d olarak görüntülenecek.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Rıhtım üzerindeki tüm öğeleri sıralar">
+										<longdesc>Rıhtım üzerindeki öğreleri sıralamak için kulllanılır.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="Rıhtım&apos;ın konumu">
+										<longdesc>Rıhtım&apos;ın ekran üzerindeki konumu. Olası değerler: Alt, Üst, Sol, Sağ</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Bu rıhtımdaki eklentiler">
+										<longdesc>Listedeki eklentiler bu rıhtım üzerinde etkin durumdadır.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Rıhtım bir panel ise">
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Hangi monitör rıhtım üzerinde">
+										<longdesc>Rıhtımın üzerinde durduğu monitördür.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Başlatıcılar listesi">
+										<longdesc>Bu rıhtımdaki tüm başlatıcıların listesidir.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Rıhtım simge boyutu">
+										<longdesc>Rıhtımdaki simgelerin boyutu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Gizlendiğinde soldur">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Rıhtım&apos;ın gizleme modu">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="LockDrags">
+								<local_schema short_desc="Sürüklemedeki öğeleri durdur">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Bir pencere geçişini güncelledikten sonra ne kadar süre bekleyecek (ms)">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Ne kadar sürede gizlenilmekten çıksın">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="CompositeCheckEnabled">
+							<local_schema short_desc="Birleştirme için denetimleri etkinleştirir">
+							</local_schema>
+						</entry>
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Etkin rıhtımların listesi">
+								<longdesc>Bu, şu anda etkin (gösterilen) tüm rıhtım&apos;ları ada göre listeler.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="CPUMonitor">
+					<dir name="CPUMonitorDockItem">
+						<entry name="ClickCommand">
+							<local_schema short_desc="Sol tıklama komutu">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="24-saat biçimli zaman kullan">
+								<longdesc>Doğruysa, zamanı 24-sa biçiminde gösterir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Sayısal saati göster">
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Tarihi göster">
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Analog saat teması">
+								<longdesc>Analog saat teması.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema short_desc="Fare Seçimlerini İzle">
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Zamanlayıcı Gecikmesi">
+								<longdesc>Yeni pano verisi için ne sıklıkla yoklansın (ms cinsinden).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="En Fazla Girdi Sayısı">
+								<longdesc>Son pano seçimlerinin gösterimi kaç tane.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

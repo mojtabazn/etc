@@ -1,0 +1,28 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub  rsa2048/3CBCAC41 2015-04-08
+      Key fingerprint = 7B6C A174 725D 0717 358F  1ED7 0463 76A3 3CBC AC41
+uid                  Pacman Keyring Master Key <pacman@localhost>
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before making use of this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+Comment: This is a revocation certificate
+
+iQEfBCABCAAJBQJVJQE6Ah0AAAoJEARjdqM8vKxBFUIH+wd0QGiUcCwDWQ7FVXjq
+yPBhXs0HH+wg/kJ2aED/fhkD62AJ0nHou4GFnwVYS1bp/U4mgpV5ie6LoJEDSnd3
+g0VwllvBL4hUXyfJwPTD13ynShIlc2iX5ILopdfR8151kniNumr7z8A6E9osCcCU
+P23MQGMkGeUal3Ka4FPynYGQnd2T5zVJJ3ItlmXixMZe/VzqDLvYntafJPW8ZqY0
+CeKsxhNR3c7tK6+0pl/Dy//ev2EJn1UJ9r8lHK9lY1wgpDFeA5/B639+bh/eBZCs
+YIyVjCHLE8SveM6r8CbGFuSPNWuBsrkZDUt5dJhVXpfPdyoYfPGXYnTJKQjE34hT
+ZPs=
+=Kg3W
+-----END PGP PUBLIC KEY BLOCK-----

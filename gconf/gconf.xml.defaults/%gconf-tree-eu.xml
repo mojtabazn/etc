@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Zenbatero begiratu">
+								<longdesc>Zenbatero begiratu ea eguraldiaren informazio berririk dagoen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Ezabatu gelditutako kronometroa klikatzean">
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Ezabatu bukatutako kronometroak">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Unean hautatutako elementua">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="GMail-eko erabiltzaile-izena">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Zenbatero begiratu">
+								<longdesc>Zenbatero (minututan) begiratu mezu berririk dagoen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Begiratu beharreko GMail etiketak">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema>
+									<longdesc>Zenbatean aldatu larritasun-adierazlearen kolorea. Balioa -180tik 180rakoa izan daiteke.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema>
+									<longdesc>Premiazko adierazlearen animazioak zenbat iraungo duen (segundotan), 0 ezgaitzeko, edo -1 mugagabe jartzeko.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="DockyItem">
+							<entry name="Hue">
+								<local_schema short_desc="Docky elementuaren ñabardura">
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Docky elementuaren azalpen-testua">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Exekutatu beharreko Docky elementuaren agindua">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Ez aldatu hau!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Atrakeak zoom egiten du">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Atrakeak leiho guztiak kudeatzen ditu">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Atrakea 3D da">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema>
+										<longdesc>Atrake honetan aktibo dauden pluginen zerrenda.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Atrakeko ikonoen neurria">
+									</local_schema>
+								</entry>
+								<entry name="HotAreaPadding">
+									<local_schema short_desc="Eremu aktiboaren tartea">
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Pixkanaka desagertu">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Atrakea ezkutatzeko modua">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Zenbat (ms) itxaron eguneratzeko leihoa aldatu eta gero">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Zenbat (ms) itxaron erakutsi baino lehen">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="CompositeCheckEnabled">
+							<local_schema short_desc="Gaitu konposatzeko saioak">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ClockTheme">
+							<local_schema short_desc="Erloju analogikoaren gaia">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="MaxEntries">
+							<local_schema>
+								<longdesc>Zenbat arbeleko azken hautapen erakutsi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

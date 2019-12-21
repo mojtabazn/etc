@@ -1,0 +1,9 @@
+[Unit]
+Description=My script
+
+[Service]
+ExecStart=/home/mojtaba/Scripts/my-script
+
+[Install]
+WantedBy=multi-user.target
+ 

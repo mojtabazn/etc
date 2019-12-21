@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="int_if">
+						<local_schema short_desc="内部接口">
+							<longdesc>连接局域网的网络接口。例如 eth0 或 eth1。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="启用 NAT">
+							<longdesc>启用网络地址翻译或 Internet 连接共享。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="外部接口">
+							<longdesc>连接 Internet 的网络接口。例如 ppp0 或 eth0。</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="启用 ICMP 配置">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="dhcp">
+						<entry name="enable_server">
+							<local_schema short_desc="启用连接共享的 DHCP 服务器">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="policy_auto_apply">
+						<local_schema short_desc="自动应用策略">
+						</local_schema>
+					</entry>
+					<entry name="minimize_to_tray">
+						<local_schema short_desc="最小化到托盘">
+						</local_schema>
+					</entry>
+					<entry name="enable_tray_icon">
+						<local_schema short_desc="启用托盘图标">
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dial_out">
+						<local_schema short_desc="系统拨出时启动防火墙">
+							<longdesc>系统建立 PPP 连接时启动防火墙。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_gui">
+						<local_schema short_desc="程序装入时启动防火墙">
+							<longdesc>程序装入时启动防火墙。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_boot">
+						<local_schema short_desc="系统启动时启动防火墙">
+							<longdesc>系统启动时启动防火墙。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

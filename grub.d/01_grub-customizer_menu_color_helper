@@ -1,0 +1,12 @@
+#!/bin/sh
+	
+	if [ "x${GRUB_BACKGROUND}" != "x" ] ; then
+		if [ "x${GRUB_COLOR_NORMAL}" != "x" ] ; then
+		echo "set color_normal=${GRUB_COLOR_NORMAL}"
+		fi
+	
+		if [ "x${GRUB_COLOR_HIGHLIGHT}" != "x" ] ; then
+		echo "set color_highlight=${GRUB_COLOR_HIGHLIGHT}"
+		fi
+	fi
+	

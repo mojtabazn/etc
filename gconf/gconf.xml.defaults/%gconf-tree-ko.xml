@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="얼마나 자주 체크할 지 설정">
+								<longdesc>얼마나 자주 날씨 정보를 체크할 지 설정</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="멈춘 타이머를 클릭할 시 제거함">
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema>
+								<longdesc>true로 설정하면 모든 새로운 타이머는 자동으로 시작할 것입니다.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="종료된 타이머 초기화">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="현재 선택된 항목">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="지메일 ID">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="얼마나 자주 체크할 지 설정">
+								<longdesc>얼마나 자주 메일을 체크할 지 설정</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="지메일 확인">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="GlowTime">
+								<local_schema>
+									<longdesc>응급상황을 알리는 애니메이션의 재생시간(초). 0 은 비활성 -1 무제한.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema>
+									<longdesc>false로 설정하면, Docky의 텍스트는 움직이는 효과를 보여주지 않을 것입니다. (플러그인인 경우 보여줍니다)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema>
+									<longdesc>true로 설정하면, Docky는 현재 데스크톱에 있는 창만 보여줄 것입니다.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema>
+									<longdesc>true로 설정하면 Docky 팝업 메뉴에서 &apos;설정&apos; 아이콘을 보이게 할 수 있습니다.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema>
+									<longdesc>true로 설정하면 Docky 팝업 메뉴에서 &apos;종료&apos; 아이콘을 보이게 할 수 있습니다.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="도키 아이템 색상">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="실행가능한 도키 명령">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="설정을 변경하지 마세요!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="독 확대">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="독이 모든 창을 관리함">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="3D모드">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema>
+										<longdesc>이 독에서 활성화된 플러그인의 목록</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="아이콘 크기">
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema>
+										<longdesc>독을 숨기는 설정할 때 투명도를 설정. (1로 설정하면 투명하지 않고, 0으로 설정하면 완전히 투명합니다.)</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="숨길때 페이드 효과">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="독 숨김 모드">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="LockDrags">
+								<local_schema>
+									<longdesc>true로 설정하면, Docky에 있는 항목들이 옮겨지지 못하도록 잠금 설정됩니다.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="창 전환시 업데이트 기다리는 시간(ms)">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="다시 나타날때 기다리는 시간(ms)">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema>
+								<longdesc>true로 설정하면, 시간을 24시간제로 보여줍니다.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="아날로그 시계 테마">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TimerDelay">
+							<local_schema>
+								<longdesc>새로운 클립보드 데이터를 얼마나 자주 가져올 지 설정 (밀리초로 설정)</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,8 @@
+Description='A basic dhcp ethernet connection'
+Interface=ens5
+Connection=ethernet
+IP=dhcp
+## for DHCPv6
+#IP6=dhcp
+## for IPv6 autoconfiguration
+#IP6=stateless

@@ -1,0 +1,35 @@
+Section "Module"
+        Load  "glx"
+        Load  "dri2"
+#        Load  "glamoregl"
+EndSection
+
+
+Section "Device"
+	Identifier  "My Graphics Card"
+	Driver	"radeon"
+        BusID       "PCI:1:0:0"
+	Option	"SWcursor"              "off" #software cursor might be necessary on some rare occasions, hence set off by default
+	Option	"EnablePageFlip"        "on"  #supported on all R/RV/RS4xx and older hardware, and set on by default
+	Option	"AccelMethod"           "EXA" #valid options are XAA, EXA and Glamor. EXA is the default
+	Option	"RenderAccel"           "on"  #enabled by default on all radeon hardware
+	Option	"ColorTiling"           "on"  #enabled by default on RV300 and later radeon cards
+	Option	"EXAVSync"              "on" #default is off, otherwise on. Only works if EXA activated
+	Option	"EXAPixmaps"            "off"  #when on icreases 2D performance, but may also cause artifacts on some old cards. Only works if EXA activated
+	Option	"AccelDFS"              "off"  #default is off, read the radeon manpage for more information
+	Option  "DRI" "3"
+EndSection
+Section "Files"
+        ModulePath   "/usr/lib/xorg/modules"
+    FontPath    "/usr/share/fonts/100dpi"
+    FontPath    "/usr/share/fonts/75dpi"
+    FontPath    "/usr/share/fonts/cantarell"
+    FontPath    "/usr/share/fonts/cyrillic"
+    FontPath    "/usr/share/fonts/encodings"
+    FontPath    "/usr/share/fonts/local"
+    FontPath    "/usr/share/fonts/misc"
+    FontPath    "/usr/share/fonts/truetype"
+    FontPath    "/usr/share/fonts/TTF"
+    FontPath    "/usr/share/fonts/util"
+EndSection
+

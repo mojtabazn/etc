@@ -1,0 +1,2 @@
+SUBSYSTEMS=="usb", ENV{MODALIAS}=="usb:0421:06fb", ENV{MODALIAS}="usb-storage"
+

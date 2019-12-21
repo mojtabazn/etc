@@ -1,0 +1,8 @@
+[Unit]
+Description=Checks if paths that are currently being backed up have changed
+
+[Path]
+PathChanged=/home/mojtaba/1/
+
+[Install]
+WantedBy=default.target

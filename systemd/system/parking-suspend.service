@@ -1,0 +1,16 @@
+[Unit]
+Description=Local system resume actions
+After=suspend.target
+After=hibernate.target
+After=hybrid-sleep.target
+After=sleep.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/hdparm -B 254 /dev/sda
+
+[Install]
+WantedBy=suspend.target
+WantedBy=hibernate.target
+WantedBy=hybrid-sleep.target
+WantedBy=sleep.target

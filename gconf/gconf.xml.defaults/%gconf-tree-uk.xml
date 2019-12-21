@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WorkspaceSwitcher">
+					<dir name="WorkspaceSwitcherDockItem">
+						<entry name="WrappedScrolling">
+							<local_schema short_desc="При згортанні">
+								<longdesc>Дозволити прокручування через всі робочі столи в одному напрямку.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Як часто перевіряти">
+								<longdesc>Як часто перевіряти прогноз погоди.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="Джерело прогнозу погоди.">
+								<longdesc>Назва джерела прогнозу погоди для отримання даних про погоду.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Використовувати метричні одиниці.">
+								<longdesc>Якщо так, прогноз погоди буде в метричних одиницях.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Адреси для прогнозу погоди">
+								<longdesc>Список адрес для перевірки прогнозу погоди.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Скинути зупинений таймер клацанням кнопкою миші">
+								<longdesc>Якщо ні, завершені таймери будуть перезапускатись а не обнулятись.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Термін дії нового таймера">
+								<longdesc>Типовий час (в сек.) для нових таймерів.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Запустити всі нові таймери">
+								<longdesc>Якщо так, всі нові таймери запускатимуться автоматично.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Скинути завершені таймери">
+								<longdesc>Якщо так, таймери зникатимуть, якщо час вийшов.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Поточний вибраний елемент">
+								<longdesc>Вибраний елемент в меню менеджера сеансу</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Кількість недавніх документів">
+								<longdesc>Кількість недавніх документів до показу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Показувати найновіші документи">
+								<longdesc>Якщо так, на панелі будуть показуватись недавні документи.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="NPR-радіостанції">
+								<longdesc>Список NPR-станцій до показу.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Ім&apos;я користувача GMail">
+								<longdesc>Ім&apos;я користувача GMail для перевірки пошти.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Як часто перевіряти">
+								<longdesc>Як часто перевіряти пошту (у хвилинах).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Показувати сповіщення про не прочитані листи">
+								<longdesc>Якщо так, показуватиметься сповіщення про не прочитані листи.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Показувати крапку, якщо є непрочитані листи">
+								<longdesc>Якщо так, Docky показуватиме індикаторну крапку, якщо є не прочитані листи.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Час останньої перевірки">
+								<longdesc>Час останньої перевірки GMail на нові листи.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Позначки для перевірки GMail">
+								<longdesc>Список нетипових міток GMail для перевірки на додавання до «вхідних».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema short_desc="Зміни кольору індикатора «терміново»">
+									<longdesc>На скільки змінити колір індикатора «терміново». Значення може бути від -180 до 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Поточна тема">
+									<longdesc>Назва поточної теми Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema short_desc="Час сяяння індикатора «терміново» (в секундах)">
+									<longdesc>Час анімації сяяння термінового індикатора (в секундах), 0 — вимкнутий, -1 — необмежено.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="HelperService">
+							<entry name="ShowOutput">
+								<local_schema short_desc="Перенаправити вивід додатків до виводу Docky">
+									<longdesc>Якщо так, вивід додатків перенаправляється на вивід Docky.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Показувати підказки для кнопок запуску">
+									<longdesc>Якщо ні, Docky не показуватиме підказки для значків під вказівником (але показуватиме для модулів).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Показувати вікна лише з поточної стільниці">
+									<longdesc>Якщо так, Docky показуватиме вікна лише на активній стільниці.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Показувати пункт «Закріпити на панелі»">
+									<longdesc>Якщо параметр «Закріпити на панелі» буде в меню елементів, дозволити додавати елементи до панелі.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Показувати пункт в меню Docky «Налаштування»">
+									<longdesc>Якщо так, контекстне меню Docky міститиме пункт «Параметри».</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Показувати пункт в меню Docky «Вийти»">
+									<longdesc>Якщо так, контекстне меню Docky міститиме пункт «Вийти».</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Показувати значок «Docky»">
+									<longdesc>Якщо так, буде показаний значок Docky на панелі керування вікнами.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Відтінок елемента Docky">
+									<longdesc>Колір значка Docky. Значення 0 — використовувати колір теми GTK+.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Текст підказки елемента Docky">
+									<longdesc>Текст для показу під вказівником на елементі в Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Виконувана команда елемента Docky">
+									<longdesc>Команда, яка виконуватиметься під час клацання лівою кнопкою миші на елементі Docky, або «» для типової поведінки (тобто, відкрити діалог налаштування).</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Не змінюйте це!">
+									<longdesc>Якщо так, це перший запуск Docky. Лише для внутрішнього користування: Не змінюйте це значення!</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Розмір збільшення">
+										<longdesc>Масштабування панелі (якщо увімкнено), у відсотках.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Масштабування панелі">
+										<longdesc>Якщо так, панель розширюватиметься під вказівником.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Док керує всіма вікнами">
+										<longdesc>Якщо так, всі вікна без значків будуть показуватись на цій панелі. Щонайменше, одна панель повинна мати значення «так».</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="3D-док">
+										<longdesc>Якщо так, панель буде в режимі 3D.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Сортує елементи на панелі">
+										<longdesc>Використовується для сортування елементів на панелі.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="Розташування панелі">
+										<longdesc>Розташування панелі на екрані. Можливі значення: «Внизу», «Зверху», «Ліворуч» та «Праворуч»</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Модулі на цій панелі">
+										<longdesc>Список активних модулів на цьому доці.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Якщо док є панеллю">
+										<longdesc>Якщо так, панель розширюватиметься на всю ширину екрана.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Монітор, на якому розташована панель">
+										<longdesc>Монітор, на якому розташована панель.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Список кнопок запуску">
+										<longdesc>Список всіх значків запуску на цій панелі.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Показувати, якщо елемент має кілька вікон">
+										<longdesc>Якщо так, елементи, що мають більше одного вікна, позначатимуться двома крапками замість однієї.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Розмір значків в доці">
+										<longdesc>Розмір значків на панелі.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="HotAreaPadding">
+									<local_schema short_desc="Активна область заповнення">
+										<longdesc>Кількість додаткових пікселів для доповнення області наведення на початку панелі.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema short_desc="Прозорість, до якої «зникати»">
+										<longdesc>Прозорість панелі під час поступового зникнення. 1 — суцільна, 2 — невидима.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Затінення під час приховування">
+										<longdesc>Якщо так, панель поступово зникатиме замість ковзання за край екрана.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Режим приховування панелі">
+										<longdesc>Режим приховування панелі. Можливі значення: «Нічого», «Авто-приховування», «Розумне приховування» та «Уникати вікон»</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="ProvidersAcceptDrops">
+								<local_schema short_desc="Заборонити додавання елементів перетягуванням">
+									<longdesc>Якщо ні, блокується додавання елементів до панелі перетягуванням.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LockDrags">
+								<local_schema short_desc="Припинити перетягування елементів">
+									<longdesc>Якщо так, всі елементи на всіх панелях блокуються від перетягування.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Час очікування оновлення (в мс) після зміни вікна">
+									<longdesc>Час очікування перемикання вікна, що спричиняє появі або зникнення панелі (в мілісекундах).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Затримка перед показом панелі (в мс)">
+									<longdesc>Час очікування появи прихованої панелі під вказівником миші (в мілісекундах).</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="CompositeCheckEnabled">
+							<local_schema short_desc="Включення перевірки на сумісність">
+								<longdesc>Якщо при перевірці сумісність не можлива, Docky, повідомить про це.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Список активних доків">
+								<longdesc>Список всіх активних на цей час (показаних) панелей, за назвою.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="CPUMonitor">
+					<dir name="CPUMonitorDockItem">
+						<entry name="ClickCommand">
+							<local_schema short_desc="Команда при клацанні лівою кнопкою">
+								<longdesc>Ця команда буде виконуватися при клацанні лівою кнопкою миші на CPU-доклеті.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="Використовувати 24-годинний час">
+								<longdesc>Якщо так, час показуватиметься у 24-годинному форматі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Показувати цифровий годинник">
+								<longdesc>Якщо так, буде показуватись цифровий годинник замість аналогового.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Показувати дату">
+								<longdesc>Якщо так, цифровий годинник показуватиме дату.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Тема аналогового годинника">
+								<longdesc>Тема аналогового годинника.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema short_desc="Відслідковувати вибір мишею">
+								<longdesc>Якщо так, у буфері відстежуватимуться варіанти вибору мишею. Якщо ні, відстежуватиметься вторинний буфер.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Затримка таймера">
+								<longdesc>Як часто перевіряти буфер на нові дані (у хв.).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Макс. кількість записів">
+								<longdesc>Скільки показувати недавніх елементів вибору в буфері.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

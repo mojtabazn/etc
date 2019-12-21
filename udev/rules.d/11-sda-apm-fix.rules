@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="block", KERNEL=="sda", RUN+="/usr/bin/hdparm -B254  /dev/sda"

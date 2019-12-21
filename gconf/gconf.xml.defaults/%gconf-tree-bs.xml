@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Koliko često da provjeravam">
+								<longdesc>Koliko često da provjeravam informacije o vremenu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Obriši završene tajmere">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Trenutno izabrana stavka">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="GMail korisničko ime">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Koliko često da provjeravam">
+								<longdesc>Koliko često (u minutama) da provjeravam novu poštu</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="GMail oznake za provjeru">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema>
+									<longdesc>Koliko da promijenim boju urgentnog indikatora. Vrijednost može biti od -180 do 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema>
+									<longdesc>Koliko dugo (u sekundama) traje svijetleća animacija urgentnog indikatora, 0 onemogućuje, -1 za beskonačno</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="DockyItem">
+							<entry name="Hue">
+								<local_schema short_desc="Nijansa Docky-eve stavke">
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Lebdeći tekst Docky-eve stavke">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Izvršna komanda za Docky-evu stavku">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Ne mjenjajte ovo!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="WindowManager">
+									<local_schema short_desc="Panelčić upravlja svim prozorima">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Panelčić je 3D">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema>
+										<longdesc>Lista dodataka koji su aktivni na ovom panelčiću</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Veličina ikonica na panelčić">
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Izblijedi prilikom sakrivanja">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Mod sakrivanja panelčića">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ClockTheme">
+							<local_schema short_desc="Tema analognog sata">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="MaxEntries">
+							<local_schema>
+								<longdesc>Koliko najskorijih stavki u privremenoj memoriji da prikažem.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="restrictive_outbound">
+						<local_schema short_desc="Manier van het beperken van uitgaand verkeer">
+							<longdesc>Standaard al het uitgaande verkeer blokkeren, en alleen uitgaand verkeer waarvoor toestemming is verleend doorlaten.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="deny_packets">
+						<local_schema short_desc="Pakketten ontkennen">
+							<longdesc>Ontkende berichten negeren zonder een foutmelding terug te sturen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="int_if">
+						<local_schema short_desc="De interne interface">
+							<longdesc>De netwerkverbinding die aangesloten is op het interne netwerk. &apos;eth0&apos; of &apos;eth1&apos; bijvoorbeeld.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="Gebruik NAT">
+							<longdesc>Network Address Translation (ook wel &apos;internet verbinding delen&apos;) gebruiken.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="De externe interface">
+							<longdesc>De netwerkverbinding die aangesloten is op internet. &apos;ppp0&apos; of &apos;eth0&apos; bijvoorbeeld.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="Geef de mogelijkheid ICMP te configureren">
+								<longdesc>Gebruik de ICMP instellingen zoals opgegeven in de assistent.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tos">
+						<entry name="enable">
+							<local_schema short_desc="Geef de mogelijkheid ToS te configureren">
+								<longdesc>Gebruik de ToS instellingen zoals opgegeven in de assistent.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="dhcp">
+						<entry name="nameserver">
+							<local_schema short_desc="De &apos;nameservers&apos; die via DHCP moet worden toegewezen">
+							</local_schema>
+						</entry>
+						<entry name="highest_ip">
+							<local_schema short_desc="Hoogste IP-adres om uit te delen via DHCP">
+								<longdesc>Bepaald de bovengrens van de IP adressen om uit te delen via  DHCP.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="lowest_ip">
+							<local_schema short_desc="Laagste IP adres om uit te delen via DHCP">
+								<longdesc>Bepaalt de ondergrens van de IP adressen om uit te delen via  DHCP.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable_server">
+							<local_schema short_desc="Activeer een DHCP bij het delen van een internet connectie">
+								<longdesc>Start de DHCP server die op het systeem aanwezig is bij het delen van de internet verbinding via Firestarter.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="policy_auto_apply">
+						<local_schema short_desc="Automatisch het beleid gebruiken">
+							<longdesc>Beleidswizijgingen direct gebruiken. Het alternatief is de gebruiker alle wijzigingen te laten bevestigen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="system_log">
+						<local_schema short_desc="Firewall systeem logbestand">
+							<longdesc>De plaats van het bestand waar de systeem-logger naar schrijft.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimize_to_tray">
+						<local_schema short_desc="Minimaliseren naar het mededelingen gebied">
+							<longdesc>Het programma minimaliseren wanneer het venster wordt gesloten in plaats van afsluiten.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_tray_icon">
+						<local_schema short_desc="Mededelingen gebied gebruiken">
+							<longdesc>Het Firestarter pictogram tonen in het mededelignen gebied.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dhcp">
+						<local_schema short_desc="De firewall starten bij het verkrijgen van een nieuw DHCP adres">
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dial_out">
+						<local_schema short_desc="De firewall starten bij het inbellen">
+							<longdesc>De firewall starten wanneer een PPP verbinding wordt opgezet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_gui">
+						<local_schema short_desc="De firewall starten wanneer het programma start.">
+							<longdesc>De firewall starten wanneer het programma start.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_boot">
+						<local_schema short_desc="De firewall starten wanneer de computer start">
+							<longdesc>De firewall starten wanneer de computer start.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first_run">
+						<local_schema short_desc="Start de gebruiker het programma voor de eerste keer">
+							<longdesc>De eerste keer dat Firestarter wordt gestart, worden een aantal bijzondere opdrachten uitgevoerd.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="ui">
+						<entry name="hitview_service_col">
+							<local_schema short_desc="De &apos;dienst&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;dienst&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_protocol_col">
+							<local_schema short_desc="De &apos;protocol&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;poort&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_tos_col">
+							<local_schema short_desc="De &apos;ToS&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;ToS&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_length_col">
+							<local_schema short_desc="De &apos;lengte&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;pakketlengte&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_destination_col">
+							<local_schema short_desc="De &apos;bestemming&apos;-kolom weergeven in het hits-overzicht">
+								<longdesc>De &apos;bestemming&apos;-kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_source_col">
+							<local_schema short_desc="De &apos;bron&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;bron&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_port_col">
+							<local_schema short_desc="De &apos;poort&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;poort&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_out_col">
+							<local_schema short_desc="De &apos;uit&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>Het apparaat waar de hit naar doorgestuurd werd weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_in_col">
+							<local_schema short_desc="De &apos;in&apos;- kolom weergeven in het hits-overzicht.">
+							</local_schema>
+						</entry>
+						<entry name="hitview_direction_col">
+							<local_schema short_desc="De &apos;richting&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;richting&apos;-kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_time_col">
+							<local_schema short_desc="De &apos;tijd&apos;- kolom weergeven in het hits-overzicht.">
+								<longdesc>De &apos;tijd&apos;- kolom weergeven in het hits-overzicht.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filter">
+						<entry name="not_for_firewall">
+							<local_schema short_desc="Verwijder hits die niet gericht waren op de firewall">
+								<longdesc>Hits er uit filteren die een ander bestemmingsadres hebben dan de firewall</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="redundant">
+							<local_schema short_desc="Dubbele hits er uit filteren">
+								<longdesc>Series van gelijke hits er uit filteren.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

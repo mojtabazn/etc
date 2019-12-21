@@ -1,0 +1,6 @@
+[Unit]
+Description=Run modprobed_db
+
+[Service]
+User=mojtaba
+ExecStart=/usr/bin/modprobed_db store

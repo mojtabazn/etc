@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="restrictive_outbound">
+						<local_schema short_desc="送信ポリシーの制限モード">
+							<longdesc>デフォルトで送信トラフィックを禁止し、whitelist に記述した送信接続のみ許可します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_internal_broadcast">
+						<local_schema short_desc="内部のネットワークからブロードキャストをブロックする">
+							<longdesc>内部のネットワークからのブロードキャストをブロックします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_external_broadcast">
+						<local_schema short_desc="外部のネットワークからブロードキャストをブロックする">
+							<longdesc>外部のネットワークからのブロードキャストをブロックします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="deny_packets">
+						<local_schema short_desc="パケットの拒否">
+							<longdesc>エラー・パケットを戻すことなく拒否します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="int_if">
+						<local_schema short_desc="インターネット・インタフェース">
+							<longdesc>LAN に接続するネットワーク・インタフェースです (例: ppp0, eth0)。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="NAT を有効にする">
+							<longdesc>ネットワーク・アドレス変換、またはインターネット接続共有を有効にします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="外部インタフェース">
+							<longdesc>インターネットに接続するネットワーク・インタフェースです (例: ppp0, eth0)。</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="ICMP フィルタリング設定を有効にする">
+								<longdesc>ウィザードで設定した ICMP フィルタリングを適用します。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tos">
+						<entry name="enable">
+							<local_schema short_desc="ToS 設定を有効にする">
+								<longdesc>ウィザードで設定したサービス種を適用します。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="dhcp">
+						<entry name="nameserver">
+							<local_schema short_desc="使用する DHCP クライアントのネームサーバ">
+							</local_schema>
+						</entry>
+						<entry name="highest_ip">
+							<local_schema short_desc="DHCP クライアントに貸し出す IP レンジの上限">
+								<longdesc>DHCP の貸し出しに使用する IP 空間の上限値を指定します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="lowest_ip">
+							<local_schema short_desc="DHCP クライアントに貸し出す IP レンジの下限">
+								<longdesc>DHCP の貸し出しに使用する IP 空間の下限値を指定します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable_server">
+							<local_schema short_desc="DHCP サーバの接続共有を有効にする">
+								<longdesc>Firestarter インターネット接続共有で接続しているシステム DHCP サーバを起動します。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="policy_auto_apply">
+						<local_schema short_desc="自動的に適用するポリシー">
+							<longdesc>TRUE にすると、今すぐ変更点をポリシーに反映し、それ以外は前もってユーザに確認します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="system_log">
+						<local_schema short_desc="システム・ログ・ファイル">
+							<longdesc>システムをログするデーモンが書き込むファイルの格納場所です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimize_to_tray">
+						<local_schema short_desc="トレイに最小化する">
+							<longdesc>メイン・ウィンドウを閉じたらプログラムを終了するのではなく、ウィンドウを隠します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_tray_icon">
+						<local_schema short_desc="トレイ・アイコンを有効にする">
+							<longdesc>パネル通知エリアに Firestarter のアイコンを表示します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dhcp">
+						<local_schema short_desc="DHCP の貸し出しを更新したらファイヤーウォールを起動する">
+							<longdesc>DHCP から新しい IP の貸し出しを受け取った時点でファイヤーウォールを起動します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dial_out">
+						<local_schema short_desc="ダイアル接続が完了したらファイヤーウォールを起動する">
+							<longdesc>システムが PPP 接続を確立したときにファイヤーウォールを起動します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_gui">
+						<local_schema short_desc="プログラム起動時にファイヤーウォールを起動する">
+							<longdesc>プログラム起動時にファイヤーウォールを起動します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_boot">
+						<local_schema short_desc="システムを起動したらファイヤーウォールを起動する">
+							<longdesc>システムを立ち上げたらファイヤーウォールを起動します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first_run">
+						<local_schema short_desc="Firestarter を初めて起動したかどうか">
+							<longdesc>初めて Firestarter を起動したらいくつかの特別な操作を行います。</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="ui">
+						<entry name="hitview_service_col">
+							<local_schema short_desc="ヒット一覧の中にサービスを表示する">
+								<longdesc>ヒット一覧の中にサービス名を表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_protocol_col">
+							<local_schema short_desc="ヒット一覧の中にプロトコルを表示する">
+								<longdesc>ヒット一覧の中にプロトコルを表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_tos_col">
+							<local_schema short_desc="ヒット一覧の中に ToS を表示する">
+								<longdesc>ヒット一覧の中にサービス種を表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_length_col">
+							<local_schema short_desc="ヒット一覧の中にサイズを表示する">
+								<longdesc>ヒット一覧の中にパケット・サイズを表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_destination_col">
+							<local_schema short_desc="ヒット一覧の中に受信先を表示する">
+								<longdesc>ヒット一覧の中に受信先を表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_source_col">
+							<local_schema short_desc="ヒット一覧の中に送信元を表示する">
+								<longdesc>ヒット一覧の中に送信元を表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_port_col">
+							<local_schema short_desc="ヒット一覧の中にポート番号を表示する">
+								<longdesc>ヒット一覧の中にポート番号を表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_out_col">
+							<local_schema short_desc="ヒット一覧の中に送信を表示する">
+								<longdesc>ヒット一覧の中にヒットをルーティングしたデバイスを表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_in_col">
+							<local_schema short_desc="ヒット一覧の中に受信を表示する">
+								<longdesc>ヒット一覧の中にヒットしたデバイスを表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_direction_col">
+							<local_schema short_desc="ヒット一覧の中に送信方向を表示する">
+								<longdesc>ヒット一覧の中にパケットを送信する向きを表示します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_time_col">
+							<local_schema short_desc="ヒット一覧の中に時刻を表示する">
+								<longdesc>ヒット一覧の中に時刻を表示します。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filter">
+						<entry name="not_for_firewall">
+							<local_schema short_desc="ファイヤーウォールを対象としないヒットをフィルタする">
+								<longdesc>ファイヤーウォールのホストではない IP を送信先としてもつパケットをフィルタの対象外にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="redundant">
+							<local_schema short_desc="フィルタで冗長 (詳細) なログを取り除く">
+								<longdesc>同一ヒットに関連する情報をフィルタの対象外にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

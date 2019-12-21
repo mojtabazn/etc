@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WorkspaceSwitcher">
+					<dir name="WorkspaceSwitcherDockItem">
+						<entry name="WrappedScrolling">
+							<local_schema short_desc="Jika penatalan melilit">
+								<longdesc>Jika benar, penatalan satu arah menerusi semua ruang kerja adalah munasabah.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Berapa kerapkah hendak memeriksa">
+								<longdesc>Berapa kerapkan hendak memeriksa maklumat cuaca baru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="Sumber cuaca">
+								<longdesc>Nama bagi sumber cuaca untuk mendapatkan maklumat cuaca.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Guna unit metrik">
+								<longdesc>Jika benar, guna unit metrik bila memaparkan cuaca.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Lokasi cuaca">
+								<longdesc>Senarai lokasi cuaca yang hendak diperiksa.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Batalkan pemasa yang berhenti bila diklik">
+								<longdesc>Jika palsu, pemasa yang selesai akan ditetapkan semula selain dari dilepaskan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Panjang pemasa baru">
+								<longdesc>Masa lalai (dalam saat) untuk sebarang pemasa baru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Mulakan semua pemasa baru">
+								<longdesc>Jika benar, semua pemasa baru akan bermula secara automatik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Kosongkan pemasa yang sudah selesai">
+								<longdesc>Jika benar, pemasa akan hilang bila ia telah tamat masa.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Item yang kini dipilih">
+								<longdesc>Item terpilih buat masa ini di dalam menu pengurus sesi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Bilangan dokumen terkini">
+								<longdesc>Bilangan dokumen paling terkini yang dipaparkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Papar dokumen paling terkini">
+								<longdesc>Jika benar, akan cuba paparkan dokumen paling terkini pada labuh.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="Stesen NPR">
+								<longdesc>Senarai stesen NPR untuk dipaparkan.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Nama pengguna GMail">
+								<longdesc>Nama pengguna GMail untuk diperiksa</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Berapa kerapkah hendak memeriksa">
+								<longdesc>Berapa kerapkah (dalam min) pemeriksaan mel baru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Papar makluman untuk mel belum dibaca">
+								<longdesc>Jika benar, paparkan mesej maklum untuk mel belum baca yang baru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Papar titik penunjuk untuk mel belum dibaca">
+								<longdesc>Jika benar, bila terdapat mel baru yang belum dibaca Docky akan paparkan titik penunjuk.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Kali terakhir diperiksa">
+								<longdesc>Kali terakhir Docky memeriksa mesej GMail.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Label GMail untuk diperiksa">
+								<longdesc>Senarai label GMail suai untuk diperiksa disamping ke dalam kotak masuk.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema short_desc="Anjak warna penunjuk segera">
+									<longdesc>Berapa banyakkah anjakan warna bagi penunjuk segera. Nilai diantara -180 hingga 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Tema semasa">
+									<longdesc>Nama bagi tema semasa Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema short_desc="Masa animasi cahaya penunjuk segera (dalam saat)">
+									<longdesc>Berapa lamakah animasi bercahaya penunjuk segera (dalam saat), 0 dilumpuhkan, atau -1 untuk tidak terhingga.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="HelperService">
+							<entry name="ShowOutput">
+								<local_schema short_desc="Hala semula output pembantu kepada output Docky">
+									<longdesc>Jika benar, outoput dari pembantu akan dihala semula untuk dipaparkan di dalam output Docky.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Papar label teks apung untuk pelancar">
+									<longdesc>Jika palsu, Docky tidak akan paparkan teks apung untuk pelancar (tetapi masih dipaparkan untuk pemalam).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Papar tetingkap hanya dari dekstop semasa">
+									<longdesc>Jika benar, Docky hanya paparkan tetingkap pada dekstop aktif semasa ini.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Papar &apos;Pin ke Labuh&apos; untuk item">
+									<longdesc>Jika pilihan &apos;Pin ke Labuh&apos; patut papar di dalam menu item, membolehkan anda tambah ia secara kekal kepada labuh.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Papar Tetapan di dalam menu item Docky">
+									<longdesc>Jika benar, menu timbul item Docky paparkan pilihan Tetapan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Papar Keluar di dalam menu item Docky">
+									<longdesc>Jika benar, menu timbul item Docky paparkan pilihan Keluar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Papar item Docky">
+									<longdesc>Jika benar, papar item Docky pada labuh yang mengurus tetingkap.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Rona item Docky">
+									<longdesc>Tetapkan warna ikon Docky. 0 bermaksud guna warna tema GTK+/</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Teks apung item Docky">
+									<longdesc>Teks yang dipaparkan bila apungkan item Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Perintah item Docky yang dilakukan">
+									<longdesc>Perintah untuk dilakukan bila mengklik-kiri item Docky atau &quot;&quot; untuk kelakuan lalai ( yang membuka dialog konfigurasi).</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Jangan ubah ini!">
+									<longdesc>Jika benar, ini merupakan kali pertama Docky berjalan. Kegunaan dalam sahaja - Jangan ubah!</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Saiz zum">
+										<longdesc>Saiz zum labuh (jika dibenarkan), dalam peratus.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Zum labuh">
+										<longdesc>Jilka benar, labuh akan dizumkan bila diapungkan.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Labuh urus semua tetingkap">
+										<longdesc>Jika benar, sebarang tetingkap tanpa pelancar akan dipaparkan pada labuh ini. Setepatnya 1 labuh perlu ditetapkan kepada benar.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Labuh dalam 3d">
+										<longdesc>Jika benar, labuh dilukis sebagai labuh 3d.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Isih item pada labuh">
+										<longdesc>Digunakan untuk mengisih item pada labuh.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="Kedudukan labuh">
+										<longdesc>Kedudukan labuh pada skrin. Nilai yang mungkin adalah: Bawah, Atas, Kiri, Kanan</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Pemalam pada labuh ini">
+										<longdesc>Senarai pemalam yang aktif pada labuh ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Jika labuh adalah panel">
+										<longdesc>Jika benar, labuh dalam mod panel dan akan dilanjutkan untuk mengisi keseluruhan pinggir skrin.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Yang memantau sama ada labuh dihidupkan">
+										<longdesc>Merupakan pemantau sedia ada labuh.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Senarai pelancar">
+										<longdesc>Merupakan senarai semua pelancar pada labuh ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Menunjukkan bila item mempunyai lebih dari satu tetingkap">
+										<longdesc>Jika benar, item dengan lebih daripada satu tetingkap mempunyai dua titik penunjuk selain daripada satu titik.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Saiz ikon labuh">
+										<longdesc>Saiz ikon pada labuh.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="HotAreaPadding">
+									<local_schema short_desc="Pemadatan kawasan-panas">
+										<longdesc>Bilangan piksel tambahan untuk dipadatkan kawasan apung pada bahagian atas labuh.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema short_desc="Kelegapan untuk dilenyapkan">
+										<longdesc>Jika melenyap bila tersembunyi, ini merupakan kelegapan labuh melenyap. 1 adalah tegar, 0 adalah halimunan.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Lenyap bila tersembunyi">
+										<longdesc>Jika benar, bila labuh sembunyi ia akan dilenyapkan selain dari melungsur keluar dari skrin.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Mod menyembunyi labuh">
+										<longdesc>Mod sembunyi labuh. Nilai yang mungkin adalah: Tiada, Sembunyi-sendiri, Sembunyi-pintar, Sembunyi-pintar-universal</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="ProvidersAcceptDrops">
+								<local_schema short_desc="Halang menambah item mengikut lepasan">
+									<longdesc>Jika palsu, halang melepaskan item ke dalam labuh untuk tambah ia kepada labuh.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LockDrags">
+								<local_schema short_desc="Hentikan item dari menyeret">
+									<longdesc>Jika benar, kunci semua item pada semua labuh supaya ia tidak boleh diseret.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Berapa lamakah masa menunggu ms) untuk dikemaskini selepas pertukaran tetingkap">
+									<longdesc>Merupakan masa (dalam milisaat) menunggu untuk ditentukan jika pertukaran tetingkap menyebabkan nyahsembunyi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Berapa lamakah masa menunggu ms) sebelum menyahsembunyi">
+									<longdesc>Merupakan masa (dalam milisaat) menunggu sebelum menyahsembunyi labuh kursor beralih keatasnya.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="CompositeCheckEnabled">
+							<local_schema short_desc="Benarkan periksa untuk penggubahan">
+								<longdesc>Jika benar, Docky akan memeriksa untuk penggubahan dan beri amaran jika tidak tersedia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Senarai labuh aktif">
+								<longdesc>Merupakan senarai semua labuh (yang dipaparkan) aktif semasa, mengikut nama.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="CPUMonitor">
+					<dir name="CPUMonitorDockItem">
+						<entry name="ClickCommand">
+							<local_schema short_desc="Perintah klik kiri">
+								<longdesc>Merupakan perintah yang dilakukan bila mengklik kiri pada item docklet CPU.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="Guna masa 24-jam">
+								<longdesc>Jika benar, papar masa dalam format 24-jam.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Papar jam digital">
+								<longdesc>Jika benar, papar jam digital jika tidak papar jam analog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Papar tarikh">
+								<longdesc>Jika benar, tarikh patut paparkan jam digital.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Tema jam analog">
+								<longdesc>Tema bagi jam analog.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema short_desc="Pemilihan Jejak Tetikus">
+								<longdesc>Jika benar, jejak papan kerata pemilihan tetikus. Jika palsu, jejak papan keratan sekunder.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Lengahan Masa">
+								<longdesc>Berapa kerapkan hendak mendapatkan (dalam ms) data papan keratan baru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Masukan Maksimum">
+								<longdesc>Berapa banyakan pemilihan papan keretan terkini yang hendak dipaparkan.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

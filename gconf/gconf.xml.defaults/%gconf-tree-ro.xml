@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Cât de des se verifică">
+								<longdesc>Cât de des să se verifice informațiile legate de vreme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="Sursa meteo">
+								<longdesc>Numele sursei meteo pentru a obține informații despre vreme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Utilizează sistemul metric">
+								<longdesc>În acest caz, se folosesc unități metrice pentru a descrie starea vremii.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Locații meteo">
+								<longdesc>Listă de locații meteo de verificat.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Dizolvă un cronometru oprit la clic">
+								<longdesc>În caz contrar, cronometrele care au terminat se vor reseta în loc să se dizolve.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Durată nouă de cronometru">
+								<longdesc>Timpul implicit (în secunde) pentru un nou cronometru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Începe cronometrări noi">
+								<longdesc>În acest caz, toate noile cronometre vor porni automat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Resetează cronometrele care au terminat">
+								<longdesc>În acest caz, cronometrele vor dispărea când timpul s-a terminat.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Elementul selectat">
+								<longdesc>Elementul curent selectat în meniul de administrare al sesiunii.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Numărul documentelor recente">
+								<longdesc>Numărul celor mai recente documente pentru a le afișa.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Afișează cele mai recente documente">
+								<longdesc>În acest caz, se va încerca afișarea celor mai recente documente din doc.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="Stații NPR">
+								<longdesc>Listă cu stații NPR pentru afișare.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Nume de utilizator GMail">
+								<longdesc>Numele utilizator GMail pentru verificare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Cât de des se verifică">
+								<longdesc>Cât de des (în minute) se verifică emailul.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Afișează o notificare pentru emailuri necitite.">
+								<longdesc>În acest caz, se arată un mesaj de notificare pentru un email necitit.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Afișează punctul indicator pentru emailuri necitite">
+								<longdesc>În acest caz, dacă se găsește un nou email, Docky va afișa punctul indicator.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Ultima verificare">
+								<longdesc>Ultima verificare a mesajelor GMail.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Etichete GMail de verificat">
+								<longdesc>Listă cu etichete GMail customizate pentru a verifica în plus fată de căsuța de primire.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema short_desc="Schimbare de culoare a indicatorului de urgență">
+									<longdesc>Cât de mult să se schimbe culoarea indicatorului de urgență. Valoarea poate varia de la -180 până la 180</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Tema curenta">
+									<longdesc>Numele temei curente Docky</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema short_desc="Timpul de animație (în secunde) al strălucirii indicatorului de urgență">
+									<longdesc>Cât timp să strălucească indicatorul de urgență (în secunde), 0 pentru dezactivare, sau -1 pentru infinit.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="HelperService">
+							<entry name="ShowOutput">
+								<local_schema short_desc="Redirecționează rezultatul asistenței către ieșirea Docky">
+									<longdesc>În acest caz, rezultatul asistenței va fi redirecționat pentru a apărea în ieșirea docului.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Afișează etichetele din textele de planare pentru lansatoare">
+									<longdesc>În caz contrar, Docky nu va arăta texte de planare pentru lansatoarele de programe (dar tot le va arăta pentru module).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Afișează ferestrele doar din desktopul curent">
+									<longdesc>În acest caz, Docky va afișa doar ferestrele din desktopul curent activ.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Afișează opțiunea &apos;Fixează în doc&apos; pentru elemente">
+									<longdesc>Dacă opțiunea &apos;Fixare la doc&apos; apare în meniul de elemente, permițându-vă să o adaugați permanent în doc.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Afișează opțiunea Preferințe în meniul de elemente Docky">
+									<longdesc>În acest caz, meniul contextual de elemente Docky va arăta opțiunea Preferințe.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Afișează opțiunea Ieșire în meniul de elemente Docky">
+									<longdesc>În acest caz, meniul contextual de elemente Docky va arăta opțiunea Ieșire.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Afișează elementul Docky">
+									<longdesc>În acest caz, se arată elementul Docky în ferestrele de gestionare ale docului.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Nuanța elementului docky">
+									<longdesc>Setează culoarea iconiței Docky. 0 desemnează folosirea culorii din tema GTK+.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Text de planare al unui element docky">
+									<longdesc>Textul ce se va afișa la aplanarea elementul Docky</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Comandă de element docky pentru executare">
+									<longdesc>Comanda care se execută la clic stânga pe un element al docului sau „” pentru comportamentul implicit (ce deschide fereastra de dialog)</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Nu modificați această opțiune!">
+									<longdesc>În acest caz, aceasta este prima dată când a rulat Docky. Doar uz intern - Nu schimbați!</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Dimensiunea apropierii">
+										<longdesc>Dimensiunea de focalizare (Dacă este activată), ca procent.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Docul se mărește">
+										<longdesc>În acest caz, docul se va mări la planare.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Docul gestionează toate ferestrele">
+										<longdesc>În acest caz, orice ferestre fără lansator vor apărea pe doc. Un doc trebuie sa aibă această opțiune activă</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Docul este 3d">
+										<longdesc>În acest caz, docul este desenat ca un doc 3d.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Sortează elementele din doc">
+										<longdesc>Folosit pentru a sorta elementele din doc.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="Poziția docului">
+										<longdesc>Poziția docului pe ecran. Opțiunile posibile sunt: Jos, Sus, Stânga, Dreapta</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Module în acest doc">
+										<longdesc>Listă de module active pe acest doc.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Dacă docul este un panou">
+										<longdesc>În acest caz, docul este în modul panou și se va extinde pentru a umple întreaga margine a ecranului.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Pe care monitor se află docul">
+										<longdesc>Acesta este monitorul pe care se află docul.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Listă cu lansatoare de aplicații">
+										<longdesc>Aceasta este lista tuturor lansatoarelor din doc.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Arată că elementele au mai mult de o fereastră">
+										<longdesc>În acest caz, elementele cu mai mult de o fereastră au doua puncte indicator în loc de unul.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Dimensiunea iconiței docului">
+										<longdesc>Dimensiunea iconițelor din doc.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema short_desc="Opacitatea să se decoloreze în">
+										<longdesc>Dacă se decolorează la ascundere, se va ajunge la următorul grad de opacitate al docului. 1 pentru culoare solidă, 0 pentru invizibilitate.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Decolorare la ascundere">
+										<longdesc>În acest caz, când docul se ascunde, se va decolora în loc să gliseze de pe ecran.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Mod de ascundere a docului">
+										<longdesc>Mod de ascundere al docului. Opțiunile posibile sunt: Nimic, Ascundere-automată, Ascundere-inteligentă, Ascundere-universal-inteligentă</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="ProvidersAcceptDrops">
+								<local_schema short_desc="Interzice adăugarea elementelor din greșeală">
+									<longdesc>În caz contrar, se interzice aruncarea elementelor în doc pentru a le adăuga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LockDrags">
+								<local_schema short_desc="Interzice tragerea elementelor">
+									<longdesc>În acest caz, se blochează toate elementele de pe toate docurile,în așa fel încât să nu poată fi mutate.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Cât timp să se aștepte (în milisecunde) până la reactualizare după o comutare de fereastră">
+									<longdesc>Acesta este timpul (în milisecunde) pe care trebuie să îl așteptați pentru a determina dacă o comutare de fereastră cauzează o ascundere(dezvăluire).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Cât timp să se aștepte (în milisecunde) până la reapariție">
+									<longdesc>Acesta este timpul (în milisecunde) pe care trebuie să îl așteptați până la dezvăluirea unui doc ascuns, la trecerea cu mausul peste el.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Listă cu docuri active">
+								<longdesc>Această opțiune listează toate docurile active (afișate) momentan, după nume.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="Utilizează formatul de 24 ore">
+								<longdesc>În acest caz, se afișează timpul în format de 24 de ore.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Afișează ceasul digital">
+								<longdesc>În acest caz, se arată ceasul digital dacă nu, cel analog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Afișare dată">
+								<longdesc>În acest caz, data ar trebui să apară pe ceasul digital.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Temă pentru ceas analog">
+								<longdesc>Tema pentru ceasul analog.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema short_desc="Urmărește selecțiile mausului">
+								<longdesc>În acest caz, se urmărește clipboardul cu selecția mausului. în caz contrar, se urmărește clipboardul secundar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Întârziere a cronometrului">
+								<longdesc>Cât de des să se sondeze noi date clipboard.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Înregistrări maxime">
+								<longdesc>Câte selecții recente de clipboard să fie afișate.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

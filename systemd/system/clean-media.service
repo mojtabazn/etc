@@ -1,0 +1,10 @@
+[Unit]
+Description=Clean Folders in /media Dir
+
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rm -r /media/*        
+StandardOutput=syslog
+

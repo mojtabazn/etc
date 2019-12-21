@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Πόσο συχνά να ελέγχεται">
+								<longdesc>Πόσο συχνά να γίνεται έλεγχος νέων πληροφοριών καιρού.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Αποδέσμευσε το σταματημένο χρονόμετρο όταν γίνει κλίκ">
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Ρολόγια με καθαρές σχεδιαστικές γραμμές">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Το τρέχον επιλεγμένο αντικείμενο">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Όνομα χρήστη GMail">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Πόσο συχνά να ελέγχεται">
+								<longdesc>Πόσο συχνά (σε λεπτά) θα πρέπει να γίνεται έλεγχος για καινούρια μηνύματα ηλεκτρονικού ταχυδρομείου.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Ετικέτες του GMail για έλεγχο">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema>
+									<longdesc>Πόσο πολύ θα μεταβληθεί το χρώμα του δείκτη επείγοντος. Η τιμή μπορεί να κυμαίνεται από -180 μέχρι 180.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="CurrentDesktopOnly">
+								<local_schema>
+									<longdesc>Αν είναι επιλεγμένο, το Docky θα εμφανίσει μόνο τα παράθυρα που είναι ενεργά στην τρέχουσα επιφάνεια εργασίας.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="Hue">
+								<local_schema short_desc="Απόχρωση αντικειμένου του Docky">
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Επικρεμάμενο κείμενο αντικειμένου του Docky">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Μη το αλλάξετε αυτό!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Το dock μεγενθύνεται">
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Το dock διαχειρίζεται όλα τα παράθυρα">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Το dock είναι 3d">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema>
+										<longdesc>Μια λίστα πρόσθετων τα οποία είναι ενεργά σε αυτό το dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Μέγεθος εικονιδίων του Dock">
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Ξεθώριασμα στο κρύψιμο">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Το dock κρύβεται">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Πόση ώρα αναμονής (ms) μέχρι την ανανέωση μετά από εναλλαγή παραθύρου">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Πόσος χρόνος(ms) να περάσει μέχρι την εμφάνιση">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowDate">
+							<local_schema short_desc="Εμφάνιση ημερομηνίας">
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Θέμα αναλογικού ρολογιού">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="MaxEntries">
+							<local_schema>
+								<longdesc>Πόσες πρόσφατες επιλογές θα φαίνονται στο πρόχειρο</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

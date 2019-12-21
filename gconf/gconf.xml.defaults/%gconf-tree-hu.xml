@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="restrictive_outbound">
+						<local_schema short_desc="Korlátozó kimeneti szabályozás mód">
+							<longdesc>Kimenő forgalom korlátozása alapértelmezés szerint, csak fehérlistás kimenő forgalom engedélyezése.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_non_routables">
+						<local_schema short_desc="A fenntartott címtérből érkező forgalom blokkolása a nyilvános csatolón">
+							<longdesc>Potenciálisan hamisított, az IANA fenntartott címtérből érkező forgalom blokkolása a külső csatolón.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_internal_broadcast">
+						<local_schema short_desc="Broadcast forgalom blokkolása belső hálózatból">
+							<longdesc>Broadcast forgalom blokkolása belső hálózatból.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_external_broadcast">
+						<local_schema short_desc="Broadcast forgalom blokkolása külső hálózatból">
+							<longdesc>Broadcast forgalom blokkolása külső hálózatból.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="deny_packets">
+						<local_schema short_desc="Csomagok tiltása">
+							<longdesc>Visszautasított csomagok eldobása hibajelző csomag visszaküldése nélkül.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="int_if">
+						<local_schema short_desc="A belső csatoló">
+							<longdesc>A LAN-ra csatlakozó hálózati csatoló. Például eth0 vagy eth1.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="NAT engedélyezése">
+							<longdesc>Hálózati címfordítás (=NAT) vagy internetkapcsolat-megosztás engedélyezése.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="A külső csatoló">
+							<longdesc>Az internetre csatlakozó hálózati csatoló. Például ppp0 vagy eth0.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="ICMP konfigurációjának engedélyezése">
+								<longdesc>A varázslóban megadott ICMP beállítások alkalmazása.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tos">
+						<entry name="enable">
+							<local_schema short_desc="ToS konfigurációjának engedélyezése">
+								<longdesc>A varázslóban megadott szolgáltatások típusa (ToS) beállítások alkalmazása.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="dhcp">
+						<entry name="nameserver">
+							<local_schema short_desc="A DHCP kliensek által használandó névkiszolgáló">
+							</local_schema>
+						</entry>
+						<entry name="highest_ip">
+							<local_schema short_desc="A DHCP kliensek kiszolgálására használt IP tartomány legfelső eleme">
+								<longdesc>Megadja a DHCP-vel kiosztható IP tartomány felső határát.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="lowest_ip">
+							<local_schema short_desc="A DHCP kliensek kiszolgálására használt IP tartomány legalsó eleme">
+								<longdesc>Megadja a DHCP-vel kiosztható IP tartomány alsó határát.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable_server">
+							<local_schema short_desc="DHCP kiszolgáló bekapcsolása a kapcsolatmegosztáshoz">
+								<longdesc>A rendszer dhcpd kiszolgálójának futtatása a Firestarter internet-kapcsolat megosztásával együtt.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="policy_auto_apply">
+						<local_schema short_desc="Szabályok automatikus alkalmazása">
+							<longdesc>A szabályokban hozott változtatások azonnali alkalmazása, a felhasználó alternatívaként választhatja, hogy lépésenként erősíti meg a változtatásokat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="system_log">
+						<local_schema short_desc="A syslog naplófájl">
+							<longdesc>Azon fájl helye, ahová a rendszernaplózó (syslog) démon ír.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimize_to_tray">
+						<local_schema short_desc="Minimalizálás a tálcára">
+							<longdesc>A program ablakának bezárásakor kilépés helyett az ablak elrejtése.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_tray_icon">
+						<local_schema short_desc="Tálcaikon bekapcsolása">
+							<longdesc>A Firestarter ikon mutatása a figyelmeztető területen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dhcp">
+						<local_schema short_desc="Tűzfal indítása a DHCP bérlés megújításakor">
+							<longdesc>A tűzfal indítása, ha a rendszer új DHCP bérlést fogad.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dial_out">
+						<local_schema short_desc="Tűzfal indítása betárcsázáskor">
+							<longdesc>A tűzfal elindítása PPP kapcsolat kialakításakor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_gui">
+						<local_schema short_desc="A tűzfal a Firestarter indításakor induljon el">
+							<longdesc>Jelölje be ezt, és a tűzfal a Firestarter minden indításakor elindul.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_boot">
+						<local_schema short_desc="A tűzfal a rendszer indításakor induljon el">
+							<longdesc>A tűzfal a rendszer indításakor induljon el.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first_run">
+						<local_schema short_desc="A felhasználó először futtatja-e a programot?">
+							<longdesc>A Firestarter első indításakor számos különleges művelet hajtódik végre.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="ui">
+						<entry name="hitview_service_col">
+							<local_schema short_desc="A &quot;Szolgáltatás&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A szolgáltatást tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_protocol_col">
+							<local_schema short_desc="A &quot;Protokoll&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A protokollt tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_tos_col">
+							<local_schema short_desc="A &quot;Szolgáltatások típusa&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A szolgáltatás típusát tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_length_col">
+							<local_schema short_desc="A &quot;Hossz&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A csomag hosszát tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_destination_col">
+							<local_schema short_desc="A &quot;Cél&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A célt tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_source_col">
+							<local_schema short_desc="A &quot;Forrás&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>A forrást tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_port_col">
+							<local_schema short_desc="A Port oszlop mutatása a találatok nézetben">
+								<longdesc>A Port oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_out_col">
+							<local_schema short_desc="&quot;Ki&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>Azon eszköz megjelenítése a találati listában, melyen keresztül a találat érkezett.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_in_col">
+							<local_schema short_desc="A &quot;Be&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>Eszköz mutatása a találatok nézetben, amelytől a találat érkezett.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_direction_col">
+							<local_schema short_desc="Az Irány oszlop mutatása a találatok nézetben">
+								<longdesc>Az Irány oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_time_col">
+							<local_schema short_desc="Az &quot;Idő&quot; oszlop mutatása a találatok nézetben">
+								<longdesc>Az időt tartalmazó oszlop mutatása a találatok nézetben.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filter">
+						<entry name="not_for_firewall">
+							<local_schema short_desc="A nem a tűzfalra irányuló találatok kiszűrése">
+								<longdesc>Azon találatok kiszűrése, melyek cél IP-je nem azonos a tűzfalgép IP-jével.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="redundant">
+							<local_schema short_desc="Többszörös találatok kiszűrése">
+								<longdesc>Azonos találatokból álló sorozatok kiszűrése.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

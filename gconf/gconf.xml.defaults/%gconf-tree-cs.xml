@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Jak často kontrolovat">
+								<longdesc>Jak často aktualizovat informace o počasí.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="Zdroj pro předpověď počasí">
+								<longdesc>Jméno zdroje, odkud jsou čerpány informace o počasí.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Používat metrické jednotky">
+								<longdesc>Je-li zatrženo, používá se pro předpověď počasí metrická soustava.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Ikona počasí">
+								<longdesc>Seznam míst pro kontrolu počasí.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Zrušit pozastavený časovač kliknutím">
+								<longdesc>Pokud není povoleno, tak se budou časovače resetovat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Trvání nového časovače">
+								<longdesc>Přednastavený čas (v sekundách) pro nové časovače.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Odstartovat všechny nové časovače">
+								<longdesc>Je-li zatrženo, všechny nové časovače budou automaticky odstartovány.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Vymazat dokončené časovače">
+								<longdesc>Je-li zatrženo, časovače zmizí po uběhnutí nastaveného času.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Aktuálně vybraná položka">
+								<longdesc>Aktuálně vybrná položka v menu správce sezení.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Počet nedávných dokumentů">
+								<longdesc>Kolik nejužívanějších dokumentů zobrazit.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Zobrazit nejpoužívanější dokumenty">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="NPR stanice">
+								<longdesc>Seznam zobrazovaných NPR stanic.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="GMail uživatelské jméno">
+								<longdesc>Uživatelské jméno GMail ke kontrole.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Jak často kontrolovat">
+								<longdesc>Jak často (v minutách) kontrolovat poštu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Zobrazit oznamení o nepřečtených emailech">
+								<longdesc>Je-li zatrženo, zobrazí notifikační zprávu o nových nepřečtených e-mailech.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Zobrazit oznamovací tečku o nepřečtených emailech">
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Naposledy kontrolováno">
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="GMail popisky ke kontrole">
+								<longdesc>Seznam kontrolovaných štítků GMail v příchozí poště.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema>
+									<longdesc>Jak moc změnit barvu urgentního indikátoru. Hodnota může být nastavena od -180 do 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Aktuální téma">
+									<longdesc>Jméno aktuálního Docky tématu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema>
+									<longdesc>Jak dlouho bude aktivní animace indikátoru urgentních událostí ve vteřinách, 0 jej zcela zakáže a -1 jej povolí na neomezeně dlouhou dobu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="HelperService">
+							<entry name="ShowOutput">
+								<local_schema short_desc="Přesměrování výstupu pomocníka do výstupu aplikace Docky">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Zobrazit názvy spouštěčů">
+									<longdesc>Pokud není povoleno, tak aplikace Docky nebude zobrazovat tooltipy při najetí na zástupce programu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Zobrazit pouze okna z aktuální plochy">
+									<longdesc>Je-li zatrženo, Docky zobrazí pouze okna z aktivní plochy.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Zobrazit u položek &apos;Připnout k panelu&apos;">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Zobrazit nabídku nastavení v menu aplikace Docky">
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Zobrazení nabídky Ukončit v menu aplikace Docky">
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Zobrazovat ikonku Docky">
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Odstín položky docku">
+									<longdesc>Nastavit barvu ikony Docky. Zadáním 0 se použije barva tématu GTK+.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Text při najetí na prvek docku">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Příkazu prvků docku k vykonání">
+									<longdesc>Příkaz, který se spustí po kliknutí levým tlačítkem myši na ikonu Docky nebo &quot;&quot; pro výchozí nastavení (které otevře nastavení).</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Neměňte to!">
+									<longdesc>Je-li zatrženo, pak je to poprvé, co je Docky spuštěno. Pouze pro interní použití, neměňte!</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Velikost zvětšení">
+										<longdesc>Zvětšování panelu (je-li zapnuto) v procentech.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Zvětšení docku">
+										<longdesc>Je-li zatrženo, dock bude zvětšován pod kurzorem myši.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Dock spravuje všechna okna">
+										<longdesc>Je-li zatrženo pak ona bez spouštěče se zobrazí na tomto docku.  Lze nastavit jen jednomu docku.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Dock je 3D">
+										<longdesc>Je-li zatrženo, dock bude vykreslen jako 3D dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Seřadit položky na panelu">
+										<longdesc>Použito pro třídění položek na docku.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="Pozice panelu">
+										<longdesc>Pozice panelu na obrazovce. Možné hodnoty jsou: Bottom (dole), Top (nahoře), Left (vlevo), Right (vpravo)</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Doplňky v tomto docku">
+										<longdesc>Seznam pluginů, které jsou aktivní v tomto docku.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Pokud je dock panel">
+										<longdesc>Je-li zatrženo, dock je v módu panelu a bude roztažen až do krajů obrazovky.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Na kterém monitoru je zobrazen dock">
+										<longdesc>Toto je monitor na kterém je dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Seznam spouštěčů">
+										<longdesc>Toto je seznam všech spouštěčů na panelu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Indikuje pokud mají položky více než jedno okno">
+										<longdesc>Je-li zatrženo, položky s více než jedním oknem budou mít dva indikační body místo jednoho bodu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Velikost ikon v docku">
+										<longdesc>Rozměr ikon na panelu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="HotAreaPadding">
+									<local_schema short_desc="Vyplňení aktivní oblasti">
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema short_desc="Průhlednost, do které se prolínat">
+										<longdesc>Toto je průhlednost, ke které se uchyluje dock při blednutí když se skrývá, 1 znamená bez průhlednosti a 0 zcela průhledné prostředí.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Blednout při skrývání">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Mód skrývání docku">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="ProvidersAcceptDrops">
+								<local_schema short_desc="Zabránit přidávání položek upuštěním">
+									<longdesc>Pokud není povoleno, tak nemůžete přidat zástupce programu přetáhnutím.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LockDrags">
+								<local_schema short_desc="Zakázat přetahování">
+									<longdesc>Je-li zatrženo, dojde  zamčení všech položek na všech docích, nepůjde je tedy přetahovat.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Jak dlouho čekat (v ms) na obnovení po přepnutí okna">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Jak dlouho čekat (ms) před odkrytím">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Seznam aktivních docků.">
+								<longdesc>Seznam všech aktuálně zobrazených docků, podle jména.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="Používat 24 hodinový  formát času">
+								<longdesc>Je-li zatrženo, bude použit 24 hodinový formát času.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Zobrazit digitální hodiny">
+								<longdesc>Je-li zatrženo, zobrazí se digitální hodiny, jinak budou zobrazeny analogové.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Zobrazit datum">
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Motiv analogových hodin">
+								<longdesc>Téma pro analogové hodiny.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema>
+								<longdesc>Je-li zatrženo, sleduje se schránka výběru myší. Není-li zatrženo, sleduje se sekundární schránka.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Zpoždění časovače">
+								<longdesc>Jak často (v ms) prohledávat schránku pro nová data.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Maximální počet vstupů">
+								<longdesc>Kolik posledních obsahů schránky zobrazovat.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="deny_packets">
+						<local_schema short_desc="Blloko paketat">
+						</local_schema>
+					</entry>
+					<entry name="int_if">
+						<local_schema short_desc="Interfaqja e brendshme">
+							<longdesc>Interfaqja e rrjetit e lidhur me LAN. P.sh., eth0 ose eth1.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="Aktivo NAT">
+							<longdesc>Aktivo Network Address Translation, ose ndarjen e lidhjes Internet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="Interfaqja e jashtme">
+							<longdesc>Interfaqja e rrjetit për lidhjen Internet. P.sh., ppp0 ose eth0.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="Aktivo konfigurimin e ICMP">
+								<longdesc>Apliko rregullimet ICMP, sikurse konfiguruar gjatë wizard.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tos">
+						<entry name="enable">
+							<local_schema short_desc="Aktivo konfigurimin e tos">
+								<longdesc>Apliko rregullimet e Llojit të Shërbimit, sikurse konfiguruar gjatë wizard.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="system_log">
+						<local_schema short_desc="File log i sistemit">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

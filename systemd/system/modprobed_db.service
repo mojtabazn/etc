@@ -1,0 +1,15 @@
+[Unit]
+Description=Run modprobed_db
+Wants=timer-daily.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=mojtaba
+Nice=19
+IOSchedulingClass=2
+IOSchedulingPriority=7
+ExecStart=/usr/bin/modprobed_db store
+
+[Install]
+WantedBy=timer-daily.target

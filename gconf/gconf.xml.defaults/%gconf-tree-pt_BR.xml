@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WorkspaceSwitcher">
+					<dir name="WorkspaceSwitcherDockItem">
+						<entry name="WrappedScrolling">
+							<local_schema short_desc="Se a rolagem recolhe">
+								<longdesc>Se verdadeiro, será possível percorrer todos os espaços de trabalho em uma direção.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Com que frequência verificar">
+								<longdesc>Com que frequência verificar por novas informações meteorológicas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Source">
+							<local_schema short_desc="A fonte das condições meteorológicas">
+								<longdesc>O nome da fonte de informações sobre as condições meteorológicas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Usar unidades métricas">
+								<longdesc>Se verdadeiro, usa unidades métricas ao mostrar a previsão do tempo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Location">
+							<local_schema short_desc="Localizações meteorológicas">
+								<longdesc>A lista das localizações meteorológicas a serem verificadas.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Descartar um cronômetro interrompido quando clicado">
+								<longdesc>Se falso, os cronômetros terminados irão reiniciar ao invés de descartar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="DefaultTimer">
+							<local_schema short_desc="Novo comprimento do temporizador">
+								<longdesc>O tempo padrão (em segundos) para qualquer novo temporizador.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Iniciar todos os novos temporizadores">
+								<longdesc>Se verdadeiro, os novos cronômetros irão iniciar automaticamente.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Limpar cronômetros finalizados">
+								<longdesc>Se verdadeiro, os cronomêtros irão desaparecer quando o tempo chegar ao limite.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Item selecionado atualmente">
+								<longdesc>O item atualmente selecionado no menu do gerenciador de sessão.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Número de documentos recentes">
+								<longdesc>O número de documentos mais recentes a mostrar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Mostrar documento mais recente">
+								<longdesc>Se verdadeiro, tentará exibir o documento mais recente no dock.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="Estações NPR">
+								<longdesc>Lista das estações NPR a exibir.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Nome de usuário do GMail">
+								<longdesc>O nome de usuário do GMail a ser verificado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Com que frequência verificar">
+								<longdesc>Com que frequência (em minutos) verificar por novo e-mail.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Mostrar uma notificação para mensagens não lidas">
+								<longdesc>Se verdadeiro, mostra uma mensagem de notificação para novas mensagens não lidas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Mostrar ponto indicator para mensagens não lidas">
+								<longdesc>Se verdadeiro, quando houver novas mensagens não lidas o Docky irá mostrador o ponto indicador.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Última verificação">
+								<longdesc>A última vez que o Docky verificou o GMail por mensagens.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Rótulos do GMail para verificar">
+								<longdesc>Lista de rótulos personalizados do GMail para verificar além da caixa de entrada.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema short_desc="Indicador urgente de mudança de cor">
+									<longdesc>Quanto para mudar a cor do indicador de urgência. O valor pode ser de -180 a 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Tema atual">
+									<longdesc>O nome do tema atual do Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema short_desc="Indicador urgente de tempo de animação de brilho (em segundos)">
+									<longdesc>Quanto tempo a animação de brilho do indicador de urgência permanece (em segundos), 0 para desabilitar ou -1 para infinito.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="HelperService">
+							<entry name="ShowOutput">
+								<local_schema short_desc="Redirecionar a saída auxiliar para saída de Docky">
+									<longdesc>Se verdadeiro, a saída dos ajudantes será redirecionada para a saída do Docky.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema short_desc="Mostrar rótulos de texto ao passar por lançadores">
+									<longdesc>Se falso, o Docky não mostrará textos com foco para os lançadores (mas ainda irá mostrar para os plugins).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="Mostrar somente as janelas  da área de trabalho atual">
+									<longdesc>Se verdadeiro, o Docky irá mostrar apenas as janelas do espaço de trabalho ativo.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="FileApplicationProvider">
+							<entry name="AllowPinToDock">
+								<local_schema short_desc="Mostrar &apos;Fixar no Dock&apos; para itens">
+									<longdesc>Se a opção &quot;Fixar no Dock&quot; deve aparecer no menu de itens, permitindo que você o adicione permanentemente para o dock.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Mostrar Configurações no menu do item do Docky">
+									<longdesc>Se verdadeiro, o item de menu de contexto do Docky mostra a opção Configurações.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Mostrar Fechar no menu do item do Docky">
+									<longdesc>Se verdadeiro, o item de menu de contexto do Docky mostra a opção Sair.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Mostrar o item do Docky">
+									<longdesc>Se verdadeiro, mostra o item Docky no dock de gerenciamento de janelas.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Matiz de item do Docky">
+									<longdesc>Definir a cor do ícone do Docky. 0 significa usar o tema de cor do GTK+.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Texto em foco de item do Docky">
+									<longdesc>O texto a ser mostrado quando o ponteiro estiver sobre o item do Docky.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Comando para executar um item do Docky">
+									<longdesc>Comando a ser executado quando clicar no item Docky ou &quot;&quot; para comportamento padrão (que abre a janela de configuração).</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Não altere isto!">
+									<longdesc>Se verdadeiro, esta é a primeira vez que o Docky foi executado. Somente para uso interno - Não mude!</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomPercent">
+									<local_schema short_desc="Tamanho do zoom">
+										<longdesc>O tamanho do zoom do dock (se habilitado), em porcentagem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Dock zooms">
+										<longdesc>Se verdadeiro, o dock irá aumentar com o sobrepor do cursor do mouse.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Dock gerencia todas as janelas">
+										<longdesc>Se verdadeiro, as janelas sem lançadores serão mostradas neste dock. Apenas 1 dock deve ter esse comportamento.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Dock é 3D">
+										<longdesc>Se verdadeiro, o dock é desenhado como um dock 3D.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Ordena os itens no dock">
+										<longdesc>Usado para ordenar os itens na dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="A posição do dock">
+										<longdesc>A posição do dock na tela. Valores possíveis: Inferior, Superior, Esquerda, Direita</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Plugins neste dock">
+										<longdesc>Uma lista de plugins que estão ativos neste dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Se o dock é um painel">
+										<longdesc>Se verdadeiro, o dock está no modo de painel e se estenderá até preencher a borda inteira da tela.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="MonitorNumber">
+									<local_schema short_desc="Em qual monitor a dock está">
+										<longdesc>Este é o monitor no qual o dock se situa.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Lista de lançadores">
+										<longdesc>Esta é a lista de todos os lançadores deste dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Indicar quando os itens tiverem mais de uma janela">
+										<longdesc>Se verdadeiro, itens com mais de uma janela tem dois pontos indicadores ao invés de apenas um.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Tamanho do ícone do dock">
+										<longdesc>O tamanho dos ícones no dock</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="HotAreaPadding">
+									<local_schema short_desc="Preenchimento de área de atividade">
+										<longdesc>O número de pixels extras para preencher a área de foco em cima do dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOpacity">
+									<local_schema short_desc="Desvanecer até esta opacidade">
+										<longdesc>Se desvanecendo ao esconder, esta é a opacidade para a qual o dock desvanece. 1 para sólido, 0 para invisível.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Desvanecer quando ocultar">
+										<longdesc>Se verdadeiro, quando o dock se esconder ele vai desvanecer ao invés de deslizar para fora da tela.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Modo de ocultação do Dock">
+										<longdesc>O modo de ocultação do dock. Valores possíveis são: Nenhum, Ocultar automaticamente, Ocultar inteligentemente, Ocutar inteligentemente universal</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="DockDragTracker">
+							<entry name="ProvidersAcceptDrops">
+								<local_schema short_desc="Impedir adição de itens com arrastar e soltar">
+									<longdesc>Se falso, desabilita função arrastar para adicionar ao dock.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LockDrags">
+								<local_schema short_desc="Impedir os itens de serem arrastados">
+									<longdesc>Se verdadeiro, bloqueia todos os itens em todas os docks para que não possam ser arrastados.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Tempo de espera (ms) para atualizar após uma mudança de janela">
+									<longdesc>Este é o tempo (em milissegundos) para esperar para determinar se um interruptor da janela faz mostrar/esconder.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Tempo de espera (ms) antes de reexibir">
+									<longdesc>Este é o tempo (em milissegundos) a esperar antes de mostrar um dock oculto quando o cursor passa por cima.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="CompositeCheckEnabled">
+							<local_schema short_desc="Habilitar verificação por composição">
+								<longdesc>Se verdadeiro, o Docky irá verificar a existência de suporte a composição e avisar se não estiver disponível.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Lista de docks ativos">
+								<longdesc>Lista todos os docks ativos (exibidos), por nome.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="CPUMonitor">
+					<dir name="CPUMonitorDockItem">
+						<entry name="ClickCommand">
+							<local_schema short_desc="Comando do botão esquerdo">
+								<longdesc>Este é o comando a ser executado quando se clicar no item do docklet CPU.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema short_desc="Usar relógio 24 horas">
+								<longdesc>Se verdadeiro, mostra a hora no formato de 24 horas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Mostrar o relógio digital">
+								<longdesc>Se verdadeiro, mostra o relógio digital no lugar do relógio analógico.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Mostrar data">
+								<longdesc>Se verdadeiro, a data deverá ser exibida no relógio digital.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Tema do relógio analógico">
+								<longdesc>O tema para o relógio analógico.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TrackMouseSelections">
+							<local_schema short_desc="Memoriza seleções de mouse">
+								<longdesc>Se verdadeiro, memoriza a área de transferência da seleção do mouse. Se falso, memoriza a área de transferência secundária.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="TimerDelay">
+							<local_schema short_desc="Atraso do temporizador">
+								<longdesc>Com que frequência (em ms) pesquisar por novos dados na área de transferência.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Máximo de entradas">
+								<longdesc>Quantas seleções recentes da área de transferência deve mostrar.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

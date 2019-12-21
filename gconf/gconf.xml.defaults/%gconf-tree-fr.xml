@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="docky-2">
+				<dir name="WeatherDocklet">
+					<dir name="WeatherPreferences">
+						<entry name="Timeout">
+							<local_schema short_desc="Fréquence de vérification">
+								<longdesc>Fréquence de vérification pour nouvelles données de météo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Metric">
+							<local_schema short_desc="Utiliser le système métrique">
+								<longdesc>Utiliser les unités métriques pour la météo si activé.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Timer">
+					<dir name="TimerMainDockItem">
+						<entry name="DismissOnClick">
+							<local_schema short_desc="Rejeter un chrono arrêté si cliqué">
+								<longdesc>Si faux, les chronos terminés vont être remis à zéro au lieu d&apos;être rejetés.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoStartTimers">
+							<local_schema short_desc="Démarrer tous les nouveaux chronomètres">
+								<longdesc>Tous les chronomètres vont automatiquement démarrer si cette option est activée.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="AutoDismissTimers">
+							<local_schema short_desc="Supprimer les chronos périmés">
+								<longdesc>Les chronomètres terminés vont disparaître si activé.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="SessionManager">
+					<dir name="SessionManagerItem">
+						<entry name="CurrentIndex">
+							<local_schema short_desc="Élément sélectionné en cours">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="RecentDocuments">
+					<dir name="RecentDocumentsItem">
+						<entry name="NumRecentDocs">
+							<local_schema short_desc="Nombre de documents récents">
+							</local_schema>
+						</entry>
+						<entry name="AlwaysShowRecent">
+							<local_schema short_desc="Afficher les documents les plus récents">
+								<longdesc>Essayera d&apos;afficher le document le plus récent sur le dock si activé.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="NPR">
+					<dir name="NPR">
+						<entry name="MyStations">
+							<local_schema short_desc="Stations NPR">
+								<longdesc>Liste des stations NPR à afficher.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="GMail">
+					<dir name="GMailPreferences">
+						<entry name="User">
+							<local_schema short_desc="Nom d&apos;utilisateur GMail">
+							</local_schema>
+						</entry>
+						<entry name="RefreshRate">
+							<local_schema short_desc="Fréquence de vérification">
+								<longdesc>Fréquence de vérification pour nouveaux messages (en minutes).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="Notify">
+							<local_schema short_desc="Afficher une notification pour les messages non lus">
+								<longdesc>Affiche une notification pour les nouveaux messages non lus si activé.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="NeedsAttention">
+							<local_schema short_desc="Afficher un point indicateur pour les messages non lus">
+								<longdesc>Docky affichera un point indicateur s&apos;il y a des nouveaux messages non lus si activé.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="LastChecked">
+							<local_schema short_desc="Heure de la dernière vérification">
+							</local_schema>
+						</entry>
+						<entry name="Labels">
+							<local_schema short_desc="Étiquettes GMail à vérifier">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Docky">
+					<dir name="Services">
+						<dir name="ThemeService">
+							<entry name="UrgentHue">
+								<local_schema>
+									<longdesc>En quelle mesure modifier la teinte de l&apos;indicateur d&apos;urgence. La valeur peut aller de -180 à 180.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="Theme">
+								<local_schema short_desc="Le thème actuel">
+								</local_schema>
+							</entry>
+							<entry name="GlowTime">
+								<local_schema>
+									<longdesc>Pour combien de temps l&apos;indicateur d&apos;urgence devra rougeoyer (en secondes), 0 pour jamais ou -1 pour toujours</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Items">
+						<dir name="WnckDockItem">
+							<entry name="ShowHovers">
+								<local_schema>
+									<longdesc>Si faux, Docky ne va pas afficher des textes flottants pour les lanceurs (mais quand-même pour les greffons).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="CurrentDesktopOnly">
+								<local_schema short_desc="N&apos;afficher que les fenêtres du bureau actif">
+									<longdesc>Docky n&apos;affichera que les fenêtres du bureau actif si activé.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="DockyItem">
+							<entry name="ShowSettings">
+								<local_schema short_desc="Afficher l&apos;option Réglages dans le menu contextuel de l&apos;icône de Docky">
+									<longdesc>Affiche l&apos;option Réglages dans le menu contextuel de l&apos;icône de Docky si activé.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowQuit">
+								<local_schema short_desc="Afficher l&apos;option Quitter dans le menu contextuel de l&apos;icône de Docky">
+									<longdesc>Affiche l&apos;option Quitter dans le menu contextuel de l&apos;icône de Docky si activé.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ShowDockyItem">
+								<local_schema short_desc="Afficher l&apos;icône de Docky">
+								</local_schema>
+							</entry>
+							<entry name="Hue">
+								<local_schema short_desc="Teinte de cet élément de Docky">
+									<longdesc>Définir la couleur de l&apos;icône Docky. 0 va utiliser la couleur du thème GTK+.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="HoverText">
+								<local_schema short_desc="Texte flottant de cet élément de Docky">
+								</local_schema>
+							</entry>
+							<entry name="DockyItemCommand">
+								<local_schema short_desc="Commande à exécuter par cet élément de Docky">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="Interface">
+						<dir name="DockPreferences">
+							<entry name="FirstRun">
+								<local_schema short_desc="Ne pas changer ceci!">
+								</local_schema>
+							</entry>
+							<dir name="DockN">
+								<entry name="ZoomEnabled">
+									<local_schema short_desc="Agrandissement du dock">
+										<longdesc>Le dock va s&apos;agrandir quand la souris passe au-dessus si activé</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="WindowManager">
+									<local_schema short_desc="Le dock gère toutes les fenêtres">
+									</local_schema>
+								</entry>
+								<entry name="ThreeDimensional">
+									<local_schema short_desc="Le dock est tridimensonnel">
+										<longdesc>Le dock sera affiché en tridimensionnel si activé</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="SortList">
+									<local_schema short_desc="Trie les éléments du dock">
+									</local_schema>
+								</entry>
+								<entry name="Position">
+									<local_schema short_desc="La position du dock">
+									</local_schema>
+								</entry>
+								<entry name="Plugins">
+									<local_schema short_desc="Greffons sur ce dock">
+										<longdesc>Une liste de docklets qui sont actifs dans ce dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="PanelMode">
+									<local_schema short_desc="Si le dock est un panneau">
+										<longdesc>Le dock sera affiché sous forme panneau qui prendra toute la largeur de l&apos;écran si activé.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="Launchers">
+									<local_schema short_desc="Liste des lanceurs">
+									</local_schema>
+								</entry>
+								<entry name="IndicateMultipleWindows">
+									<local_schema short_desc="Indiquer si un élément a plus qu&apos;une fenêtre">
+										<longdesc>Des éléments avec plus qu&apos;une fenêtre vont avoir deux points indicateurs au lieu d&apos;un si activé.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="IconSize">
+									<local_schema short_desc="Taille des icônes du dock">
+										<longdesc>La taille des icônes sur le dock.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="FadeOnHide">
+									<local_schema short_desc="Dissimuler en fondu">
+									</local_schema>
+								</entry>
+								<entry name="Autohide">
+									<local_schema short_desc="Mode de dissimulation du dock">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="AutohideManager">
+							<entry name="UpdateDelay">
+								<local_schema short_desc="Attendre combien de temps (en ms) pour la mise à jour après changement de fenêtre">
+								</local_schema>
+							</entry>
+							<entry name="UnhideDelay">
+								<local_schema short_desc="Attendre combien de temps (en ms) avant apparition">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="DockController">
+						<entry name="ActiveDocks">
+							<local_schema short_desc="Liste des docks actifs">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clock">
+					<dir name="ClockDockItem">
+						<entry name="ShowMilitary">
+							<local_schema>
+								<longdesc>Affiche l&apos;heure au format 24h si activé.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDigital">
+							<local_schema short_desc="Afficher l&apos;horloge numérique">
+								<longdesc>Afficher l&apos;horloge numérique si activé, sinon l&apos;horloge analogique.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ShowDate">
+							<local_schema short_desc="Afficher la date">
+								<longdesc>Affiche la date avec l&apos;horloge numérique si activé.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="ClockTheme">
+							<local_schema short_desc="Thème d&apos;horloge analogique">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="Clippy">
+					<dir name="ClippyItem">
+						<entry name="TimerDelay">
+							<local_schema>
+								<longdesc>Fréquence de vérification (en ms) pour nouvelles données du presse-papiers.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="MaxEntries">
+							<local_schema short_desc="Nombre maximal d&apos;entrées">
+								<longdesc>Afficher combien d&apos;éléments récents du presse-papiers.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

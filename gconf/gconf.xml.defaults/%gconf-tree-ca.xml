@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="firestarter">
+				<dir name="firewall">
+					<entry name="restrictive_outbound">
+						<local_schema short_desc="Mode de política de sortida restrictiva">
+							<longdesc>Restringeix el tràfic de sortida, només permet les connexions de sortida de la llista blanca.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_internal_broadcast">
+						<local_schema short_desc="Bloca les difusions de xarxes internes">
+							<longdesc>Bloca les difusions de xarxes internes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_external_broadcast">
+						<local_schema short_desc="Bloca les difusions de xarxes externes">
+							<longdesc>Bloca les difusions de xarxes externes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="deny_packets">
+						<local_schema short_desc="Rebutja paquets">
+							<longdesc>Elimina els paquets rebutjats sense enviar un paquet d&apos;error de retorn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="int_if">
+						<local_schema short_desc="La interfície interna">
+							<longdesc>Interfície de la xarxa connectada a la LAN. Per exemple, eth0 o eth1.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nat">
+						<local_schema short_desc="Habilita traducció d&apos;adreces">
+							<longdesc>Habilita la traducció d&apos;adreces de xarxa o compartició de la connexió a Internet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ext_if">
+						<local_schema short_desc="La interfície externa">
+							<longdesc>Interfície de la xarxa connectada a internet. Per exemple, ppp0 o eth0.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="icmp">
+						<entry name="enable">
+							<local_schema short_desc="Habilita la configuració d&apos;ICMP">
+								<longdesc>Aplica els paràmetres d&apos;ICMP, com es va configurar en l&apos;assistent.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="tos">
+						<entry name="enable">
+							<local_schema short_desc="Habilita la configuració de tipus de servei">
+								<longdesc>Aplica els paràmetres de tipus de servei, com es va configurar en l&apos;assistent.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="dhcp">
+						<entry name="nameserver">
+							<local_schema short_desc="Servidor de noms que haurien de fer servir els clients DHCP">
+							</local_schema>
+						</entry>
+						<entry name="highest_ip">
+							<local_schema short_desc="IP més alta en el rang per servir als clients DHCP">
+								<longdesc>Especifica el límit superior de l&apos;espai IP per fer servir en prèstecs DHCP.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="lowest_ip">
+							<local_schema short_desc="L&apos;adreça IP més baixa per servir als clients DHCP">
+								<longdesc>Especifica el límit inferior de l&apos;espai IP per fer servir en prèstecs DHCP.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable_server">
+							<local_schema short_desc="Habilita el servidor DHCP per compartir la connexió">
+								<longdesc>Executa el servidor dhcpd del sistema juntament amb la compartició de connexió d&apos;Internet del Firestarter.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="client">
+					<entry name="policy_auto_apply">
+						<local_schema short_desc="Aplica automàticament les polítiques">
+							<longdesc>Aplica inmeditament les canvis fets a les polítiques. En cas contrari, l&apos;usuari les confirma més endavant.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="system_log">
+						<local_schema short_desc="Fitxer del registre del sistema">
+							<longdesc>La ubicació de l&apos;arxiu on escriu el dimoni de monitorització del sistema.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="minimize_to_tray">
+						<local_schema short_desc="Minimitza a la safata">
+							<longdesc>En tancar la finestra del programa, amaga-la en comptes de sortir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_tray_icon">
+						<local_schema short_desc="Habilita la icona de la safata">
+							<longdesc>Mostra la icona del Firestarter en l&apos;àrea de notificació.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dhcp">
+						<local_schema short_desc="Inicia el tallafoc quan es renova el prèstec DHCP">
+							<longdesc>Inicia el tallafoc quan el sistema rep un prèstec de DHCP.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_dial_out">
+						<local_schema short_desc="Inicia el tallafoc quan el sistema es connecta">
+							<longdesc>Inicia el tallafoc quan el sistema estableix una connexió PPP.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_gui">
+						<local_schema short_desc="Inicia el tallafoc en engegar el programa">
+							<longdesc>Inicia el tallafoc en engegar el programa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_firewall_on_boot">
+						<local_schema short_desc="Inicia el tallafoc quan el sistema arrenca">
+							<longdesc>Inicia el tallafoc quan el sistema arrenca.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first_run">
+						<local_schema short_desc="L&apos;usuari executa el programa per primera vegada">
+							<longdesc>El primer cop que s&apos;inicia el Firestarter es realitzen una sèrie d&apos;accions especials.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="ui">
+						<entry name="hitview_service_col">
+							<local_schema short_desc="Mostra la columna de servei a la vista de peticions">
+								<longdesc>Mostra la columna de servei a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_protocol_col">
+							<local_schema short_desc="Mostra la columna de protocol a la vista de peticions">
+								<longdesc>Mostra la columna de protocol a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_tos_col">
+							<local_schema short_desc="Mostra la columna de tipus de servei a la vista de peticions">
+								<longdesc>Mostra la columna de tipus de servei a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_length_col">
+							<local_schema short_desc="Mostra la columna de longitud a la vista de peticions">
+								<longdesc>Mostra la columna de longitud del paquet a la vista de peticions</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_destination_col">
+							<local_schema short_desc="Mostra la columna de destinació a la vista de peticions">
+								<longdesc>Mostra la columna de destinació a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_source_col">
+							<local_schema short_desc="Mostra la columna d&apos;origen a la vista de peticions">
+								<longdesc>Mostra la columna d&apos;origen a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_port_col">
+							<local_schema short_desc="Mostra la columna de port a la vista de peticions">
+								<longdesc>Mostra la columna de port a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_out_col">
+							<local_schema short_desc="Mostra la columna de sortida a la vista de peticions">
+								<longdesc>Mostra el dispositiu al qual s&apos;ha encaminat la petició a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_in_col">
+							<local_schema short_desc="Mostra la columna d&apos;entrada a la vista de peticions">
+								<longdesc>Mostra el dispositiu des del que s&apos;ha rebut la petició a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_direction_col">
+							<local_schema short_desc="Mostra la columna de direcció a la vista de peticions">
+								<longdesc>Mostra la columna de direcció a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="hitview_time_col">
+							<local_schema short_desc="Mostra la columna de temps a la vista de peticions">
+								<longdesc>Mostra la columna de temps a la vista de peticions.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="filter">
+						<entry name="not_for_firewall">
+							<local_schema short_desc="Filtra les peticions no dirigides al tallafoc">
+								<longdesc>Filtra les peticions que tenen una adreça IP destí que no coincideix amb la màquina del tallafoc.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="redundant">
+							<local_schema short_desc="Filtra peticions redundants">
+								<longdesc>Filtra seqüències de peticions iguals.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>
