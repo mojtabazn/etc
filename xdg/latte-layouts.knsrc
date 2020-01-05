@@ -1,0 +1,34 @@
+[KNewStuff3]
+Name=Latte Layouts
+Name[ar]=مخطّطات لاتيه
+Name[ca]=Disposicions del Latte
+Name[ca@valencia]=Disposicions del Latte
+Name[cs]=Rozložení Latte
+Name[de]=Latte-Profile
+Name[el]=Προφίλ Latte
+Name[en_GB]=Latte Layouts
+Name[es]=Distribuciones de Latte
+Name[eu]=Latte diseinuak
+Name[fi]=Latte-asettelut
+Name[gl]=Disposicións de Latte
+Name[id]=Tataletak Latte
+Name[it]=Disposizioni di Latte
+Name[ko]=Latte 레이아웃
+Name[nl]=Latte-indelingen
+Name[nn]=Latte-utformingar
+Name[pl]=Układy Latte
+Name[pt]=Disposições do Latte
+Name[pt_BR]=Layouts do Latte
+Name[ru]=Макеты Latte
+Name[sk]=Rozloženia Latte
+Name[sv]=Latte layouter
+Name[uk]=Компонування Латте
+Name[x-test]=xxLatte Layoutsxx
+Name[zh_CN]=Latte 布局
+Name[zh_TW]=Latte 版面
+
+ProvidersUrl=https://download.kde.org/ocs/providers.xml
+Categories=Latte Layouts
+TargetDir=latte-layouts
+Uncompress=archive
+
