@@ -10020,6 +10020,7 @@ amcs             8766/tcp
 amcs             8766/udp
 core-of-source   8767/tcp
 sandpolis        8768/tcp
+oktaauthenticat  8769/tcp
 dpap             8770/tcp
 dpap             8770/udp
 uec              8778/tcp
@@ -11122,6 +11123,7 @@ tw-auth-key     27999/udp
 nxlmd           28000/tcp
 nxlmd           28000/udp
 pqsp            28001/tcp
+gruber-cashreg  28010/tcp
 a27-ran-ran     28119/udp
 voxelstorm      28200/tcp
 voxelstorm      28200/udp
