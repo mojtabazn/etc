@@ -1,6 +1,6 @@
 [connection]
-id=Pars Korom Khazar
-uuid=4e676ad9-98d3-4c5a-92db-b81b2b7b98e3
+id=blackout 1
+uuid=0cdc0a81-f233-400b-a7c6-e8411260e248
 type=wifi
 interface-name=wls1
 permissions=user:mojtaba:;
@@ -8,12 +8,7 @@ permissions=user:mojtaba:;
 [wifi]
 mac-address-blacklist=
 mode=infrastructure
-ssid=Pars Korom Khazar
-
-[wifi-security]
-auth-alg=open
-key-mgmt=wpa-psk
-psk-flags=1
+ssid=blackout
 
 [ipv4]
 dns-search=

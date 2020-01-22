@@ -1,6 +1,6 @@
 [connection]
 id=blackout
-uuid=054daa22-0111-4382-a02b-e35b03d5e85e
+uuid=43ea1dfb-a0b7-42bf-9b93-84ce85bf47b7
 type=wifi
 interface-name=wls1
 permissions=
@@ -9,6 +9,10 @@ permissions=
 hidden=true
 mac-address-blacklist=
 ssid=blackout
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=s0ko0t!!!
 
 [ipv4]
 dns-search=
