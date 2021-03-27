@@ -6,15 +6,15 @@
 
 
 
-# /dev/sda6 Arch Linux Root Drive
-/dev/sda2           	/         	btrfs		 subvol=__active/root_arch,noatime,compress=lzo,discard,space_cache,autodefrag,inode_cache	0 0
-/dev/sda8	/var/cache/pacman/pkg	btrfs	  	 subvol=pacpkg,autodefrag,noatime,noauto,x-systemd.automount				0 0
+# /dev/sda1 Arch Linux Root Drive
+/dev/sda1           	/         	btrfs		 subvol=__active/root_arch,noatime,compress=lzo,space_cache,autodefrag,inode_cache	0 0
+# /dev/sda8	/var/cache/pacman/pkg	btrfs	  	 subvol=pacpkg,autodefrag,noatime,noauto,x-systemd.automount				0 0
 
 
 
 
 # /dev/sda8  Home Drive 
-/dev/sda8               /home           btrfs           rw,relatime,compress=lzo,autodefrag      0 0
+# /dev/sda8               /home           btrfs           rw,relatime,compress=lzo,autodefrag      0 0
 
 
 
@@ -22,6 +22,6 @@
 
 
 # /dev/sda5 This one is Sap Drive 
-#/dev/sda5           	none      	swap      	defaults  	0 0
+/dev/sda5           	none      	swap      	defaults  	0 0
 
 
