@@ -41,11 +41,11 @@ load-module module-switch-on-port-available
 # i added below setting
  
 
-load-module module-alsa-sink device=hw:0,0
+#load-module module-alsa-sink device=hw:0,0
 #set-default-sink 0
 
-load-module module-alsa-source source_name=alsa_input.pci-0000_00_1b.0.analog-stereo device=front:0
-set-default-source alsa_output.pci-0000_00_1b.0.analog-stereo
+#load-module module-alsa-source source_name=alsa_input.pci-0000_00_1b.0.analog-stereo device=front:0
+#set-default-source alsa_output.pci-0000_00_1b.0.analog-stereo
 
 #=====================================
 
