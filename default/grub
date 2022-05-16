@@ -52,3 +52,10 @@ GRUB_THEME="/boot/grub/themes/starfield/theme.txt"
 # Uncomment to make GRUB remember the last selection. This requires to
 # set 'GRUB_DEFAULT=saved' above.
 #GRUB_SAVEDEFAULT="false"
+
+
+
+
+
+
+
