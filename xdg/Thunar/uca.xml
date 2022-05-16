@@ -46,7 +46,7 @@
     <name xml:lang="en_GB">Open Terminal Here</name>
     <name xml:lang="eo">Malfermu terminalon ĉi tie</name>
     <name xml:lang="es">Abrir un terminal aquí</name>
-    <name xml:lang="et">Ava terminal siin</name>
+    <name xml:lang="et">Ava siin terminal</name>
     <name xml:lang="eu">Ireki terminala hemen</name>
     <name xml:lang="fa_IR">باز کردن پایانه در اینجا</name>
     <name xml:lang="fi">Avaa pääte tässä kansiossa</name>
@@ -57,6 +57,7 @@
     <name xml:lang="hu">Terminál nyitása itt</name>
     <name xml:lang="hy">Բացել վահանակն այստեղ</name>
     <name xml:lang="hy_AM">Բացել վահանակն այստեղ</name>
+    <name xml:lang="hye">Բացել վահանակն այստեղ</name>
     <name xml:lang="id">Buka Terminal Di sini</name>
     <name xml:lang="ie">Aperter li Terminal ci</name>
     <name xml:lang="is">Opna skjáhermi hér</name>
@@ -84,7 +85,7 @@
     <name xml:lang="sv">Öppna terminal här</name>
     <name xml:lang="te">టెర్మినల్‌ను ఇక్కడ తెరువు</name>
     <name xml:lang="th">เปิดเทอร์มินัลที่นี่</name>
-    <name xml:lang="tr">Uçbirimi Buraya Aç</name>
+    <name xml:lang="tr">Burada Uçbirim Aç</name>
     <name xml:lang="ug">بۇ يەردە تېرمىنالنى ئاچ</name>
     <name xml:lang="uk">Відкрити термінал тут</name>
     <name xml:lang="ur">ٹرمنل یہیں کھولیں</name>
@@ -119,8 +120,9 @@
     <description xml:lang="he">דוגמה של פעולה מותאמת אישית</description>
     <description xml:lang="hr">Primjer prilagođene radnje</description>
     <description xml:lang="hu">Példa egyéni műveletre</description>
-    <description xml:lang="hy">Ընտրովի գործողութեան աւրինակ</description>
+    <description xml:lang="hy">Ընտրովի գործողության օրինակ</description>
     <description xml:lang="hy_AM">Ընտրովի գործողութեան աւրինակ</description>
+    <description xml:lang="hye">Ընտրովի գործողութեան աւրինակ</description>
     <description xml:lang="id">Contoh untuk aksi suai</description>
     <description xml:lang="ie">Exemple de un personal action</description>
     <description xml:lang="is">Dæmi um sérsniðna aðgerð</description>

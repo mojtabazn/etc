@@ -1,9 +1,10 @@
 #!/bin/sh
 set -e
 
-# Make sure sort always sorts in same order.
-LANG=C
-export LANG
+# Keep the sort order the same at all times.
+LC_COLLATE=C
+export LC_COLLATE
+unset LC_ALL
 
 filter_ignore() {
 	case "$VCS" in
@@ -15,13 +16,13 @@ filter_ignore() {
 		listfile="$( mktemp -t etckeeper-$VCS.XXXXXXXXXX )"
 		case "$VCS" in
 			darcs)
-				grep -v '^[[:space:]]*\(#\|$\)' "$ignorefile" > "$listfile" || true
-				grep -Evf "$listfile"
+				LC_CTYPE=C grep -v '^[[:space:]]*\(#\|$\)' "$ignorefile" > "$listfile" || true
+				LC_CTYPE=C grep -Evf "$listfile"
 				;;
 			git)
 				(git ls-files -oi --exclude-standard; git ls-files -oi --exclude-standard --directory) | sort | uniq > "$listfile" || true
 				if [ -s "$listfile" ]; then
-					sed 's/^\.\///' | grep -xFvf "$listfile"
+					sed 's/^\.\///' | LC_CTYPE=C grep -xFvf "$listfile"
 				else
 					cat -
 				fi
@@ -56,11 +57,6 @@ generate_metadata() {
 	# printed!)
 	NOVCS='. -path ./.git -prune -o -path ./.bzr -prune -o -path ./.hg -prune -o -path ./_darcs -prune -o'
 
-	# Keep the sort order the same at all times.
-	LC_COLLATE=C
-	export LC_COLLATE
-	unset LC_ALL
-
 	if [ "$VCS" = git ] || [ "$VCS" = hg ]; then
 		# These version control systems do not track directories,
 		# so empty directories must be stored specially.
@@ -86,7 +82,7 @@ generate_metadata() {
 }
 
 maybe_chmod_chown() {
-	if [ "$(which perl 2>/dev/null)" != "" ]; then
+	if command -v perl >/dev/null; then
 		perl -ne '
 			BEGIN { $q=chr(39) }
 			sub uidname {
@@ -128,7 +124,7 @@ maybe_chmod_chown() {
 		egid=$(id -g)
 		q="'"
 		while read x; do
-			stat=$(stat -c "%f:%u:%g:%a:%U:%G" $x)
+			stat=$(stat -c "%f:%u:%g:%a:%U:%G" "$x")
 			IFS=":" read mode uid gid perm uname gname <<EOF
 $stat
 EOF

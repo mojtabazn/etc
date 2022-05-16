@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's Wwan plugin
+Name=GNOME WWan support
 Exec=/usr/lib/gsd-wwan
 OnlyShowIn=GNOME;
 NoDisplay=true

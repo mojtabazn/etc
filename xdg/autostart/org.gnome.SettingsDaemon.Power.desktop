@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's power plugin
+Name=GNOME power management
 Exec=/usr/lib/gsd-power
 OnlyShowIn=GNOME;
 NoDisplay=true

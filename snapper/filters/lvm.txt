@@ -1,2 +1,0 @@
-/etc/lvm/archive/*
-/etc/lvm/backup/*

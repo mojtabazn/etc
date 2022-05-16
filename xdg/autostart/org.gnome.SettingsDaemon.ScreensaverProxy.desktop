@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's screensaver-proxy plugin
+Name=GNOME FreeDesktop screensaver
 Exec=/usr/lib/gsd-screensaver-proxy
 OnlyShowIn=GNOME;
 NoDisplay=true

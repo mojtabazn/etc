@@ -21,8 +21,6 @@
                     <Category>LXQt</Category>
                     <Category>X-LXQt</Category>
                     <!-- Include some optional components here -->
-                    <Filename>obconf-qt.desktop</Filename>
-                    <Filename>compton-conf.desktop</Filename>
                     <Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
                 </Or>
                 <Not>
@@ -47,12 +45,12 @@
     <Menu>
         <Name>Other settings</Name>
         <Directory>lxqt-settings-other.directory</Directory>
-        <OnlyUnallocated />
         <Include>
             <And>
                 <Category>Settings</Category>
                 <Not>
                     <Or>
+                        <Filename>pcmanfm-qt-desktop-pref.desktop</Filename>
                         <Category>LXQt</Category>
                         <Category>LXDE</Category>
                         <Category>System</Category>
@@ -65,6 +63,7 @@
     <Layout>
         <Menuname>LXQt settings</Menuname>
         <Menuname>System settings</Menuname>
+        <Menuname>Other settings</Menuname>
         <Merge type="menus"/>
     </Layout>
 </Menu>

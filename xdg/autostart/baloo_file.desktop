@@ -1,15 +1,18 @@
 [Desktop Entry]
 Type=Application
-Exec=baloo_file
+Exec=/usr/lib/baloo_file
 X-KDE-StartupNotify=false
 X-KDE-autostart-condition=baloofilerc:Basic Settings:Indexing-Enabled:true
 X-KDE-autostart-phase=0
 X-GNOME-Autostart-enabled=true
+X-systemd-skip=true
 OnlyShowIn=KDE;GNOME;Unity;XFCE
 NoDisplay=true
 
 Name=Baloo File Daemon
 Name[ar]=عفريت بالو للملفات
+Name[az]=Baloo File Monitorinq Xidməti
+Name[bg]=Файлов демон Baloo
 Name[bs]=Baloo datotečni demon
 Name[ca]=Dimoni de fitxers Baloo
 Name[ca@valencia]=Dimoni de fitxers Baloo
@@ -43,13 +46,15 @@ Name[ro]=Demon de fișiere Baloo
 Name[ru]=Служба мониторинга файлов для Baloo
 Name[sk]=Súborový démon Baloo
 Name[sl]=Ozadnji program za datoteke Baloo
+Name[sq]=Dejmoni i skedave Baloo
 Name[sr]=Демон Балуа
 Name[sr@ijekavian]=Демон Балуа
 Name[sr@ijekavianlatin]=Demon Balooa
 Name[sr@latin]=Demon Balooa
 Name[sv]=Baloo-fildemon
+Name[ta]=பாலூ பின்னணி சேவை
 Name[tg]=Раванди дохилии файли Baloo
-Name[tr]=Baloo Dosya Yardımcısı
+Name[tr]=Baloo Dosya Ardalan Süreci
 Name[uk]=Фонова служба обробки файлів Baloo
 Name[x-test]=xxBaloo File Daemonxx
 Name[zh_CN]=Baloo 文件进程

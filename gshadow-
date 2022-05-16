@@ -36,7 +36,7 @@ systemd-journal:x::
 avahi:!::
 polkitd:!::
 usbmux:!::
-tor:!::
+tor:!::mojtaba
 rtkit:!::
 ntp:!::
 git:!::
@@ -69,3 +69,5 @@ geoclue:!!::
 privoxy:!!::
 xmms2:!!::
 flatpak:!!::
+sgx:!*::
+systemd-oom:!*::

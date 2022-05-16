@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's sharing plugin
+Name=GNOME file sharing
 Exec=/usr/lib/gsd-sharing
 OnlyShowIn=GNOME;
 NoDisplay=true

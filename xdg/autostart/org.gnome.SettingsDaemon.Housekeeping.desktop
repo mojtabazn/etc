@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's housekeeping plugin
+Name=GNOME maintenance of expirable data
 Exec=/usr/lib/gsd-housekeeping
 OnlyShowIn=GNOME;
 NoDisplay=true

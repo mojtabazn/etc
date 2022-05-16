@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's print-notifications plugin
+Name=GNOME printer notifications
 Exec=/usr/lib/gsd-print-notifications
 OnlyShowIn=GNOME;
 NoDisplay=true

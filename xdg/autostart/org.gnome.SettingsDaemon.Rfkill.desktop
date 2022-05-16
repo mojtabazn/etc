@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's rfkill plugin
+Name=GNOME RFKill support
 Exec=/usr/lib/gsd-rfkill
 OnlyShowIn=GNOME;
 NoDisplay=true

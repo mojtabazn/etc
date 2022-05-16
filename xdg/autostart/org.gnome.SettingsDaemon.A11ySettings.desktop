@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's a11y-settings plugin
+Name=GNOME accessibility
 Exec=/usr/lib/gsd-a11y-settings
 OnlyShowIn=GNOME;
 NoDisplay=true

@@ -8,6 +8,11 @@
 631     # cups
 636     # ldaps
 664     # Secure ASF, used by IPMI on some cards
+749     # Kerberos V kadmin
+774     # rpasswd
+873     # rsyncd
 921     # lwresd
+992     # SSL-enabled telnet
 993     # imaps
+994     # irc
 995     # pops

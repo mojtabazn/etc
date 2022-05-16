@@ -1,5 +1,4 @@
-# Copyright © 2006 Shaun McCance <shaunm@gnome.org>
-# Copyright © 2013 Peter De Wachter <pdewacht@gmail.com>
+# Copyright © 2012 Christian Persch
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -12,10 +11,10 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Not bash or zsh?
-[ -n "$BASH_VERSION" -o -n "$ZSH_VERSION" ] || return 0
+[ -n "${BASH_VERSION:-}" -o -n "${ZSH_VERSION:-}" ] || return 0
 
 # Not an interactive shell?
 [[ $- == *i* ]] || return 0
@@ -23,44 +22,40 @@
 # Not running under vte?
 [ "${VTE_VERSION:-0}" -ge 3405 ] || return 0
 
-__vte_urlencode() (
-  # This is important to make sure string manipulation is handled
-  # byte-by-byte.
-  LC_ALL=C
-  str="$1"
-  while [ -n "$str" ]; do
-    safe="${str%%[!a-zA-Z0-9/:_\.\-\!\'\(\)~]*}"
-    printf "%s" "$safe"
-    str="${str#"$safe"}"
-    if [ -n "$str" ]; then
-      printf "%%%02X" "'$str"
-      str="${str#?}"
-    fi
-  done
-)
-
-# Print a warning so that anyone who's added this manually to his PS1 can adapt.
-# The function will be removed in a later version.
-__vte_ps1() {
-  echo -n "(__vte_ps1 is obsolete)"
-}
+# TERM not supported?
+case "$TERM" in
+    xterm*|vte*|gnome*) :;;
+    *) return 0 ;;
+esac
 
 __vte_osc7 () {
-  printf "\033]7;file://%s%s\033\\" "${HOSTNAME:-}" "$(__vte_urlencode "${PWD}")"
+  printf "\033]7;file://%s%s\033\\" "${HOSTNAME}" "$(/usr/lib/vte-urlencode-cwd)"
 }
 
 __vte_prompt_command() {
   local pwd='~'
   [ "$PWD" != "$HOME" ] && pwd=${PWD/#$HOME\//\~\/}
   pwd="${pwd//[[:cntrl:]]}"
-  printf "\033]0;%s@%s:%s\033\\%s" "${USER}" "${HOSTNAME%%.*}" "${pwd}" "$(__vte_osc7)"
+  printf "\033]0;%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${pwd}"
+  __vte_osc7
 }
 
-case "$TERM" in
-  xterm*|vte*)
-    [ -n "$BASH_VERSION" ] && PROMPT_COMMAND="__vte_prompt_command"
-    [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
-    ;;
-esac
+if [[ -n "${BASH_VERSION:-}" ]]; then
 
-true
+    # Newer bash versions support PROMPT_COMMAND as an array. In this case
+    # only add the __vte_osc7 function to it, and leave setting the terminal
+    # title to the outside setup.
+    # On older bash, we can only overwrite the whole PROMPT_COMMAND, so must
+    # use the __vte_prompt_command function which also sets the title.
+
+    if [[ "$(declare -p PROMPT_COMMAND 2>&1)" =~ "declare -a" ]]; then
+	PROMPT_COMMAND+=(__vte_osc7)
+    else
+	PROMPT_COMMAND="__vte_prompt_command"
+    fi
+
+elif [[ -n "${ZSH_VERSION:-}" ]]; then
+    precmd_functions+=(__vte_osc7)
+fi
+
+return 0

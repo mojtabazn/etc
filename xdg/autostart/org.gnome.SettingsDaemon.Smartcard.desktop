@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's smartcard plugin
+Name=GNOME smartcard
 Exec=/usr/lib/gsd-smartcard
 OnlyShowIn=GNOME;
 NoDisplay=true

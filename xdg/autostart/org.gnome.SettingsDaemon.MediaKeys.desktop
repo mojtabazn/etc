@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's media-keys plugin
+Name=GNOME keyboard shortcuts
 Exec=/usr/lib/gsd-media-keys
 OnlyShowIn=GNOME;
 NoDisplay=true

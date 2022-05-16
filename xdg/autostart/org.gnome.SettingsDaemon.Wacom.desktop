@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's wacom plugin
+Name=GNOME Wacom tablet support
 Exec=/usr/lib/gsd-wacom
 OnlyShowIn=GNOME;
 NoDisplay=true

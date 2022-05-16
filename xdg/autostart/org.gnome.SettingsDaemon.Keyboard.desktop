@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's keyboard plugin
+Name=GNOME keyboard configuration
 Exec=/usr/lib/gsd-keyboard
 OnlyShowIn=GNOME;
 NoDisplay=true

@@ -37,3 +37,5 @@ dhcp:x:993:993:DHCP daemon:/:/usr/bin/nologin
 geoclue:x:992:992:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
 privoxy:x:42:42:Privoxy:/:/usr/bin/nologin
 xmms2:x:991:991::/var/lib/xmms2:/usr/bin/nologin
+flatpak:x:990:990:Flatpak system helper:/:/usr/bin/nologin
+systemd-oom:x:988:988:systemd Userspace OOM Killer:/:/usr/bin/nologin
