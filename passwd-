@@ -39,3 +39,9 @@ privoxy:x:42:42:Privoxy:/:/usr/bin/nologin
 xmms2:x:991:991::/var/lib/xmms2:/usr/bin/nologin
 flatpak:x:990:990:Flatpak system helper:/:/usr/bin/nologin
 systemd-oom:x:988:988:systemd Userspace OOM Killer:/:/usr/bin/nologin
+deepin-anything-server:x:987:987:Deepin Anthing Server:/:/usr/bin/nologin
+deepin_anything_server:x:986:986:Deepin Anything Server:/:/usr/bin/nologin
+deepin-sound-player:x:983:983:Deepin Sound Player:/var/lib/deepin-sound-player:/usr/bin/nologin
+deepin-daemon:x:985:985:Deepin Daemon:/:/usr/bin/nologin
+dhcpcd:x:982:982:dhcpcd privilege separation:/:/usr/bin/nologin
+tss:x:981:981:tss user for tpm2:/:/usr/bin/nologin

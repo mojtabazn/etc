@@ -38,7 +38,7 @@
 
     <policy domain="resource" name="area" value="1GP"/>
 
-  Use the default system font unless overwridden by the application:
+  Use the default system font unless overridden by the application:
 
     <policy domain="system" name="font" value="/usr/share/fonts/favorite.ttf"/>
 
@@ -76,7 +76,8 @@
   <!-- <policy domain="cache" name="synchronize" value="True"/> -->
   <!-- <policy domain="cache" name="shared-secret" value="passphrase" stealth="true"/> -->
   <!-- <policy domain="system" name="max-memory-request" value="256MiB"/> -->
-  <!-- <policy domain="system" name="shred" value="2"/> -->
+  <!-- <policy domain="cache" name="synchronize" value="true"/> -->
+  <!-- <policy domain="system" name="shred" value="1"/> -->
   <!-- <policy domain="system" name="font" value="/path/to/unicode-font.ttf"/> -->
-  <policy domain="system" name="precision" value="6"/>
+  <policy domain="Undefined" rights="none"/>
 </policymap>

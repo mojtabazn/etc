@@ -6,6 +6,7 @@ OnlyShowIn=LXQt;
 X-LXQt-Module=true
 
 Name=Global Keyboard Shortcuts
+Name[ar]=اختصارات لوحة المفاتيح الشاملة
 Name[bg]=Клавишни комбинации
 Name[ca]=Dreceres de teclat globals
 Name[cs]=Globální klávesové zkratky
@@ -34,6 +35,7 @@ Name[pt_BR]=Tecla de Atalhos Globais
 Name[ro]=Taste rapide globale
 Name[ru]=Глобальные сочетания клавиш
 Name[sk]=Globálne klávesové skratky
+Name[sl]=Globalne bližnjične tipke
 Name[th]=ปุ่มลัดหลักต่างๆ
 Name[tr]=Genel Klavye Kısayolları
 Name[uk]=Глобальні клавіатурні скорочення

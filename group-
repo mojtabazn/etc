@@ -71,3 +71,10 @@ xmms2:x:991:
 flatpak:x:990:
 sgx:x:989:
 systemd-oom:x:988:
+deepin-anything-server:x:987:
+deepin_anything_server:x:986:
+deepin-daemon:x:985:
+seat:x:984:
+deepin-sound-player:x:983:
+dhcpcd:x:982:
+tss:x:981:

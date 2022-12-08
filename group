@@ -78,3 +78,5 @@ seat:x:984:
 deepin-sound-player:x:983:
 dhcpcd:x:982:
 tss:x:981:
+i2c:x:980:
+rpcuser:x:34:

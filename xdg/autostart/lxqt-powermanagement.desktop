@@ -8,6 +8,7 @@ X-LXQt-Need-Tray=true
 X-LXQt-Module=true
 
 Name=Power Management
+Name[ar]=إدارة الطاقة
 Name[bg]=Управление на захранването
 Name[ca]=Gestió d'energia
 Name[cs]=Správa napájení
