@@ -6,8 +6,8 @@
 
 
 
-# /dev/sda1 Arch Linux Root Drive
-UUID=c3a3a741-7f93-49fd-8c3c-9c6dd37c43f5           	/         	xfs		 noatime,space_cache,inode_cache	0 0
+#UUID=D248-472D                                          /boot           vfat             defaults,noatime                       0 0
+#UUID=de4fcf4b-dbb7-4a5a-8d90-7d1461bc5924           	/         	ext4		 noatime,space_cache,inode_cache	0 0
 # /dev/sda8	/var/cache/pacman/pkg	xfs	  	 subvol=pacpkg,autodefrag,noatime,noauto,x-systemd.automount				0 0
 
 
@@ -24,4 +24,10 @@ UUID=c3a3a741-7f93-49fd-8c3c-9c6dd37c43f5           	/         	xfs		 noatime,sp
 # /dev/sda5 This one is Sap Drive 
 #/dev/sda5           	none      	swap      	defaults  	0 0
 
+
+# /dev/nvme0n1p6
+UUID=de4fcf4b-dbb7-4a5a-8d90-7d1461bc5924	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p1 LABEL=SYSTEM
+UUID=D248-472D      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 

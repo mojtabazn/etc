@@ -1,6 +1,6 @@
 # GRUB boot loader configuration
 
-GRUB_DEFAULT="Arch Linux, with Linux linux-ck-nehalem"
+GRUB_DEFAULT="Arch Linux"
 GRUB_TIMEOUT="30"
 GRUB_DISTRIBUTOR="Arch"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
@@ -53,7 +53,7 @@ GRUB_THEME="/boot/grub/themes/starfield/theme.txt"
 # set 'GRUB_DEFAULT=saved' above.
 #GRUB_SAVEDEFAULT="false"
 
-
+GRUB_DISABLE_OS_PROBER=false
 
 
 
