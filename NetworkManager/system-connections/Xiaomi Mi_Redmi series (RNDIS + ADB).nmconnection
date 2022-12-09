@@ -1,0 +1,16 @@
+[connection]
+id=Xiaomi Mi/Redmi series (RNDIS + ADB)
+uuid=5672dec0-c072-5897-58ba-ab6aeb62b786
+type=ethernet
+interface-name=enp0s20f0u3
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
