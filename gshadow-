@@ -78,3 +78,5 @@ seat:!*::
 deepin-sound-player:!*::
 dhcpcd:!*::
 tss:!*::
+i2c:!*::
+rpcuser:!*::

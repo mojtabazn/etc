@@ -45,3 +45,5 @@ deepin-sound-player:!*:19128::::::
 deepin-daemon:!*:19128::::::
 dhcpcd:!*:19128::::::
 tss:!*:19128::::::
+rpcuser:!*:19334::::::
+guest:!:19337:0:99999:7:::
