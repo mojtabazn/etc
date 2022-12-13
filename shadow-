@@ -46,4 +46,4 @@ deepin-daemon:!*:19128::::::
 dhcpcd:!*:19128::::::
 tss:!*:19128::::::
 rpcuser:!*:19334::::::
-guest:!:19337:0:99999:7:::
+guest:$6$E4ZBsuK/3Gxn3Vo4$fZCU8gRg.PZcHOzCmsmWARAVjJs0j.5cNhYT7gVl0BLfd3Qxcwbjp2/YQNvUtu5CxNpX1b0daOcYIfN8OSpfm1:19337:0:99999:7:::

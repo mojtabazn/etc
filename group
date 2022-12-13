@@ -81,3 +81,4 @@ tss:x:981:
 i2c:x:980:
 rpcuser:x:34:
 guest:x:1001:
+nvidia-persistenced:x:143:
