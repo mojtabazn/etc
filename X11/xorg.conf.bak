@@ -1,13 +1,14 @@
 Section "ServerLayout"
         Identifier "layout"
-        Screen 0 "intel"
-        Inactive "nvidia"
+        Screen 0 "nvidia"
+        Inactive "intel"
         Option "AllowNVIDIAGPUScreens"
 EndSection
 
 Section "Device"
         Identifier "nvidia"
         Driver "nvidia"
+	BusID "PCI:0:1:0"
 EndSection
 
 Section "Screen"
