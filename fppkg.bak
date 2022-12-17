@@ -1,0 +1,27 @@
+[Defaults]
+ConfigVersion=5
+LocalRepository={UserDir}.fppkg/
+BuildDir={LocalRepository}build/
+ArchivesDir={LocalRepository}archives/
+CompilerConfigDir=/etc/fppkg
+RemoteMirrors=https://www.freepascal.org/repository/mirrors.xml
+RemoteRepository=auto
+CompilerConfig=default
+FPMakeCompilerConfig=default
+Downloader=FPC
+InstallRepository=user
+
+[Repository]
+Name=fpc
+Description=Packages which are installed along with the Free Pascal Compiler
+Path=/usr/lib/fpc/{CompilerVersion}/
+Prefix=/usr/lib/fpc/../../
+
+[IncludeFiles]
+FileMask=/etc/fppkgconf.d/*.conf
+
+[Repository]
+Name=user
+Description=User-installed packages
+Path={LocalRepository}lib/fpc/{CompilerVersion}
+Prefix={LocalRepository}

@@ -1,0 +1,5 @@
+[Defaults]
+ConfigVersion=5
+Compiler=/usr/lib/fpc/../../bin/fpc
+OS=Linux
+CPU=x86_64
