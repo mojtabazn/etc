@@ -99,6 +99,9 @@
  <Filename>in.lsp_plug.lsp_plugins_sc_mb_gate_mono.desktop</Filename>
  <Filename>in.lsp_plug.lsp_plugins_sc_mb_gate_ms.desktop</Filename>
  <Filename>in.lsp_plug.lsp_plugins_sc_mb_gate_stereo.desktop</Filename>
+ <Filename>in.lsp_plug.lsp_plugins_noise_generator_x1.desktop</Filename>
+ <Filename>in.lsp_plug.lsp_plugins_noise_generator_x2.desktop</Filename>
+ <Filename>in.lsp_plug.lsp_plugins_noise_generator_x4.desktop</Filename>
  <Filename>in.lsp_plug.lsp_plugins_oscillator_mono.desktop</Filename>
  <Filename>in.lsp_plug.lsp_plugins_oscilloscope_x1.desktop</Filename>
  <Filename>in.lsp_plug.lsp_plugins_oscilloscope_x2.desktop</Filename>
