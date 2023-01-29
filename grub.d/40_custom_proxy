@@ -1,7 +1,0 @@
-#!/bin/sh
-#THIS IS A GRUB PROXY SCRIPT
-'/etc/grub.d/proxifiedScripts/custom' | /etc/grub.d/bin/grubcfg_proxy "-'SUBMENU' as 'Advanced options for Ubuntu'{-'Advanced options for Ubuntu'/*, -'Advanced options for Ubuntu'/'Ubuntu, with Linux 3.18.7-ck1-mzn'~d5807aac6ca949df3766cad4606004ef~, -'Advanced options for Ubuntu'/'Ubuntu, with Linux 3.18.7-ck1-mzn (recovery mode)'~53ef0d247505efb0bfbdf10a906082e9~, -'Advanced options for Ubuntu'/'Ubuntu, with Linux 3.13.0-46-generic'~2096a035ef95e8518dee6331c457a64e~, -'Advanced options for Ubuntu'/'Ubuntu, with Linux 3.13.0-46-generic (recovery mode)'~3d7d2e1f026853b55857762c5fed72f5~}
-+*
-+#text
-+'Windows 10 Iso File'~9c0882a70e8a9c9eb6946a6db3595d2c~
-"

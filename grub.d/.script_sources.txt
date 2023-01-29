@@ -1,6 +1,0 @@
-"current_name";"default_name"
-"proxifiedScripts/linux";"10_linux"
-"31_linux_xen";"20_linux_xen"
-"proxifiedScripts/custom";"40_custom"
-"43_custom";"41_custom"
-"01_grub-customizer_menu_color_helper";"6_grub-customizer_menu_color_helper"
