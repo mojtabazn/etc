@@ -11,3 +11,11 @@ application/pdf; /usr/bin/xdg-open %s
 application/postscript ; /usr/bin/xdg-open %s
 
 text/html; /usr/bin/xdg-open %s ; copiousoutput
+application/x-crossover-exe; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-exe::install '%s'; test=test -n "$DISPLAY"
+application/octet-stream; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-exe::install '%s'; test=test -n "$DISPLAY"
+x-content/win32-software; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-exe::install '%s'; test=test -n "$DISPLAY"
+application/x-win-lnk; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-lnk::run '%s'; test=test -n "$DISPLAY"
+application/x-crossover-lnk; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-lnk::run '%s'; test=test -n "$DISPLAY"
+application/x-ms-shortcut; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-lnk::run '%s'; test=test -n "$DISPLAY"
+application/x-crossover-msi; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-msi::install '%s'; test=test -n "$DISPLAY"
+application/x-crossover-cxarchive; /opt/cxoffice/support/desktopdata/cxoffice-0/cxassoc/Scripts/cxoffice-0:application_x-crossover-cxarchive::restore '%s'; test=test -n "$DISPLAY"
