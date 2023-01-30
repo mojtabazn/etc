@@ -85,3 +85,4 @@ nvidia-persistenced:x:143:
 cups:x:209:
 rabbitmq:x:197:
 saned:x:979:
+partimag:x:110:
