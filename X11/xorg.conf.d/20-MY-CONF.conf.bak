@@ -4,20 +4,6 @@ Section "ServerLayout"
         Inactive "nvidia"
         Option "AllowNVIDIAGPUScreens"
 EndSection
-Section "Monitor"
-    # HorizSync source: edid, VertRefresh source: edid
-    Identifier     "Monitor0"
-    VendorName     "Unknown"
-    ModelName      "TMX TL160ADMP11-0"
-    HorizSync       394.0 - 394.0
-    VertRefresh     60.0 - 240.0
-    Option         "DPMS"
-       	Option		"CustomEDID" "eDP1:/etc/X11/edid.bin"
-	Option		"IgnoreEDID" "false"
-	Option		"UseEDID" "true"
-EndSection
-
-
 
 Section "Device"
         Identifier "nvidia"
@@ -26,10 +12,8 @@ Section "Device"
 EndSection
 
 Section "Screen"
-        Identifier "Screen0"
-        Device "intel"
-        Monitor        "Monitor0"
-        Option         "metamodes" "2560x1600_240 +0+0"
+        Identifier "nvidia"
+        Device "nvidia"
 EndSection
 
 Section "Device"
@@ -40,7 +24,7 @@ Section "Device"
         Option "TearFree" "1"
 #       Option "DRI" "3"
         Option      "DRI"  "iris"
-#        Option      "AccelMethod"  "uxa"
+        Option      "AccelMethod"  "uxa"
 EndSection
 
 Section "Screen"
