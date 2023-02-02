@@ -1,7 +1,7 @@
 # Written by com.deepin.daemon.Grub2
 GRUB_BACKGROUND="/boot/grub/themes/deepin/background.jpg"
-GRUB_CMDLINE_LINUX="drm.edid_firmware=eDP1:edid/edid.bin"
-GRUB_CMDLINE_LINUX_DEFAULT=" nvidia nvidia_modeset nvidia_uvm nvidia_drm loglevel=3 quiet"
+GRUB_CMDLINE_LINUX=""
+GRUB_CMDLINE_LINUX_DEFAULT="nvidia_drm.modeset=1  loglevel=3 quiet"
 GRUB_DEFAULT=0
 GRUB_DISABLE_OS_PROBER=false
 GRUB_DISABLE_RECOVERY=true
