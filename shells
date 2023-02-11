@@ -8,3 +8,5 @@
 # End of file
 /bin/zsh
 /usr/bin/zsh
+/bin/rbash
+/usr/bin/rbash
