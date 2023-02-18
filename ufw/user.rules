@@ -13,6 +13,8 @@
 :ufw-after-logging-forward - [0:0]
 :ufw-logging-deny - [0:0]
 :ufw-logging-allow - [0:0]
+:ufw-user-limit - [0:0]
+:ufw-user-limit-accept - [0:0]
 ### RULES ###
 
 ### tuple ### allow any any 0.0.0.0/0 any 192.168.0.0/24 in
@@ -30,4 +32,10 @@
 -A ufw-logging-deny -j LOG --log-prefix "[UFW BLOCK] " -m limit --limit 3/min --limit-burst 10
 -A ufw-logging-allow -j LOG --log-prefix "[UFW ALLOW] " -m limit --limit 3/min --limit-burst 10
 ### END LOGGING ###
+
+### RATE LIMITING ###
+-A ufw-user-limit -m limit --limit 3/minute -j LOG --log-prefix "[UFW LIMIT BLOCK] "
+-A ufw-user-limit -j REJECT
+-A ufw-user-limit-accept -j ACCEPT
+### END RATE LIMITING ###
 COMMIT
