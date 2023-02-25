@@ -10954,8 +10954,10 @@ faircom-db      19790/tcp
 iec-104-sec     19998/tcp
 dnp-sec         19999/tcp
 dnp-sec         19999/udp
+dnp-sec         19999/sctp
 dnp             20000/tcp
 dnp             20000/udp
+dnp             20000/sctp
 microsan        20001/tcp
 microsan        20001/udp
 commtact-http   20002/tcp
