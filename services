@@ -1366,6 +1366,8 @@ apex-mesh         912/tcp
 apex-mesh         912/udp
 apex-edge         913/tcp
 apex-edge         913/udp
+rift-lies         914/udp
+rift-ties         915/udp
 rndc              953/tcp
 ftps-data         989/tcp
 ftps-data         989/udp
@@ -3848,6 +3850,8 @@ simple-tx-rx     2257/tcp
 simple-tx-rx     2257/udp
 rcts             2258/tcp
 rcts             2258/udp
+bid-serv         2259/tcp
+bid-serv         2259/udp
 apc-2260         2260/tcp
 apc-2260         2260/udp
 comotionmaster   2261/tcp
