@@ -3,11 +3,13 @@ id=Xiaomi Mi/Redmi series (RNDIS + ADB)
 uuid=5672dec0-c072-5897-58ba-ab6aeb62b786
 type=ethernet
 interface-name=enp0s20f0u3
-timestamp=1679371875
+timestamp=1679634559
 
 [ethernet]
 
 [ipv4]
+dns=8.8.8.8;8.8.4.4;
+ignore-auto-dns=true
 method=auto
 
 [ipv6]
