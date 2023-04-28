@@ -2,5 +2,5 @@
 status = enabled
 incoming = reject
 outgoing = allow
-routed = allow
+routed = disabled
 
