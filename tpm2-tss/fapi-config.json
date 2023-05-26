@@ -5,5 +5,7 @@
      "system_dir": "/var/lib/tpm2-tss/system/keystore",
      "tcti": "",
      "system_pcrs" : [],
-     "log_dir" : "/run/tpm2-tss/eventlog/"
+     "log_dir" : "/run/tpm2-tss/eventlog/",
+     "firmware_log_file": "/dev/null",
+     "ima_log_file": "/dev/null"
 }
