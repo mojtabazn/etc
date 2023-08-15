@@ -134,4 +134,5 @@ wesp         141 WESP
 rohc         142 ROHC
 ethernet     143 Ethernet
 aggfrag      144 AGGFRAG
+nsh          145 NSH
 reserved     255 Reserved
