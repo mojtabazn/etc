@@ -3,7 +3,7 @@ id=Mit
 uuid=aad6d70f-4477-4579-9e3e-3ae83bd16bcf
 type=wifi
 interface-name=wlp44s0
-timestamp=1698901720
+timestamp=1698898721
 
 [wifi]
 mode=infrastructure
@@ -11,7 +11,6 @@ ssid=Mit
 
 [ipv4]
 dns=8.8.8.8;4.2.2.4;
-ignore-auto-dns=true
 method=auto
 
 [ipv6]
