@@ -85,3 +85,5 @@ nvidia-persistenced:!*::
 cups:!*::
 rabbitmq:!*::
 saned:!*::
+partimag:!*::
+groups:!*::

@@ -86,3 +86,5 @@ cups:x:209:
 rabbitmq:x:197:
 saned:x:979:
 partimag:x:110:
+groups:x:978:
+_talkd:x:977:

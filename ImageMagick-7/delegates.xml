@@ -78,7 +78,7 @@
   <delegate decode="html" command="&quot;html2ps&quot; -U -o &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="ilbm" command="&quot;ilbmtoppm&quot; &quot;%i&quot; &gt; &quot;%o&quot;"/>
   <delegate decode="jpg" encode="lep" mode="encode" command="&quot;lepton&quot; &quot;%i&quot; &quot;%o&quot;"/>
-  <delegate decode="jxr" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.pnm&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.pnm&quot; &quot;%o&quot;"/>
+  <delegate decode="jxr" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.tiff&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.tiff&quot; &quot;%o&quot;"/>
   <delegate decode="lep" mode="decode" command="&quot;lepton&quot; &quot;%i&quot; &quot;%o&quot;"/>
   <delegate decode="miff" encode="show" spawn="True" command="&quot;magick&quot; display -immutable -delay 0 -title &quot;%M&quot; &quot;%i&quot;"/>
   <delegate decode="miff" encode="win" stealth="True" spawn="True" command="&quot;magick&quot; display -immutable -delay 0 -title &quot;%M&quot; &quot;%i&quot;"/>
@@ -91,8 +91,8 @@
   <delegate decode="pnm" encode="trace" command="&quot;potrace&quot; --svg --output &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="png" encode="webp" command="&quot;cwebp&quot; -quiet -q %Q &quot;%i&quot; -o &quot;%o&quot;"/>
   <delegate decode="pnm" encode="ilbm" mode="encode" command="&quot;ppmtoilbm&quot; -24if &quot;%i&quot; &gt; &quot;%o&quot;"/>
-  <delegate decode="bmp" encode="jxr" command="/usr/bin/mv &quot;%i&quot; &quot;%i.bmp&quot;; &quot;JxrEncApp&quot; -i &quot;%i.bmp&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.bmp&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
-  <delegate decode="bmp" encode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.bmp&quot;; &quot;JxrEncApp&quot; -i &quot;%i.bmp&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.bmp&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
+  <delegate decode="tiff" encode="jxr" command="/usr/bin/mv &quot;%i&quot; &quot;%i.tiff&quot;; &quot;JxrEncApp&quot; -i &quot;%i.tiff&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.tiff&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
+  <delegate decode="tiff" encode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.tiff&quot;; &quot;JxrEncApp&quot; -i &quot;%i.tiff&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.tiff&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
   <delegate decode="ppt" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="pptx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="ps" encode="prt" command="&quot;lpr&quot; &quot;%i&quot;"/>
@@ -110,7 +110,7 @@
   <delegate decode="svg:decode" stealth="True" command="&quot;inkscape&quot; &quot;%s&quot; --export-filename=&quot;%s&quot; --export-dpi=&quot;%s&quot; --export-background=&quot;%s&quot; --export-background-opacity=&quot;%s&quot; &gt; &quot;%s&quot; 2&gt;&amp;1"/>
   <delegate decode="tiff" encode="text" command="&quot;tesseract&quot; &quot;%i&quot; &quot;%u&quot;; /usr/bin/mv &quot;%u.txt&quot; &quot;%o&quot;"/>
   <delegate decode="tiff" encode="launch" mode="encode" command="&quot;gimp&quot; &quot;%i&quot;"/>
-  <delegate decode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.bmp&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.bmp&quot; &quot;%o&quot;"/>
+  <delegate decode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.tiff&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.tiff&quot; &quot;%o&quot;"/>
   <delegate decode="webp" command="&quot;dwebp&quot; -pam &quot;%i&quot; -o &quot;%o&quot;"/>
   <delegate decode="xls" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="xlsx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>

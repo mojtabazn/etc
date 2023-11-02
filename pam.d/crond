@@ -1,10 +1,11 @@
-auth      required    pam_unix.so
-auth      required    pam_env.so
-
-account   required    pam_access.so
-account   required    pam_unix.so
-account   required    pam_time.so
-
+#
+# The PAM configuration file for the cron daemon
+#
+#
+# Although no PAM authentication is called, auth modules
+# are used for credential setting
+auth       include    system-auth
+account    required   pam_access.so
+account    include    system-auth
 session    required   pam_loginuid.so
-session   required    pam_limits.so
-session   required    pam_unix.so
+session    include    system-auth
