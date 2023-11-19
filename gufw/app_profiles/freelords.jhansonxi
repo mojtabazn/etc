@@ -1,7 +1,0 @@
-[FreeLords]
-title=FreeLords
-description=A clone of Warlords
-ports=9155/tcp6
-categories=Games;Strategy;
-reference=netstat -nap|grep java
-

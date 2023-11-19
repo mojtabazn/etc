@@ -1,5 +1,0 @@
-[LPD]
-title=LPD
-description=LPD server
-ports=515/tcp
-categories=Network;Services;

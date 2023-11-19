@@ -1,7 +1,0 @@
-[PulseAudio]
-title=PulseAudio
-description=Networked sound server
-ports=4713/tcp
-categories=Network;Audio Video;Audio;
-reference=[http://www.gentoo-wiki.info/PulseAudio Gentoo Wiki Archives - PulseAudio]
-

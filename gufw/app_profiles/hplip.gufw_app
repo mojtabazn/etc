@@ -1,5 +1,0 @@
-[HPLIP]
-title=HPLIP
-description=HP Linux Imaging and Printing
-ports=161|162|9100
-categories=Network;Printing;
