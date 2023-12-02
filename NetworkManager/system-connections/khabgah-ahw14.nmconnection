@@ -1,15 +1,16 @@
 [connection]
 id=khabgah-ahw14
-uuid=58267a77-7e06-4347-b0ac-5122ba517ca4
+uuid=381384e6-8f7f-48f0-921d-f6b0694ab2de
 type=wifi
 interface-name=wlp44s0
 
 [wifi]
+cloned-mac-address=preserve
+mac-address=4C:02:20:82:7D:D1
 mode=infrastructure
 ssid=khabgah-ahw14
 
 [wifi-security]
-auth-alg=open
 key-mgmt=wpa-psk
 psk=Enter1367@
 
