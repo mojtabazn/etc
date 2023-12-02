@@ -3,9 +3,11 @@ id=Mit
 uuid=aad6d70f-4477-4579-9e3e-3ae83bd16bcf
 type=wifi
 interface-name=wlp44s0
-timestamp=1700410367
+timestamp=1701529737
 
 [wifi]
+cloned-mac-address=preserve
+mac-address=4C:02:20:82:7D:D1
 mode=infrastructure
 ssid=Mit
 
