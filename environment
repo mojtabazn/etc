@@ -3,3 +3,4 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+MANGOHUD=1
