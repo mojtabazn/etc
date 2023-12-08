@@ -1,6 +1,6 @@
 ## Iran
-Server = http://mirror.arvancloud.ir/archlinux/$repo/os/$arch
-Server = https://mirror.arvancloud.ir/archlinux/$repo/os/$arch
+#Server = http://mirror.arvancloud.ir/archlinux/$repo/os/$arch
+#Server = https://mirror.arvancloud.ir/archlinux/$repo/os/$arch
 Server = http://mirror.bardia.tech/archlinux/$repo/os/$arch
 Server = https://mirror.bardia.tech/archlinux/$repo/os/$arch
 Server = http://mirror.hostiran.ir/archlinux/$repo/os/$arch
