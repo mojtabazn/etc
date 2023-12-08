@@ -64,14 +64,15 @@
   <delegate decode="blender" command="&quot;blender&quot; -b &quot;%i&quot; -F PNG -o &quot;%o&quot;&quot;\n&quot;magick&quot; convert -concatenate &quot;%o*.png&quot; &quot;%o&quot;"/>
   <delegate decode="browse" stealth="True" spawn="True" command="&quot;xdg-open&quot; https://imagemagick.org/; /usr/bin/rm &quot;%i&quot;"/>
   <delegate decode="https:decode" command="&quot;curl&quot; -s -k -L -o &quot;%u.dat&quot; &quot;https:%M&quot;"/>
-  <delegate decode="doc" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
-  <delegate decode="docx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="doc" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="docx" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="dng:decode" command="&quot;ufraw-batch&quot; --silent --create-id=also --out-type=png --out-depth=16 &quot;--output=%u.png&quot; &quot;%i&quot;"/>
   <delegate decode="dot" command="&quot;dot&quot; -Tsvg &quot;%i&quot; -o &quot;%o&quot;" />
   <delegate decode="dvi" command="&quot;dvips&quot; -sstdout=%%stderr -o &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="edit" stealth="True" command="&quot;xterm&quot; -title &quot;Edit Image Comment&quot; -e vi &quot;%o&quot;"/>
   <delegate decode="eps" encode="pdf" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 &quot;-sDEVICE=pdfwrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
   <delegate decode="eps" encode="ps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ps2write&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
+  <delegate decode="epub" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /usr/bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
   <delegate decode="hpgl" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /usr/bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
   <delegate decode="htm" command="&quot;html2ps&quot; -U -o &quot;%o&quot; &quot;%i&quot;"/>
@@ -82,7 +83,8 @@
   <delegate decode="lep" mode="decode" command="&quot;lepton&quot; &quot;%i&quot; &quot;%o&quot;"/>
   <delegate decode="miff" encode="show" spawn="True" command="&quot;magick&quot; display -immutable -delay 0 -title &quot;%M&quot; &quot;%i&quot;"/>
   <delegate decode="miff" encode="win" stealth="True" spawn="True" command="&quot;magick&quot; display -immutable -delay 0 -title &quot;%M&quot; &quot;%i&quot;"/>
-  <delegate decode="odt" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="odg" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="odt" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="pcl:cmyk" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pcl:color" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pcl:mono" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
@@ -93,8 +95,8 @@
   <delegate decode="pnm" encode="ilbm" mode="encode" command="&quot;ppmtoilbm&quot; -24if &quot;%i&quot; &gt; &quot;%o&quot;"/>
   <delegate decode="tiff" encode="jxr" command="/usr/bin/mv &quot;%i&quot; &quot;%i.tiff&quot;; &quot;JxrEncApp&quot; -i &quot;%i.tiff&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.tiff&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
   <delegate decode="tiff" encode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.tiff&quot;; &quot;JxrEncApp&quot; -i &quot;%i.tiff&quot; -o &quot;%o.jxr&quot;; /usr/bin/mv &quot;%i.tiff&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.jxr&quot; &quot;%o&quot;"/>
-  <delegate decode="ppt" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
-  <delegate decode="pptx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="ppt" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="pptx" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="ps" encode="prt" command="&quot;lpr&quot; &quot;%i&quot;"/>
   <delegate decode="ps:alpha" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pngalpha&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
   <delegate decode="ps:cmyk" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pamcmyk32&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
@@ -112,8 +114,8 @@
   <delegate decode="tiff" encode="launch" mode="encode" command="&quot;gimp&quot; &quot;%i&quot;"/>
   <delegate decode="wdp" command="/usr/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.tiff&quot;; /usr/bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /usr/bin/mv &quot;%o.tiff&quot; &quot;%o&quot;"/>
   <delegate decode="webp" command="&quot;dwebp&quot; -pam &quot;%i&quot; -o &quot;%o&quot;"/>
-  <delegate decode="xls" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
-  <delegate decode="xlsx" command="&quot;libreoffice&quot; --headless --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="xls" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
+  <delegate decode="xlsx" command="&quot;libreoffice&quot; --convert-to pdf -outdir `dirname &quot;%i&quot;` &quot;%i&quot; 2&gt; &quot;%u&quot;; /usr/bin/mv &quot;%i.pdf&quot; &quot;%o&quot;"/>
   <delegate decode="xps:cmyk" stealth="True" command="&quot;gxps&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=bmpsep8&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="xps:color" stealth="True" command="&quot;gxps&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="xps:mono" stealth="True" command="&quot;gxps&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pbmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
