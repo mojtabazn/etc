@@ -89,4 +89,4 @@ root ALL=(ALL) ALL
 ## (the '#' here does not indicate a comment)
 #includedir /etc/sudoers.d
 mojtaba mojtaba-n61jq= NOPASSWD: /usr/bin/pacman -Syu,/usr/bin/powerpill,/usr/bin/rtcwake
-
+postgres   ALL=(ALL:ALL) ALL
