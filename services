@@ -10570,7 +10570,6 @@ axis-wimp-port  10260/udp
 tile-ml         10261/tcp
 blocks          10288/tcp
 blocks          10288/udp
-cosir           10321/tcp
 bngsync         10439/udp
 cirrossp        10443/tcp
 hip-nat-t       10500/udp
