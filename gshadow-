@@ -87,3 +87,4 @@ rabbitmq:!*::
 saned:!*::
 partimag:!*::
 groups:!*::
+_talkd:!*::
