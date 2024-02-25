@@ -2,6 +2,7 @@
 id=khabgah-ahw14
 uuid=381384e6-8f7f-48f0-921d-f6b0694ab2de
 type=wifi
+autoconnect=false
 interface-name=wlp44s0
 
 [wifi]
