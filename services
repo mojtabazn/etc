@@ -8693,6 +8693,7 @@ amc              5506/udp
 psl-management   5507/tcp
 matter           5540/tcp
 matter           5540/udp
+qftest-licserve  5543/tcp
 cbus             5550/tcp
 sgi-eventmond    5553/tcp
 sgi-eventmond    5553/udp
@@ -9862,7 +9863,6 @@ infi-async       8067/tcp
 ucs-isc          8070/tcp
 gadugadu         8074/tcp
 gadugadu         8074/udp
-mles             8077/tcp
 http-alt         8080/tcp
 http-alt         8080/udp
 sunproxyadmin    8081/tcp
