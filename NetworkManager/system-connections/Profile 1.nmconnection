@@ -1,0 +1,16 @@
+[connection]
+id=Profile 1
+uuid=93296805-65a8-4ff9-b159-d89a23629ef7
+type=ethernet
+interface-name=enp0s20f0u3
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
