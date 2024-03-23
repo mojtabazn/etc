@@ -8,11 +8,6 @@ interface-name=wlan0
 mode=infrastructure
 ssid=AndroidAP_2667
 
-[wifi-security]
-auth-alg=open
-key-mgmt=wpa-psk
-psk=s0ko0t!!
-
 [ipv4]
 method=auto
 
