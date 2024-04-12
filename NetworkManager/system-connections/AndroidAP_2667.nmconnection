@@ -3,8 +3,11 @@ id=AndroidAP_2667
 uuid=dc6f19e2-0463-482b-a15e-f66b5fbecba7
 type=wifi
 interface-name=wlan0
+timestamp=1712843482
 
 [wifi]
+cloned-mac-address=random
+mac-address-randomization=2
 mode=infrastructure
 ssid=AndroidAP_2667
 

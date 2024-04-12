@@ -2,8 +2,9 @@
 id=khabgah-ahw14
 uuid=1e5571fa-6eb5-4216-a33e-c8d15c5bf73f
 type=wifi
+autoconnect=false
 interface-name=wlan0
-timestamp=1712373159
+timestamp=1712910777
 
 [wifi]
 mode=infrastructure
