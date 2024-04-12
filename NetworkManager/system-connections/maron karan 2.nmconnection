@@ -1,0 +1,18 @@
+[connection]
+id=maron karan 2
+uuid=d53fde95-03f0-4cc4-9424-a9cdd042e220
+type=wifi
+interface-name=wlan0
+
+[wifi]
+mode=infrastructure
+ssid=maron karan 2
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]

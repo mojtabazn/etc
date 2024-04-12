@@ -1,0 +1,18 @@
+[connection]
+id=maron karan kar farma
+uuid=0d609209-6eab-4c52-b4ee-954dd5657923
+type=wifi
+interface-name=wlan0
+
+[wifi]
+mode=infrastructure
+ssid=maron karan kar farma
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
