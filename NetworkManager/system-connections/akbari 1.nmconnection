@@ -1,16 +1,19 @@
 [connection]
-id=AndroidAP_2667 1
-uuid=ff8bdf74-1626-431f-a4e8-b63b3e494423
+id=akbari 1
+uuid=c78bb84c-adb4-46ff-b64a-143c4c2db73e
 type=wifi
 interface-name=wlp44s0
-timestamp=1714626205
 
 [wifi]
 mode=infrastructure
-ssid=AndroidAP_2667
+ssid=akbari
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=2180376960
 
 [ipv4]
-dns=1.1.1.1;8.8.8.8;
 method=auto
 
 [ipv6]
