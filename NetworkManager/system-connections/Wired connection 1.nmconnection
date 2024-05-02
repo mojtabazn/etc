@@ -1,0 +1,17 @@
+[connection]
+id=Wired connection 1
+uuid=49546b8e-98fb-36bb-978c-a0468e91f74d
+type=ethernet
+autoconnect-priority=-999
+interface-name=enp0s20f0u3
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=disabled
+
+[proxy]
