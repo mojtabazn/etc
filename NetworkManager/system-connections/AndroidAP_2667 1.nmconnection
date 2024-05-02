@@ -1,0 +1,18 @@
+[connection]
+id=AndroidAP_2667 1
+uuid=ff8bdf74-1626-431f-a4e8-b63b3e494423
+type=wifi
+interface-name=wlp44s0
+
+[wifi]
+mode=infrastructure
+ssid=AndroidAP_2667
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
