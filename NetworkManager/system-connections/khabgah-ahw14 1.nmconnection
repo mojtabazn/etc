@@ -1,0 +1,23 @@
+[connection]
+id=khabgah-ahw14 1
+uuid=155b86eb-7350-443b-85f0-d88265b6ac02
+type=wifi
+interface-name=wlp44s0
+
+[wifi]
+mode=infrastructure
+ssid=khabgah-ahw14
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=Enter1367@
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
