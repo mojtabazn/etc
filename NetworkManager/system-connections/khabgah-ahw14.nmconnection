@@ -4,9 +4,10 @@ uuid=1e5571fa-6eb5-4216-a33e-c8d15c5bf73f
 type=wifi
 autoconnect=false
 interface-name=wlan0
-timestamp=1712910777
+timestamp=1714052460
 
 [wifi]
+cloned-mac-address=4C:02:20:82:7D:D1
 mode=infrastructure
 ssid=khabgah-ahw14
 
