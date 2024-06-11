@@ -240,6 +240,7 @@ maybe chmod 0444 'ca-certificates/extracted/cadir/Entrust_Root_Certification_Aut
 maybe chmod 0444 'ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem'
+maybe chmod 0444 'ca-certificates/extracted/cadir/FIRMAPROFESIONAL_CA_ROOT-A_WEB.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/GTS_Root_R1.pem'
