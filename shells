@@ -12,3 +12,4 @@
 /usr/bin/rbash
 /usr/bin/bash
 /usr/bin/sh
+/usr/bin/systemd-home-fallback-shell
