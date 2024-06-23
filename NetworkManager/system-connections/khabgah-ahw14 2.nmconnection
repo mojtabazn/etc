@@ -2,6 +2,7 @@
 id=khabgah-ahw14 2
 uuid=b00e4e6b-ba63-4d43-a76b-9a7e6d1a9651
 type=wifi
+autoconnect=false
 interface-name=wlp44s0
 
 [wifi]
@@ -9,7 +10,6 @@ mode=infrastructure
 ssid=khabgah-ahw14
 
 [wifi-security]
-auth-alg=open
 key-mgmt=wpa-psk
 psk=Enter1367@
 

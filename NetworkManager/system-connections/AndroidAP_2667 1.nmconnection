@@ -1,16 +1,16 @@
 [connection]
 id=AndroidAP_2667 1
-uuid=ff8bdf74-1626-431f-a4e8-b63b3e494423
+uuid=486c5e44-ce25-4ac1-9b57-94a1ba7d3cd1
 type=wifi
-interface-name=wlp44s0
-timestamp=1714626205
+interface-name=wlan0
 
 [wifi]
+cloned-mac-address=random
+mac-address-randomization=2
 mode=infrastructure
 ssid=AndroidAP_2667
 
 [ipv4]
-dns=1.1.1.1;8.8.8.8;
 method=auto
 
 [ipv6]
