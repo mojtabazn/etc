@@ -29,5 +29,5 @@
 UUID=de4fcf4b-dbb7-4a5a-8d90-7d1461bc5924	/         	ext4      	rw,relatime	0 1
 
 # /dev/nvme0n1p1 LABEL=SYSTEM
-#UUID=D248-472D      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=D248-472D      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
