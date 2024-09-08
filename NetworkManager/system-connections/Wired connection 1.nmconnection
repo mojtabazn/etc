@@ -1,0 +1,16 @@
+[connection]
+id=Wired connection 1
+uuid=92f6f925-83f1-46c3-acc6-08bf48f4221f
+type=ethernet
+interface-name=enp0s20f0u3
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
