@@ -1,6 +1,0 @@
-VMWARE_INSTALLER="/usr/lib/vmware-installer/3.1.0"
-
-VERSION="3.1.0" # For backwards compatibility
-VMISVERSION="3.1.0"
-VMISBUILDNUM="21581411"
-VMISPYVERSION="310"

@@ -1,1 +1,0 @@
-/usr/lib/vmware-installer/3.1.0/vmware-uninstall-downgrade
