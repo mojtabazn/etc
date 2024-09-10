@@ -1,7 +1,0 @@
-[gpsd]
-title=gpsd
-description=Interface daemon for GPS receivers
-ports=2947/tcp
-categories=Network;Geography;
-reference=[http://gpsd.berlios.de/gpsd.html gpsd man page]
-
