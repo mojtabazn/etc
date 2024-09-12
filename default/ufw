@@ -8,7 +8,7 @@ IPV6=yes
 
 # Set the default input policy to ACCEPT, DROP, or REJECT. Please note that if
 # you change this you will most likely want to adjust your rules.
-DEFAULT_INPUT_POLICY="DROP"
+DEFAULT_INPUT_POLICY="REJECT"
 
 # Set the default output policy to ACCEPT, DROP, or REJECT. Please note that if
 # you change this you will most likely want to adjust your rules.
