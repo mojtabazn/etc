@@ -30,7 +30,7 @@ systemd-journal-remote:!!:16518::::::
 lightdm:!:16519:0:99999:7:::
 gdm:!:16519:0:99999:7:::
 sddm:!:16532::::::
-postgres:!:16538:0:99999:7:::
+postgres:$6$fqYhwID9mRquE2uQ$zycrFDxrfe.91fh801mjaCrByD3KXRKYNymlLuqSffyKVJ3zYFzEhZCDxQcrp2QaJ7N3bu7oC8U.x09BEE6vO0:19701:0:99999:7:::
 mysql:!:16636::::::
 systemd-coredump:!!:16927::::::
 dhcp:!!:18185:::::1:
@@ -52,3 +52,4 @@ cups:!*:19343::::::
 rabbitmq:!*:19343::::::
 saned:!*:19386::::::
 partimag:!*:19387::::::
+_talkd:!*:19663::::::
