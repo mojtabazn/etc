@@ -90,3 +90,5 @@ groups:x:978:
 _talkd:x:977:
 gamemode:x:976:mojtaba
 adbusers:x:975:
+cockpit-ws:x:974:
+cockpit-wsinstance:x:973:

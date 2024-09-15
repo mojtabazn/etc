@@ -90,3 +90,5 @@ groups:!*::
 _talkd:!*::
 gamemode:!*::mojtaba
 adbusers:!*::
+cockpit-ws:!*::
+cockpit-wsinstance:!*::

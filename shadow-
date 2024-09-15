@@ -53,3 +53,5 @@ rabbitmq:!*:19343::::::
 saned:!*:19386::::::
 partimag:!*:19387::::::
 _talkd:!*:19663::::::
+cockpit-ws:!*:19979::::::
+cockpit-wsinstance:!*:19979::::::
