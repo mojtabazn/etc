@@ -28,16 +28,47 @@ case "$TERM" in
     *) return 0 ;;
 esac
 
+__vte_termprop_signal() {
+    local errsv="$?"
+    printf '\033]666;%s!\033\\' "$1"
+    return $errsv
+}
+
+__vte_termprop_set() {
+    local errsv="$?"
+    printf '\033]666;%s=%s\033\\' "$1" "$2"
+    return $errsv
+}
+
+__vte_termprop_reset() {
+    local errsv="$?"
+    printf '\033]666;%s\033\\' "$1"
+    return $errsv
+}
+
 __vte_osc7 () {
+    local errsv="$?"
     printf "\033]7;file://%s%s\033\\" "${HOSTNAME}" "$(/usr/lib/vte-urlencode-cwd)"
+    return $errsv
+}
+
+__vte_precmd() {
+    local errsv="$?"
+    __vte_termprop_set "vte.shell.postexec" "$?"
+    __vte_termprop_signal "vte.shell.precmd"
+    return $errsv;
 }
 
 __vte_prompt_command() {
+    local errsv="$?"
+    __vte_termprop_set "vte.shell.postexec" "$errsv"
+    __vte_osc7
     local pwd='~'
     [ "$PWD" != "$HOME" ] && pwd=${PWD/#$HOME\//\~\/}
     pwd="${pwd//[[:cntrl:]]}"
     printf "\033]0;%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${pwd}"
-    __vte_osc7
+    __vte_termprop_signal "vte.shell.precmd"
+    return $errsv
 }
 
 if [[ -n "${BASH_VERSION:-}" ]]; then
@@ -49,10 +80,12 @@ if [[ -n "${BASH_VERSION:-}" ]]; then
     # use the __vte_prompt_command function which also sets the title.
 
     if [[ "$(declare -p PROMPT_COMMAND 2>&1)" =~ "declare -a" ]]; then
-	PROMPT_COMMAND+=(__vte_osc7)
+        PROMPT_COMMAND+=(__vte_precmd)
+        PROMPT_COMMAND+=(__vte_osc7)
     else
-	PROMPT_COMMAND="__vte_prompt_command"
+        PROMPT_COMMAND="__vte_prompt_command"
     fi
+    PS0=$(__vte_termprop_signal "vte.shell.preexec")
 
     # Shell integration
     if [[ "$PS1" != *\]133\;* ]]; then
@@ -85,6 +118,7 @@ if [[ -n "${BASH_VERSION:-}" ]]; then
 
 elif [[ -n "${ZSH_VERSION:-}" ]]; then
     precmd_functions+=(__vte_osc7)
+    precmd_functions+=(__vte_precmd)
 
     # Shell integration (see the bash counterpart for more detailed comments)
     if [[ "$PS1" != *\]133\;* ]]; then
@@ -103,7 +137,9 @@ elif [[ -n "${ZSH_VERSION:-}" ]]; then
         # in $preexec, followed by all the functions hooked up in the
         # $preexec_functions array. Ensure that we are the very first.
         __vte_preexec() {
+            local errsv="$?"
             printf '\e]133;C\e\\\r'
+            return $errsv
         }
         preexec_functions=(__vte_preexec $preexec $preexec_functions)
         unset preexec
