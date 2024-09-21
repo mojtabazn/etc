@@ -5,7 +5,6 @@ type=wifi
 autoconnect=false
 
 [wifi]
-cloned-mac-address=F2:92:CA:6E:CC:1B
 mode=infrastructure
 ssid=khabgah-ahw14
 
