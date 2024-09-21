@@ -3,11 +3,9 @@ id=khabgah-ahw14
 uuid=1e5571fa-6eb5-4216-a33e-c8d15c5bf73f
 type=wifi
 autoconnect=false
-interface-name=wlan0
-timestamp=1719082134
 
 [wifi]
-cloned-mac-address=4C:02:20:82:7D:D1
+cloned-mac-address=F2:92:CA:6E:CC:1B
 mode=infrastructure
 ssid=khabgah-ahw14
 
@@ -19,7 +17,7 @@ psk=Enter1367@
 method=auto
 
 [ipv6]
-addr-gen-mode=default
+addr-gen-mode=stable-privacy
 method=auto
 
 [proxy]
