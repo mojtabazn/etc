@@ -8,6 +8,10 @@ cloned-mac-address=0A:31:2A:E5:A1:DF
 mode=infrastructure
 ssid=AndroidAP_2885
 
+[wifi-security]
+key-mgmt=wpa-psk
+psk=mznmznmzn
+
 [ipv4]
 method=auto
 
