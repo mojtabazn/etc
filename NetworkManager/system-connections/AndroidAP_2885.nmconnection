@@ -1,10 +1,10 @@
 [connection]
 id=AndroidAP_2885
-uuid=09612be0-dd59-41e1-9f78-0afcc61ac9c6
+uuid=c2a93519-08a5-4b4e-aa68-278ded2a813e
 type=wifi
 
 [wifi]
-cloned-mac-address=0A:31:2A:E5:A1:DF
+cloned-mac-address=46:83:D4:F6:3C:D8
 mode=infrastructure
 ssid=AndroidAP_2885
 
