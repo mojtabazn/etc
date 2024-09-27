@@ -92,3 +92,4 @@ gamemode:!*::mojtaba
 adbusers:!*::
 cockpit-ws:!*::
 cockpit-wsinstance:!*::
+alpm:!*::

@@ -24,7 +24,7 @@ lock:x:54:
 uuidd:x:68:
 dbus:x:81:
 network:x:90:
-video:x:91:sddm
+video:x:91:cosmic-greeter,greeter,sddm
 audio:x:92:mpd,xmms2
 optical:x:93:
 floppy:x:94:
@@ -93,3 +93,5 @@ adbusers:x:975:
 cockpit-ws:x:974:
 cockpit-wsinstance:x:973:
 alpm:x:972:
+cosmic-greeter:x:971:
+greeter:x:970:
