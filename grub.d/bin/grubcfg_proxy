@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ -e /usr/lib/grub-customizer/grubcfg-proxy ] ; then
+    cat | /usr/lib/grub-customizer/grubcfg-proxy "$@"
+else
+    cat
+fi

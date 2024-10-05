@@ -2,14 +2,17 @@
 GRUB_BACKGROUND="/boot/grub/themes/deepin/background.jpg"
 GRUB_CMDLINE_LINUX=""
 GRUB_CMDLINE_LINUX_DEFAULT="nowatchdog zswap.enabled=0 noplymouth nvidia_drm.modeset=1 nvidia_drm.fbdev=1 ibt=off loglevel=3  quiet  drm.edid_firmware=edid/edid.bin"
-GRUB_DEFAULT=0
-GRUB_DISABLE_OS_PROBER=false
-GRUB_DISABLE_RECOVERY=true
+GRUB_DEFAULT="0"
+GRUB_DISABLE_OS_PROBER="false"
+GRUB_DISABLE_RECOVERY="true"
 GRUB_DISTRIBUTOR="Arch"
-GRUB_GFXMODE=1920x1080x32
-GRUB_GFXPAYLOAD_LINUX=keep
+GRUB_GFXMODE="1920x1080x32"
+GRUB_GFXPAYLOAD_LINUX="keep"
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
-GRUB_TERMINAL_INPUT=console
-GRUB_TIMEOUT=50
-GRUB_TIMEOUT_STYLE=menu
-GRUB_THEME="/usr/share/grub/themes/XeroLayan/theme.txt"
+GRUB_TERMINAL_INPUT="console"
+GRUB_TIMEOUT="50"
+GRUB_TIMEOUT_STYLE="menu"
+#GRUB_THEME="/boot/grub/themes/deepin/theme.txt"
+
+export GRUB_COLOR_NORMAL="light-gray/black"
+export GRUB_COLOR_HIGHLIGHT="red/black"
