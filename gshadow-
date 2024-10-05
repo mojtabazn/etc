@@ -23,7 +23,7 @@ lock:::
 uuidd:x::
 dbus:x::
 network:x::
-video:x::sddm
+video:x::cosmic-greeter,greeter,sddm
 audio:::mpd,xmms2
 optical:::
 floppy:x::
@@ -93,3 +93,5 @@ adbusers:!*::
 cockpit-ws:!*::
 cockpit-wsinstance:!*::
 alpm:!*::
+cosmic-greeter:!*::
+greeter:!*::
