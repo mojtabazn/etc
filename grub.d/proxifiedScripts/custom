@@ -11,7 +11,7 @@ menuentry "Arch Linux, with Linux linux-cachyos" --class arch --class gnu-linux 
 		insmod fat
 		search --no-floppy --fs-uuid --set=root D248-472D
 		echo	'Loading Linux linux-cachyos ...'
-		linux	/vmlinuz-linux-cachyos root=UUID=de4fcf4b-dbb7-4a5a-8d90-7d1461bc5924 rw  nowatchdog zswap.enabled=0 noplymouth nomodeset i915.modeset=0 nouveau.modeset=0 nvidia_drm.modeset=1 nvidia_drm.fbdev=1 ibt=off loglevel=3  quiet  drm.edid_firmware=edid/edid.bin
+		linux	/vmlinuz-linux-cachyos root=UUID=de4fcf4b-dbb7-4a5a-8d90-7d1461bc5924 rw  nowatchdog zswap.enabled=0 noplymouth i915.force_probe=!46a6xe.force_probe=46a6 nvidia_drm.modeset=1 nvidia_drm.fbdev=1 ibt=off loglevel=3  quiet  drm.edid_firmware=edid/edid.bin
 		echo	'Loading initial ramdisk ...'
 		initrd	/intel-ucode.img /initramfs-linux-cachyos.img
 }
