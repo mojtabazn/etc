@@ -95,4 +95,4 @@ cockpit-wsinstance:!*::
 alpm:!*::
 cosmic-greeter:!*::
 greeter:!*::
-vboxusers:!*::
+vboxusers:!*::mojtaba

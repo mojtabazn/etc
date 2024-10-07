@@ -96,3 +96,4 @@ alpm:x:972:
 cosmic-greeter:x:971:
 greeter:x:970:
 vboxusers:x:108:mojtaba
+test:x:1002:

@@ -56,3 +56,5 @@ _talkd:x:977:977:User for legacy talkd server:/:/usr/bin/nologin
 cockpit-ws:x:974:974:User for cockpit web service:/:/usr/bin/nologin
 cockpit-wsinstance:x:973:973:User for cockpit-ws instances:/:/usr/bin/nologin
 alpm:x:972:972:Arch Linux Package Management:/:/usr/bin/nologin
+cosmic-greeter:x:971:971:Cosmic Greeter Account:/var/lib/cosmic-greeter:/usr/bin/nologin
+greeter:x:970:970:greetd greeter user:/:/bin/bash
