@@ -4,7 +4,7 @@ uuid=c2a93519-08a5-4b4e-aa68-278ded2a813e
 type=wifi
 
 [wifi]
-cloned-mac-address=46:83:D4:F6:3C:D8
+cloned-mac-address=62:5B:03:D4:5D:47
 mode=infrastructure
 ssid=AndroidAP_2885
 
