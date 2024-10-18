@@ -14,4 +14,4 @@ GRUB_TIMEOUT="50"
 GRUB_TIMEOUT_STYLE="menu"
 
 export GRUB_COLOR_NORMAL="light-gray/black"
-export GRUB_COLOR_HIGHLIGHT="red/black"GRUB_THEME="/usr/share/grub/themes/XeroLayan/theme.txt"
+GRUB_THEME="/usr/share/grub/themes/XeroLayan/theme.txt"
