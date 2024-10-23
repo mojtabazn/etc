@@ -4,9 +4,14 @@
 # See also [man debuginfod-client-config] for other environment variables
 # such as $DEBUGINFOD_MAXSIZE, $DEBUGINFOD_MAXTIME, $DEBUGINFOD_PROGRESS.
 
+prefix="/usr"
 if [ -z "$DEBUGINFOD_URLS" ]; then
-    prefix="/usr"
-    DEBUGINFOD_URLS=$(cat /dev/null "/etc/debuginfod"/*.urls 2>/dev/null | tr '\n' ' ')
+    DEBUGINFOD_URLS=$(cat /dev/null "/etc/debuginfod"/*.urls 2>/dev/null | tr '\n' ' ' || :)
     [ -n "$DEBUGINFOD_URLS" ] && export DEBUGINFOD_URLS || unset DEBUGINFOD_URLS
-    unset prefix
 fi
+
+if [ -z "$DEBUGINFOD_IMA_CERT_PATH" ]; then
+    DEBUGINFOD_IMA_CERT_PATH=$(cat /dev/null "/etc/debuginfod"/*.certpath 2>/dev/null | tr '\n' ':' || :)
+    [ -n "$DEBUGINFOD_IMA_CERT_PATH" ] && export DEBUGINFOD_IMA_CERT_PATH || unset DEBUGINFOD_IMA_CERT_PATH
+fi
+unset prefix
