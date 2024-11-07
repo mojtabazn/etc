@@ -6,12 +6,12 @@
 
 prefix="/usr"
 if [ -z "$DEBUGINFOD_URLS" ]; then
-    DEBUGINFOD_URLS=$(cat /dev/null "/etc/debuginfod"/*.urls 2>/dev/null | tr '\n' ' ' || :)
+    DEBUGINFOD_URLS=$(find "/etc/debuginfod" -name "*.urls" -print0 2>/dev/null | xargs -0 cat 2>/dev/null | tr '\n' ' ' || :)
     [ -n "$DEBUGINFOD_URLS" ] && export DEBUGINFOD_URLS || unset DEBUGINFOD_URLS
 fi
 
 if [ -z "$DEBUGINFOD_IMA_CERT_PATH" ]; then
-    DEBUGINFOD_IMA_CERT_PATH=$(cat /dev/null "/etc/debuginfod"/*.certpath 2>/dev/null | tr '\n' ':' || :)
+    DEBUGINFOD_IMA_CERT_PATH=$(find "/etc/debuginfod" -name "*.certpath" -print0 2>/dev/null | xargs -0 cat 2>/dev/null | tr '\n' ':' || :)
     [ -n "$DEBUGINFOD_IMA_CERT_PATH" ] && export DEBUGINFOD_IMA_CERT_PATH || unset DEBUGINFOD_IMA_CERT_PATH
 fi
 unset prefix
