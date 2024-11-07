@@ -10,7 +10,7 @@ ssid=AndroidAP_2885
 
 [wifi-security]
 key-mgmt=wpa-psk
-psk=mznmznmzn
+psk=nzmnzmnzm
 
 [ipv4]
 method=auto
