@@ -157,6 +157,8 @@ writefile () {
 	ignore "openvpn/openvpn-status.log"
 	ignore "cups/subscriptions.conf"
 	ignore "cups/subscriptions.conf.O"
+	ignore "cups/printers.conf"
+	ignore "cups/printers.conf.O"
 	ignore "fake-hwclock.data"
 	ignore "check_mk/logwatch.state"
 	nl

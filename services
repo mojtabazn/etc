@@ -4904,6 +4904,8 @@ f5-globalsite    2792/tcp
 f5-globalsite    2792/udp
 initlsmsad       2793/tcp
 initlsmsad       2793/udp
+urp              2794/tcp
+urp              2794/udp
 livestats        2795/tcp
 livestats        2795/udp
 ac-tech          2796/tcp
@@ -8946,6 +8948,9 @@ fis              5912/sctp
 aoc-acars        5913/tcp
 aoc-acars        5913/udp
 ads-c            5913/sctp
+ipsdtls          5914/tcp
+ipsdtls          5914/udp
+ipsdtls          5914/sctp
 indy             5963/tcp
 indy             5963/udp
 mppolicy-v5      5968/tcp
