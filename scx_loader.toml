@@ -1,5 +1,5 @@
 default_sched = "scx_bpfland"
-default_mode = "LowLatency"
+default_mode = "PowerSave"
 
 [scheds.scx_rusty]
 auto_mode = []
