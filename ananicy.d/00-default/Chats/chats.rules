@@ -25,6 +25,7 @@
 { "name": "webcord", "type": "Chat" }
 { "name": "armcord", "type": "Chat" }
 { "name": "vesktop.bin", "type": "Chat" }
+{ "name": "vesktop", "type": "Chat" }
 
 # https://hexchat.github.io
 { "name": "hexchat", "type": "Chat" }
@@ -33,6 +34,9 @@
 { "name": "kotatogram-desktop", "type": "Chat" }
 { "name": "teams", "type": "Chat" }
 { "name": "kotatogram-desktop.bin", "type": "Chat" }
+
+# 64gram: https://64gr.am/
+{ "name": "64gram-desktop", "type": "Chat" }
 
 # http://vk.com/messenger
 { "name": "caprine", "type": "Chat" }
@@ -48,6 +52,9 @@
 # https://www.mozilla.org/en-US/thunderbird/
 { "name": "thunderbird", "type": "Chat" }
 { "name": ".thunderbird-wrapped", "type": "Chat" }
+
+# https://github.com/Betterbird/thunderbird-patches
+{ "name": "betterbird", "type": "Chat" }
 
 # Franz and its forks: https://meetfranz.com/
 { "name": "ferdi", "type": "Chat" }

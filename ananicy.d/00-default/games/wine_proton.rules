@@ -85,6 +85,9 @@
 # https://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/
 { "name": "Ace7Game.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/1336490/Against_the_Storm/
+{ "name": "Against the Storm.exe", "type": "Game" }
+
 ### B ###
 
 # https://store.steampowered.com/app/1086940/Baldurs_Gate_3/
@@ -153,6 +156,10 @@
 # https://store.steampowered.com/app/582660/Black_Desert/
 { "name": "blackdesert64.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/2358720/Black_Myth_Wukong/
+{ "name": "b1-Win64-Shipping.exe", "type": "Game" }
+{ "name": "b1.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/3810/BloodRayne_Legacy/
 { "name": "rayne.exe", "type": "Game" }
 
@@ -201,6 +208,9 @@
 
 # https://store.steampowered.com/app/1942280/Brotato/
 { "name": "Brotato.exe", "type": "Game" }
+
+# https://steamcommunity.com/app/24740/
+{ "name": "burnoutparadise.exe", "type": "Game" }
 
 ### C ###
 
@@ -515,6 +525,9 @@
 # https://store.steampowered.com/app/1551360/Forza_Horizon_5/
 { "name": "ForzaHorizon5.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/1293830/Forza_Horizon_4/
+{ "name": "ForzaHorizon4.exe", "type": "Game" }
+
 ### G ###
 
 # GenshinImpact International version
@@ -620,6 +633,9 @@
 
 # https://store.steampowered.com/app/863550/HITMAN_2/
 { "name": "HITMAN2.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/632300/Hobo_Tough_Life/
+{ "name": "HoboRPG.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/367520/Hollow_Knight/
 { "name": "hollow_knight.exe", "type": "Game" }
@@ -919,7 +935,7 @@
 # Pathfinder: Wrath of the Righteous https://store.steampowered.com/app/1184370
 { "name": "Wrath.exe", "type": "Game" }
 
-# Pro Evolution Soccer 2013 
+# Pro Evolution Soccer 2013
 { "name": "pes2013.exe", "type": "Game" }
 
 # Pro Evolution Soccer 6
@@ -965,6 +981,10 @@
 # https://store.steampowered.com/app/617290/Remnant_From_the_Ashes/
 { "name": "Remnant-Win64-Shipping.exe", "type": "Game" }
 { "name": "Remnant.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/1282100/REMNANT_II/
+{ "name": "Remnant2-Win64-Shipping.exe", "type": "Game" }
+{ "name": "Remnant2.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard
 { "name": "re7.exe", "type": "Game" }
@@ -1067,7 +1087,7 @@
 { "name": "sin.exe", "type": "Game" }
 
 # Smite https://www.smitegame.com/
-{ "name": "CoherentUI_Host", "type": "Game" }
+{ "name": "CoherentUI_Host.exe", "type": "Game" }
 
 # Sniper Elite 5 https://store.steampowered.com/app/1029690
 { "name": "sniper5_dx12.exe", "type": "Game" }
@@ -1095,6 +1115,10 @@
 # https://store.steampowered.com/app/20510/STALKER_Clear_Sky/
 # https://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/
 { "name": "xrEngine.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
+{ "name": "Stalker2-Win64-Shipping.exe", "type": "Game" }
+{ "name": "Stalker2.exe", "type": "Game" }
 
 # Star Citizen - https://robertsspaceindustries.com
 { "name": "StarCitizen.exe", "type": "Game" }
@@ -1215,6 +1239,9 @@
 
 ### T ###
 
+# https://store.steampowered.com/app/3070070/TCG_Card_Shop_Simulator/
+{ "name": "Card Shop Simulator.exe", "type": "Game" }
+
 # TERA Online MMORPG Game
 { "name": "TERA.exe", "type": "Game" }
 
@@ -1242,7 +1269,6 @@
 # https://store.steampowered.com/app/2429640/THRONE_AND_LIBERTY/
 # this is from open beta test, beware
 { "name": "TL.exe", "type": "Game" }
-{ "name": "EasyAntiCheat_EOS_Setup.exe", "type": "Game" }
 { "name": "UnrealCEFSubProcess.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1237970/Titanfall_2/
@@ -1266,7 +1292,7 @@
 { "name": "Troy.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/
-{ "name": "TotalWarhammer3", "type": "Game" }
+{ "name": "Warhammer3.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/851100/Touhou_Luna_Nights/
 { "name": "touhou_luna_nights.exe", "type": "Game" }
@@ -1344,6 +1370,10 @@
 
 # That's the actual command of the game (the argument vector that is displayed in top and htop is different).
 { "name": "worldofwarships", "type": "Game" }
+
+# https://worldoftanks.com/
+{ "name": "wgc.exe", "type": "BG_CPUIO" }
+{ "name": "WorldOfTanks.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1000410/WRATH_Aeon_of_Ruin/
 { "name": "wrath-sdl.exe", "type": "Game" }
