@@ -90,6 +90,9 @@
 
 ### B ###
 
+# https://store.steampowered.com/app/2379780/Balatro/
+{ "name": "Balatro.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1086940/Baldurs_Gate_3/
 { "name": "bg3_dx11.exe", "type": "Game" }
 { "name": "bg3.exe", "type": "Game" }
@@ -528,6 +531,9 @@
 # https://store.steampowered.com/app/1293830/Forza_Horizon_4/
 { "name": "ForzaHorizon4.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/2420110/Horizon_Forbidden_West_Complete_Edition/
+{ "name": "HorizonForbiddenWest.exe", "type": "Game" }
+
 ### G ###
 
 # GenshinImpact International version
@@ -922,7 +928,9 @@
 { "name": "PartyAnimals.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/238960/Path_of_Exile/
+# https://store.steampowered.com/app/2694490/Path_of_Exile_2/
 # Steam version
+{ "name": "PathOfExile_x64Steam.exe", "type": "Game" }
 { "name": "PathOfExileSteam.exe", "type": "Game" }
 
 # Standalone version
@@ -953,6 +961,9 @@
 
 ### Q ###
 ### R ###
+
+# https://store.steampowered.com/app/548570/RAGE_2/
+{ "name": "RAGE2.exe", "type": "Game" }
 
 # Red Dead Redemption 2 https://store.steampowered.com/app/1174180/
 { "name": "RDR2.exe", "type": "Game" }
@@ -1024,6 +1035,10 @@
 
 # https://store.steampowered.com/app/209100/Resident_Evil_Operation_Raccoon_City
 { "name": "RaccoonCity.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/1681430/RoboCop_Rogue_City/
+{ "name": "RoboCop.exe", "type": "Game" }
+{ "name": "RoboCop-Win64-Shipping.exe", "type": "Game" }
 
 # Rocket League via Proton
 { "name": "RocketLeague.exe", "type": "Game" }
@@ -1128,6 +1143,10 @@
 
 # https://store.steampowered.com/app/9900/Star_Trek_Online/
 { "name": "GameClient.exe", "type": "Game" }
+
+# Star Wars: Battlefront II - https://store.epicgames.com/de/p/star-wars-battlefront-2
+{ "name": "starwarsbattlefrontii.exe", "type": "Game" }
+{ "name": "starwarsbattlefrontii_trial.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1332010/Stray/
 { "name": "Stray.exe", "type": "Game" }
@@ -1305,6 +1324,9 @@
 
 ### U ###
 
+# https://store.steampowered.com/app/1229490/ULTRAKILL/
+{ "name": "ULTRAKILL.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/250520/UnderRail/
 { "name": "underrail.exe", "type": "Game" }
 
@@ -1379,6 +1401,9 @@
 { "name": "wrath-sdl.exe", "type": "Game" }
 { "name": "wrath.exe", "type": "Game" }
 
+https://store.steampowered.com/app/1911610/Windblown/
+{ "name": "Windblown.exe", "type": "Game" }
+
 ### X ###
 ### Y ###
 
@@ -1409,4 +1434,8 @@
 { "name": "ys6_win.exe", "type": "Game" }
 
 ### Z ###
+
+# https://zenless.hoyoverse.com/
+{ "name": "ZenlessZoneZero.exe", "type": "Game" }
+
 ### Non-latin titles ###
