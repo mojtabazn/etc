@@ -12,4 +12,4 @@ password	optional	pam_gnome_keyring.so use_authtok
 session		optional	pam_keyinit.so force revoke
 session		include		system-login
 session		optional	pam_gnome_keyring.so auto_start
-session		optional	pam_kwallet5.so auto_start
+session		optional	pam_kwallet5.so auto_start force_run
