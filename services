@@ -2,10 +2,6 @@
 
 tcpmux              1/tcp
 tcpmux              1/udp
-compressnet         2/tcp
-compressnet         2/udp
-compressnet         3/tcp
-compressnet         3/udp
 rje                 5/tcp
 rje                 5/udp
 echo                7/tcp
@@ -5874,6 +5870,8 @@ sysopt           3281/tcp
 sysopt           3281/udp
 datusorb         3282/tcp
 datusorb         3282/udp
+net-assistant    3283/tcp
+net-assistant    3283/udp
 4talk            3284/tcp
 4talk            3284/udp
 plato            3285/tcp
@@ -6642,6 +6640,8 @@ roverlog         3677/tcp
 roverlog         3677/udp
 ipr-dglt         3678/tcp
 ipr-dglt         3678/udp
+newton-dock      3679/tcp
+newton-dock      3679/udp
 npds-tracker     3680/tcp
 npds-tracker     3680/udp
 bts-x73          3681/tcp
@@ -9671,6 +9671,7 @@ cuseeme          7648/tcp
 cuseeme          7648/udp
 rome             7663/tcp
 rome             7663/udp
+authoritygate    7668/tcp
 imqstomp         7672/tcp
 imqstomps        7673/tcp
 imqtunnels       7674/tcp
@@ -11462,6 +11463,8 @@ rs-status       45002/tcp
 synctest        45045/tcp
 invision-ag     45054/tcp
 invision-ag     45054/udp
+witsnet         45185/tcp
+witsnet         45185/udp
 cloudcheck      45514/tcp
 cloudcheck-ping 45514/udp
 eba             45678/tcp
