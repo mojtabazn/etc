@@ -46,7 +46,7 @@ wireshark:!::mojtaba
 sambashare:!::mojtaba,nobody
 polipo:!::
 rpc:!::
-kvm:!::
+kvm:!::libvirt-qemu
 colord:!::
 systemd-journal-gateway:!::
 systemd-timesync:!::
@@ -96,3 +96,6 @@ alpm:!*::
 cosmic-greeter:!*::
 greeter:!*::
 vboxusers:!*::mojtaba
+libvirt:!*::
+libvirt-qemu:!*::
+libvirtdbus:!*::
