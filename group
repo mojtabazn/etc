@@ -99,3 +99,4 @@ systemd-journal-remote:x:998:
 git:x:999:
 sambashare:x:1000:mojtaba,nobody
 guest:x:1001:
+virtlogin:x:966:
