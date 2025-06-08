@@ -44,9 +44,9 @@
 #   5. SpeedTestResult { speed: 178.8 KB/s; elapsed: 849.675813ms; connection_time: 1.368111929s } -> https://us.cachyos.org/repo/
 #   6. SpeedTestResult { speed: 119.8 KB/s; elapsed: 959.34719ms; connection_time: 3.936717357s } -> https://at.cachyos.org/repo/
 # FINISHED AT: 2025-06-08 04:55:30.601354381 +03:30
-Server = https://cdn.cachyos.org/repo/$arch/$repo
-Server = https://aur.cachyos.org/repo/$arch/$repo
-Server = https://mirror.fast0ne.com/repo/$arch/$repo
-Server = https://mirror.cachyos.org/repo/$arch/$repo
-Server = https://us.cachyos.org/repo/$arch/$repo
-Server = https://at.cachyos.org/repo/$arch/$repo
+Server = https://cdn.cachyos.org/repo/$arch_v4/$repo
+Server = https://aur.cachyos.org/repo/$arch_v4/$repo
+Server = https://mirror.fast0ne.com/repo/$arch_v4/$repo
+Server = https://mirror.cachyos.org/repo/$arch_v4/$repo
+Server = https://us.cachyos.org/repo/$arch_v4/$repo
+Server = https://at.cachyos.org/repo/$arch_v4/$repo
