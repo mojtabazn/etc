@@ -1,0 +1,17 @@
+[connection]
+id=Wired connection 1
+uuid=2fe9fa4f-ee00-38d9-ae94-2252b66c4e3d
+type=ethernet
+autoconnect-priority=-100
+
+[ethernet]
+
+[ipv4]
+dns=8.8.8.8;
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
