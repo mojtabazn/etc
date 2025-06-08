@@ -18,7 +18,6 @@
 # Discord: https://discord.com/
 { "name": "Discord", "type": "Chat" }
 { "name": ".Discord-wrappe", "type": "Chat" }
-{ "name": ".Discord-wrapped", "type": "Chat" }
 { "name": "DiscordCanary", "type": "Chat" }
 { "name": "DiscordDevelopment", "type": "Chat" }
 { "name": "DiscordPTB", "type": "Chat" }
@@ -51,7 +50,6 @@
 
 # https://www.mozilla.org/en-US/thunderbird/
 { "name": "thunderbird", "type": "Chat" }
-{ "name": ".thunderbird-wrapped", "type": "Chat" }
 
 # https://github.com/Betterbird/thunderbird-patches
 { "name": "betterbird", "type": "Chat" }
@@ -60,3 +58,11 @@
 { "name": "ferdi", "type": "Chat" }
 { "name": "ferdium", "type": "Chat" }
 { "name": "franz", "type": "Chat" }
+
+# Matrix: https://matrix.org/
+{ "name": "cinny-desktop", "type": "Chat" }
+{ "name": "element-desktop", "type": "Chat" }
+{ "name": "fluffychat", "type": "Chat" }
+{ "name": "fractal", "type": "Chat" }
+{ "name": "neochat", "type": "Chat" }
+{ "name": "nheko", "type": "Chat" }
