@@ -1,0 +1,9 @@
+#!/bin/sh
+#THIS IS A GRUB PROXY SCRIPT
+'/etc/grub.d/proxifiedScripts/linux' | /etc/grub.d/bin/grubcfg_proxy "-*
+-#text
+-'Arch Linux'~54fe70b0577ed5a94c5acc48b2b35db9~
+-'Advanced options for Arch Linux'/*
+-'Advanced options for Arch Linux'/'Arch Linux, with Linux linux-cachyos'~712f2c03ccf7e6f0ade705e5a52bb49b~
++'Advanced options for Arch Linux'/'Arch Linux, with Linux linux'~220a4c60e9674a4891c0a9999b6bd4cb~
+"
