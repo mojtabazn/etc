@@ -1,8 +1,9 @@
 [connection]
 id=akbari
-uuid=00074f3b-e50c-4db9-a6ad-cc097dd876c5
+uuid=1a815093-c7ab-4736-801f-15b4fb97136e
 type=wifi
 interface-name=wlan0
+permissions=user:mojtaba:;
 
 [wifi]
 mode=infrastructure
@@ -11,7 +12,9 @@ ssid=akbari
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
-psk=2180376960
+leap-password-flags=1
+psk-flags=1
+wep-key-flags=1
 
 [ipv4]
 method=auto
