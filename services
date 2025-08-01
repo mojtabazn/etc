@@ -7875,6 +7875,7 @@ awacs-ice        4488/udp
 ipsec-nat-t      4500/tcp
 ipsec-nat-t      4500/udp
 a25-fap-fgw      4502/sctp
+m-bus-oms        4503/udp
 armagetronad     4534/udp
 ehs              4535/tcp
 ehs              4535/udp
