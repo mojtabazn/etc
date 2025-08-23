@@ -3,15 +3,29 @@ set -e
 
 pl="/var/cache/etckeeper/packagelist"
 
-# Parent process is etckeeper
-# (Only procps ps is currently supported, others will fail,
-# so this may end up empty.)
-ETCKEEPER_PID=$( ps --no-headers -o ppid "${PPID}" 2>/dev/null | sed 's/^ *//' )
+# Find the pid whose parent is the command line that the user ran.
+# Depending on how the highlevel package manager starts etckeeper,
+# this can be either the parent process, or the parent of the parent
+# process.
+case $HIGHLEVEL_PACKAGE_MANAGER in
+	pacman|zypper)
+		ETCKEEPER_PID="${PPID}"
+	;;
+	apt|yum|dnf)
+		# (Only procps ps is currently supported, others will fail,
+		# so this may end up empty.)
+		ETCKEEPER_PID=$( ps --no-headers -o ppid "${PPID}" 2>/dev/null | sed 's/^ *//' )
+	;;
+esac
 
-# Find the parent of etckeeper and get the command line of the process
 if ! [ -z "${ETCKEEPER_PID}" ]; then
-	ETCKEEPER_PPID=$( ps --no-headers -o ppid "${ETCKEEPER_PID}" | sed 's/^ *//' )
-	ETCKEEPER_PARENT_COMMAND_LINE=$( ps --no-headers -o args "${ETCKEEPER_PPID}" )
+	# Find the parent to get the command line.
+	# (Only procps ps is currently supported, others will fail,
+	# so this may end up empty.)
+	ETCKEEPER_PPID=$( ps --no-headers -o ppid "${ETCKEEPER_PID}" 2>/dev/null | sed 's/^ *//' )
+	if ! [ -z "${ETCKEEPER_PPID}" ]; then
+		ETCKEEPER_PARENT_COMMAND_LINE=$( ps --no-headers -o args "${ETCKEEPER_PPID}" )
+	fi
 fi
 
 get_changes () {
@@ -50,7 +64,7 @@ get_changed_packages () {
 		get_changes | sed 's/^/\/etc\//;s/\s*$//' | xargs -d '\n' pkg which --quiet | rev | cut -d'-' -f2- | rev
 	fi
 	if [ "$LOWLEVEL_PACKAGE_MANAGER" = xbps ]; then
-		get_changes | sed 's/^/\/etc\//;s/\s*$//' | xargs -d '\n' xbps-query -o | cut -d':' -f1
+		get_changes | sed -E 's/^/\/etc\//;s/\s*$//;s/([[:punct:]])/\\\1/g' | (echo -n '^(' && sed -zE 's/[\r\n]+/|/g' | sed -zE 's/\|$//' && echo ')$') | xargs xbps-query -o --regex | cut -d':' -f1
 	fi
 }
 

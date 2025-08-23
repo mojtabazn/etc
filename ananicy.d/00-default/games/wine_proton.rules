@@ -276,6 +276,10 @@
 # https://store.steampowered.com/app/4720/Condemned_Criminal_Origins/
 { "name": "Condemned.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/
+{ "name": "Expedition33_Steam.exe", "type": "Game" }
+{ "name": "SandFall-Win64-Shipping.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1091500/Cyberpunk_2077/
 { "name": "Cyberpunk2077.exe", "type": "Game" }
 { "name": "Redprelauncher", "type": "BG_CPUIO" }
@@ -515,6 +519,9 @@
 
 # https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/
 { "name": "ff7remake.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/2909400/FINAL_FANTASY_VII_REBIRTH/
+{ "name": "ff7rebirth.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/637650/FINAL_FANTASY_XV_WINDOWS_EDITION/
 { "name": "ffxv_s.exe", "type": "Game" }
@@ -836,6 +843,9 @@
 
 # https://store.steampowered.com/app/1446780/MONSTER_HUNTER_RISE/
 { "name": "MonsterHunterRise.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/
+{ "name": "MonsterHunterWilds.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/582010/Monster_Hunter_World/
 { "name": "MonsterHunterWorld.exe", "type": "Game" }
@@ -1181,6 +1191,10 @@
 # https://store.steampowered.com/app/900883/The_Elder_Scrolls_IV_Oblivion_Game_of_the_Year_Edition_Deluxe/
 { "name": "Oblivion.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/2623190/The_Elder_Scrolls_IV_Oblivion_Remastered/
+{ "name": "OblivionRemastered.exe", "type": "Game" }
+{ "name": "OblivionRemastered-Win64-Shipping.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/
 { "name": "SkyrimSE.exe", "type": "Game" }
 { "name": "TESV.exe", "type": "Game" }
@@ -1266,6 +1280,9 @@
 
 # https://store.steampowered.com/app/105600/Terraria/
 { "name": "Terraria", "type": "Game" }
+
+# https://store.steampowered.com/app/1486920/Tempest_Rising
+{ "name": "Tempest-Win64-Shipping.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/211600/Thief_Gold/
 # https://www.ttlg.com/forums/showthread.php?t=134733

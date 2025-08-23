@@ -18,6 +18,9 @@
 # Chromium - https://www.chromium.org/
 { "name": "chromium", "type": "Doc-View" }
 
+# Cromite - https://github.com/uazo/cromite
+{ "name": "cromite", "type": "Doc-View" }
+
 # Opera - https://www.opera.com/
 { "name": "opera", "type": "Doc-View" }
 
@@ -26,9 +29,6 @@
 { "name": "vivaldi-snapshot", "type": "Doc-View" }
 
 ### Firefox-Based Browsers ###
-
-# Cachy - https://cachyos.org/
-{ "name": "cachy-browser", "type": "Doc-View" }
 
 # FireDragon - https://github.com/dr460nf1r3/firedragon-browser
 { "name": "firedragon", "type": "Doc-View" }
@@ -57,6 +57,7 @@
 
 # Zen: https://zen-browser.app
 { "name": "zen-bin", "type": "Doc-View" }
+{ "name": "zen", "type": "Doc-View" }
 
 # Floorp - https://floorp.app
 { "name": "floorp", "type": "Doc-View" }
