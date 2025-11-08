@@ -99,3 +99,5 @@ systemd-journal-remote:!!::
 git:!::
 sambashare:!::mojtaba,nobody
 guest:!::
+virtlogin:!*::
+clock:!*::

@@ -61,7 +61,6 @@ Name[th]=พื้นที่ทำงานเดสก์ท็อป Plasma
 Name[tr]=Plasma Masaüstü Çalışma Alanı
 Name[uk]=Робочий простір Плазми для комп’ютерів
 Name[vi]=Không gian bàn làm việc Plasma
-Name[x-test]=xxPlasma Desktop Workspacexx
 Name[zh_CN]=Plasma 桌面工作空间
 Name[zh_TW]=Plasma 桌面工作空間
 Type=Application
@@ -73,5 +72,5 @@ Icon=plasmashell
 NoDisplay=true
 X-systemd-skip=true
 
-X-KDE-Wayland-Interfaces=org_kde_plasma_window_management,org_kde_kwin_keystate,zkde_screencast_unstable_v1,org_kde_plasma_activation_feedback
+X-KDE-Wayland-Interfaces=org_kde_plasma_window_management,org_kde_kwin_keystate,zkde_screencast_unstable_v1,org_kde_plasma_activation_feedback,kde_lockscreen_overlay_v1
 X-KDE-DBUS-Restricted-Interfaces=org.kde.KWin.ScreenShot2
