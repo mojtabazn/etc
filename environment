@@ -3,3 +3,4 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+__GL_SHADER_DISK_CACHE_SIZE=12000000000
