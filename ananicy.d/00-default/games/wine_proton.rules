@@ -8,6 +8,10 @@
 
 ### A ###
 
+# Abiotic Factor
+# https://store.steampowered.com/app/427410
+{ "name": "AbioticFactor.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/
 { "name": "AvP_Classic.exe", "type": "Game" }
 
@@ -172,6 +176,9 @@
 { "name": "b1-Win64-Shipping.exe", "type": "Game" }
 { "name": "b1.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/3681810/Blue_Protocol_Star_Resonance/
+{ "name": "BPSR.exe", "type": "Game"}
+
 # https://store.steampowered.com/app/3810/BloodRayne_Legacy/
 { "name": "rayne.exe", "type": "Game" }
 
@@ -295,6 +302,9 @@
 { "name": "Expedition33_Steam.exe", "type": "Game" }
 { "name": "SandFall-Win64-Shipping.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/2101960/Cronos_The_New_Dawn/
+{ "name": "Cronos-Win64-Shipping.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1091500/Cyberpunk_2077/
 { "name": "Cyberpunk2077.exe", "type": "Game" }
 { "name": "Redprelauncher", "type": "BG_CPUIO" }
@@ -303,6 +313,10 @@
 { "name": "CelebrityKombat.exe", "type": "Game" }
 
 ### D ###
+
+# DREDGE
+# https://store.steampowered.com/app/1562430
+{ "name": "DREDGE.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/
 { "name": "DarkSoulsRemastered.exe", "type": "Game" }
@@ -335,6 +349,9 @@
 
 # https://store.steampowered.com/app/1238060/Dead_Space_3/
 { "name": "deadspace3.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/2334730/Death_Must_Die/
+{ "name": "Death Must Die.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/
 { "name": "DeathStranding.exe", "type": "Game" }
@@ -462,6 +479,10 @@
 
 ### E ###
 
+# Enshrouded
+# https://store.steampowered.com/app/1203620
+{ "name": "enshrouded.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1245620/ELDEN_RING/
 { "name": "eldenring.exe", "type": "Game" }
 
@@ -554,6 +575,9 @@
 # https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/
 { "name": "ffxiv_dx11.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/732690/FIVE_NIGHTS_AT_FREDDYS_HELP_WANTED/
+{ "name": "freddys.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1680880/Forspoken/
 { "name": "FORSPOKEN.exe", "type": "Game" }
 
@@ -568,6 +592,14 @@
 
 ### G ###
 
+# Gas Station Simulator
+# https://store.steampowered.com/app/1149620
+{ "name": "GSS2.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/4000/Garrys_Mod/
+# Proton version of Garry's mod
+{ "name": "gmod.exe", "type": "Game" }
+
 # GenshinImpact International version
 { "name": "GenshinImpact.exe", "type": "Game" }
 
@@ -577,8 +609,19 @@
 # https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/
 { "name": "GhostOfTsushima.exe", "type": "Game" }
 
+# Tom Clancy's Ghost Recon Advanced Warfighter
+{ "name": "GRAW.exe", "type": "Game" }
+{ "name": "GRAW-standalone.exe", "type": "Game" }
+
+# Tom Clancy's Ghost Recon Advanced Warfighter 2
+{ "name": "graw2.exe", "type": "Game" }
+{ "name": "graw2_dedicated.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1150760/Gloomwood/
 { "name": "Gloomwood.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/1217060/Gunfire_Reborn/
+{ "name": "Gunfire Reborn.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/65540/Gothic_1/
 # https://github.com/GothicFixTeam/GothicFix
@@ -633,6 +676,10 @@
 { "name": "GoW.exe", "type": "Game" }
 
 ### H ###
+
+# Horizon Zero Dawn
+# https://store.steampowered.com/app/1151640
+{ "name": "HorizonZeroDawn.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1145360/Hades/
 { "name": "Hades.exe", "type": "Game" }
@@ -715,6 +762,9 @@
 { "name": "InsurgencyClient-Win64-Shipping.exe", "type": "Game" }
 { "name": "InsurgencyEAC.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/
+{ "name": "isaac-ng.exe", "type": "Game" }
+
 ### J ###
 
 # Judge Dredd https://store.steampowered.com/app/3710
@@ -760,6 +810,9 @@
 
 # https://store.steampowered.com/app/110800/LA_Noire/
 { "name": "LANoire.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/3981100/Leaf_it_Alone/
+{ "name": "Leaf it Alone.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/500/Left_4_Dead/
 { "name": "left4dead.exe", "type": "Game" }
@@ -860,6 +913,9 @@
 # https://store.steampowered.com/app/238370/Magicka_2/
 { "name": "Magicka2.exe", "type": "Game" }
 
+# Mahjong Soul https://store.steampowered.com/app/2739990/Mahjong_Soul/
+{ "name": "Jantama_MahjongSoul.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/12130/Manhunt/
 { "name": "manhunt.exe", "type": "Game" }
 
@@ -880,6 +936,12 @@
 
 # https://store.steampowered.com/app/204100/Max_Payne_3/
 { "name": "MaxPayne3.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/342200/MechWarrior_Online_Legends/
+{ "name": "MWOClient.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/3405340/Megabonk/
+{ "name": "Megabonk.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/235460/METAL_GEAR_RISING_REVENGEANCE/
 { "name": "METAL GEAR RISING REVENGEANCE.exe", "type": "Game" }
@@ -928,9 +990,6 @@
 
 # https://store.steampowered.com/app/283290/Nosferatu_The_Wrath_of_Malachi/
 { "name": "Nosferatu.exe", "type": "Game" }
-
-# https://store.steampowered.com/app/342200/MechWarrior_Online_Legends/
-{ "name": "MWOClient.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/
 { "name": "Windose.exe", "type": "Game" }
@@ -1028,6 +1087,9 @@
 { "name": "ProjectWingman.exe", "type": "Game" }
 { "name": "ProjectWingman-Win64-Shipping.exe", "type": "Game" }
 
+# https://store.steampowered.com/app/1894430/Plan_B_Terraform/
+{ "name": "Plan B Terraform.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/31280/Poker_Night_at_the_Inventory/
 { "name": "CelebrityPoker.exe", "type": "Game" }
 
@@ -1036,6 +1098,13 @@
 
 ### Q ###
 ### R ###
+
+# Ruined King: A League of Legends Story
+# https://store.steampowered.com/app/1276790
+{ "name": "RuinedKing.exe", "type": "Game" }
+
+# Rabbit and Steel https://store.steampowered.com/app/2132850/Rabbit_and_Steel/
+{ "name": "RabbitSteel.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/548570/RAGE_2/
 { "name": "RAGE2.exe", "type": "Game" }
@@ -1071,6 +1140,9 @@
 # https://store.steampowered.com/app/1282100/REMNANT_II/
 { "name": "Remnant2-Win64-Shipping.exe", "type": "Game" }
 { "name": "Remnant2.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/3241660/REPO/
+{ "name": "REPO.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard
 { "name": "re7.exe", "type": "Game" }
@@ -1134,6 +1206,10 @@
 { "name": "rabiribi.exe", "type": "Game" }
 
 ### S ###
+
+# Shadow of the Tomb Raider
+# https://store.steampowered.com/app/750920
+{ "name": "SOTTR.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/55230/Saints_Row_The_Third/
 { "name": "SaintsRowTheThird.exe", "type": "Game" }
@@ -1205,6 +1281,9 @@
 { "name": "SONIC_GENERATIONS.exe", "type": "Game" }
 { "name": "SONIC_X_SHADOW_GENERATIONS.exe", "type": "Game" }
 
+# Sonic Racing: Crossworlds
+{ "name": "SonicRacingCrossWorldsSteam.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/
 { "name": "Spider-Man.exe", "type": "Game" }
 
@@ -1265,6 +1344,20 @@
 
 ### The ###
 # There are a lot of titles with "The" prefix. I want to separate these titles from the game titles actually start with "T"
+
+# The Farmer Was Replaced
+# https://store.steampowered.com/app/2060160
+{ "name": "TheFarmerWasReplaced.exe", "type": "Game" }
+
+# The Spell Brigade
+# https://store.steampowered.com/app/2904000
+{ "name": "TheSpellBrigade.exe", "type": "Game" }
+
+# https://store.steampowered.com/app/3070070/TCG_Card_Shop_Simulator/
+{ "name": "Card Shop Simulator.exe", "type": "Game" }
+
+# https://www.gog.com/en/game/the_colonists
+{ "name": "TheColonists.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/22320/The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition/
 { "name": "Morrowind.exe", "type": "Game" }
@@ -1356,6 +1449,10 @@
 
 ### T ###
 
+# Temtem: Swarm
+# https://store.steampowered.com/app/2510960
+{ "name": "TemtemSwarm.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/3070070/TCG_Card_Shop_Simulator/
 { "name": "Card Shop Simulator.exe", "type": "Game" }
 
@@ -1393,6 +1490,9 @@
 
 # https://store.steampowered.com/app/1237970/Titanfall_2/
 { "name": "Titanfall2.exe", "type": "Game" }
+
+# Tokyo Xtreme Racer https://store.steampowered.com/app/2634950/Tokyo_Xtreme_Racer/
+{ "name": "TokyoXtremeRacer-Win64-Shipping.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/41500/Torchlight/
 { "name": "Torchlight.exe", "type": "Game" }
