@@ -1,9 +1,0 @@
-[terminal]
-vt = "1"
-
-[general]
-service = "login"
-
-[default_session]
-command = "cosmic-greeter-start"
-user = "cosmic-greeter"
