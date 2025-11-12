@@ -74,7 +74,7 @@ Include = /etc/pacman.d/cachyos-v3-mirrorlist
 SigLevel = Optional TrustAll
 Include = /etc/pacman.d/cachyos-mirrorlist
 
-[core]
+#[core]
 
 Include = /etc/pacman.d/mirrorlist
 
