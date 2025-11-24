@@ -7794,8 +7794,8 @@ netcabinet-com   4409/tcp
 itwo-server      4410/tcp
 found            4411/tcp
 smallchat        4412/udp
-avi-nms          4413/tcp
-avi-nms-disc     4413/udp
+vision-mon       4413/tcp
+vision-mon-disc  4413/udp
 updog            4414/tcp
 brcd-vr-req      4415/tcp
 pjj-player       4416/tcp
