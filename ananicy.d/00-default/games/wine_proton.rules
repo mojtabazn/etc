@@ -210,6 +210,10 @@
 # https://store.steampowered.com/app/1276390/Bloons_TD_Battles_2/
 { "name": "btdb2_game.exe", "type": "Game" }
 
+# Blue Archive
+# https://store.steampowered.com/app/3557620/Blue_Archive/
+{ "name": "BlueArchive.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/397540/Borderlands_3/
 { "name": "Borderlands3.exe", "type": "Game" }
 
@@ -762,6 +766,10 @@
 # https://store.steampowered.com/app/2420510/HoloCure__Save_the_Fans/
 { "name": "HoloCure.exe", "type": "Game" }
 
+# Honkai: Star Rail
+# https://hsr.hoyoverse.com/
+{ "name": "StarRail.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/824600/HROT/
 { "name": "HROT.exe", "type": "Game" }
 
@@ -1050,6 +1058,10 @@
 
 ### P ###
 
+# https://store.steampowered.com/app/1458140/Pacific_Drive/
+{ "name": "PenDriverPro.exe", "type": "Game" }
+{ "name": "PenDriverPro-Win64-Shipping.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/214870/Painkiller_Hell__Damnation/
 { "name": "PKHDGame-Win32-Shipping.exe", "type": "Game" }
 
@@ -1238,6 +1250,9 @@
 
 # https://store.steampowered.com/app/1895880/Ratchet__Clank_Rift_Apart/
 { "name": "RiftApart.exe", "type": "Game" }
+
+# Risk of Rain 2 https://store.steampowered.com/app/632360/Risk_of_Rain_2/
+{ "name": "Risk of Rain 2.exe", "type": "Game" }
 
 ### S ###
 
