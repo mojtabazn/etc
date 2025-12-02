@@ -25,6 +25,16 @@
 # https://store.steampowered.com/app/1978590/Anger_Foot/
 { "name": "AngerFoot.exe", "type": "Game" }
 
+# Anno 117: Pax Romana
+# https://store.steampowered.com/app/3274580/Anno_117_Pax_Romana/
+{ "name": "Anno117.exe", "type": "Game" }
+{ "name": "Anno117_plus.exe", "type": "Game" }
+
+# Anno 1800
+# https://store.steampowered.com/app/916440/Anno_1800/
+{ "name": "Anno1800.exe", "type": "Game" }
+{ "name": "Anno1800_plus.exe", "type": "Game" }
+
 # https://store.steampowered.com/app/1172470/Apex_Legends/
 { "name": "r5apex_dx12.exe", "type": "Game" }
 { "name": "r5apex.exe", "type": "Game" }
@@ -1349,6 +1359,18 @@
 # https://store.steampowered.com/app/20510/STALKER_Clear_Sky/
 # https://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/
 { "name": "xrEngine.exe", "type": "Game" }
+
+# https://www.moddb.com/mods/stalker-anomaly; S.T.A.L.K.E.R. Anomaly
+{ "name": "AnomalyDX11AVX.exe", "type": "Game" }
+{ "name": "AnomalyDX11.exe", "type": "Game" }
+{ "name": "VerifiedDX11.exe", "type": "Game" }
+{ "name": "AnomalyDX10AVX.exe", "type": "Game" }
+{ "name": "AnomalyDX10.exe", "type": "Game" }
+{ "name": "AnomalyDX9AVX.exe", "type": "Game" }
+{ "name": "AnomalyDX9.exe", "type": "Game" }
+{ "name": "AnomalyDX8AVX.exe", "type": "Game" }
+{ "name": "AnomalyDX8.exe", "type": "Game" }
+{ "name": "AnomalyLauncher.exe", "type": "Game" }
 
 # https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/
 { "name": "Stalker2-Win64-Shipping.exe", "type": "Game" }
