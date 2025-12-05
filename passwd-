@@ -60,3 +60,4 @@ systemd-journal-remote:x:998:998:systemd Journal Remote:/:/sbin/nologin
 git:x:999:999:git daemon user:/:/bin/bash
 mojtaba:x:1000:100:Mojtaba:/home/mojtaba:/bin/bash
 guest:x:1001:1001:Guest:/home/guest:/bin/bash
+pcscd:x:964:964:PC/SC Smart Card Daemon:/:/usr/bin/nologin
