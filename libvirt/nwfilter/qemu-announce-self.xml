@@ -1,7 +1,11 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit qemu-announce-self
+or other application using the libvirt API.
+-->
+
 <filter name='qemu-announce-self' chain='root'>
-  <!-- This rule originally allowed protocol '0x835' which qemu originally used.
-    As this bug in qemu was fixed and libvirt no longer supports such old qemu
-    versions this now is just a shim refering to 'qemu-announce-self-rarp' to
-    preserve compatibility if someone used this rule directly -->
-    <filterref filter='qemu-announce-self-rarp'/>
+  <uuid>6cc9ab27-3ecf-47bf-9fc5-3df12f3da0a0</uuid>
+  <filterref filter='qemu-announce-self-rarp'/>
 </filter>

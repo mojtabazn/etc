@@ -1,15 +1,17 @@
-<filter name='no-ipv6-spoofing' chain='ipv6-ip' priority='-610'>
-  <!-- allow UDP sent from link-local addresses (DHCP);
-       filter more exact later -->
-  <rule action='return' direction='out' priority='100'>
-    <ipv6 srcipaddr='FE80::' srcipmask='10' protocol='udp'/>
-  </rule>
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit no-ipv6-spoofing
+or other application using the libvirt API.
+-->
 
-  <!-- allow all known IP addresses -->
-  <rule direction='out' action='return' priority='500'>
+<filter name='no-ipv6-spoofing' chain='ipv6-ip' priority='-610'>
+  <uuid>7ce38c9b-264e-4bc3-a446-f24371e94bbf</uuid>
+  <rule action='return' direction='out' priority='100'>
+    <ipv6 srcipaddr='fe80::' srcipmask='10' protocol='udp'/>
+  </rule>
+  <rule action='return' direction='out' priority='500'>
     <ipv6 srcipaddr='$IPV6'/>
   </rule>
-
-  <!-- drop everything else -->
-  <rule direction='out' action='drop' priority='1000'/>
+  <rule action='drop' direction='out' priority='1000'/>
 </filter>

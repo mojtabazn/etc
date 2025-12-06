@@ -1,24 +1,16 @@
-<filter name='allow-dhcpv6' chain='ipv6'>
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit allow-dhcpv6
+or other application using the libvirt API.
+-->
 
-    <!-- accept outgoing DHCP requests.
-         note, this rule must be evaluated before general MAC broadcast
-         traffic is discarded since DHCP requests use MAC broadcast.
-         according to https://tools.ietf.org/html/rfc3315#section-14,
-         client sends messages to FF02::1:2 from link-local addresses -->
-    <rule action='accept' direction='out' priority='100'>
-        <ipv6 protocol='udp'
-              srcipaddr='FE80::'
-              srcipmask='10'
-              dstipaddr='FF02::1:2'
-              srcportstart='546'
-              dstportstart='547'/>
-    </rule>
-
-    <!-- accept incoming DHCP responses from any DHCP server -->
-    <rule action='accept' direction='in' priority='100' >
-        <ipv6 protocol='udp'
-              srcportstart='547'
-              dstportstart='546'/>
-    </rule>
-
+<filter name='allow-dhcpv6' chain='ipv6' priority='-600'>
+  <uuid>5401c6ab-324b-4382-8343-f69de0092e2e</uuid>
+  <rule action='accept' direction='out' priority='100'>
+    <ipv6 srcipaddr='fe80::' srcipmask='10' dstipaddr='ff02::1:2' protocol='udp' srcportstart='546' dstportstart='547'/>
+  </rule>
+  <rule action='accept' direction='in' priority='100'>
+    <ipv6 protocol='udp' srcportstart='547' dstportstart='546'/>
+  </rule>
 </filter>

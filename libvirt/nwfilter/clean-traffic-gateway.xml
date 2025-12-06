@@ -1,34 +1,24 @@
-<filter name='clean-traffic-gateway'>
-    <!-- An example of a traffic filter enforcing clean traffic
-            from a VM by
-              - preventing MAC spoofing -->
-    <filterref filter='no-mac-spoofing'/>
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit clean-traffic-gateway
+or other application using the libvirt API.
+-->
 
-    <!-- preventing IP spoofing on outgoing -->
-    <filterref filter='no-ip-spoofing'/>
-
-    <!-- preventing ARP spoofing/poisoning -->
-    <filterref filter='no-arp-spoofing'/>
-
-    <!-- accept all other incoming and outgoing ARP traffic -->
-    <rule action='accept' direction='inout' priority='-500'>
-        <mac protocolid='arp'/>
-    </rule>
-
-    <!-- accept traffic only from specified MAC address -->
-    <rule action='accept' direction='in'>
-        <mac match='yes' srcmacaddr='$GATEWAY_MAC'/>
-    </rule>
-
-    <!-- allow traffic only to specified MAC address -->
-    <rule action='accept' direction='out'>
-        <mac match='yes' dstmacaddr='$GATEWAY_MAC'/>
-    </rule>
-
-    <!-- preventing any other traffic than between specified MACs
-    and ARP -->
-    <filterref filter='no-other-l2-traffic'/>
-
-    <!-- allow qemu to send a self-announce upon migration end -->
-    <filterref filter='qemu-announce-self-rarp'/>
+<filter name='clean-traffic-gateway' chain='root'>
+  <uuid>e425cb23-e073-4d0d-8e9e-50845a76fa3d</uuid>
+  <filterref filter='no-mac-spoofing'/>
+  <filterref filter='no-ip-spoofing'/>
+  <filterref filter='no-arp-spoofing'/>
+  <rule action='accept' direction='inout' priority='-500'>
+    <mac protocolid='arp'/>
+  </rule>
+  <rule action='accept' direction='in' priority='500'>
+    <mac srcmacaddr='$GATEWAY_MAC'/>
+  </rule>
+  <rule action='accept' direction='out' priority='500'>
+    <mac dstmacaddr='$GATEWAY_MAC'/>
+  </rule>
+  <filterref filter='no-other-l2-traffic'/>
+  <filterref filter='qemu-announce-self-rarp'/>
 </filter>
