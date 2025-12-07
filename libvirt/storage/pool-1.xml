@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit pool-1
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>pool-1</name>
+  <uuid>219649f0-9850-4a39-9474-99b8bfe8522f</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/mojtaba/Downloads</path>
+  </target>
+</pool>
