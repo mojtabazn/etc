@@ -1,0 +1,26 @@
+[connection]
+id=Telenor 4G-E545
+uuid=23fe6256-080e-493e-8be8-6c0bb1e5730c
+type=wifi
+interface-name=wlan0
+permissions=user:mojtaba:;
+
+[wifi]
+mode=infrastructure
+ssid=Telenor 4G-E545
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+leap-password-flags=1
+psk-flags=1
+wep-key-flags=1
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
