@@ -27,7 +27,7 @@ mpd:x:45:
 games:x:50:
 lock:x:54:
 uuidd:x:68:
-kvm:x:78:libvirt-qemu,qemu
+kvm:x:78:libvirt-qemu,qemu,mojtaba
 dbus:x:81:
 avahi:x:84:
 ntp:x:87:

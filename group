@@ -106,3 +106,4 @@ brlapi:x:963:brltty
 brltty:x:962:
 gluster:x:961:
 qemu:x:960:
+empower:x:959:
