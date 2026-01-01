@@ -1,8 +1,8 @@
 #!/bin/sh
 #THIS IS A GRUB PROXY SCRIPT
-'/etc/grub.d/proxifiedScripts/linux' | /etc/grub.d/bin/grubcfg_proxy "-'SUBMENU' as 'Advanced options for Arch Linux'{-'Advanced options for Arch Linux'/'Arch Linux, with Linux linux-cachyos'~712f2c03ccf7e6f0ade705e5a52bb49b~}
-+*
+'/etc/grub.d/proxifiedScripts/linux' | /etc/grub.d/bin/grubcfg_proxy "+*
 +#text
--'Arch Linux'~54fe70b0577ed5a94c5acc48b2b35db9~
+-'Arch Linux'~4676c0708f27cb4af868c759877c40ef~
 +'Advanced options for Arch Linux'/*
++'Advanced options for Arch Linux'/'Arch Linux, with Linux linux-cachyos-bore'~eda1871208b8e6d0b5d36417633f4a1c~
 "

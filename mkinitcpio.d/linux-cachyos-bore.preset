@@ -1,0 +1,18 @@
+# mkinitcpio preset file for the 'linux-cachyos-bore' package
+
+#ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux-cachyos-bore"
+#ALL_kerneldest="/boot/vmlinuz-linux-cachyos-bore"
+
+PRESETS=('default')
+#PRESETS=('default' 'fallback')
+
+#default_config="/etc/mkinitcpio.conf"
+default_image="/boot/initramfs-linux-cachyos-bore.img"
+#default_uki="/efi/EFI/Linux/arch-linux-cachyos-bore.efi"
+#default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"
+
+#fallback_config="/etc/mkinitcpio.conf"
+#fallback_image="/boot/initramfs-linux-cachyos-bore-fallback.img"
+#fallback_uki="/efi/EFI/Linux/arch-linux-cachyos-bore-fallback.efi"
+#fallback_options="-S autodetect"
