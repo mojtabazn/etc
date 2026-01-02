@@ -1,0 +1,8 @@
+#!/bin/sh
+#THIS IS A GRUB PROXY SCRIPT
+'/etc/grub.d/proxifiedScripts/custom' | /etc/grub.d/bin/grubcfg_proxy "+'System restart"'~050cd0b21da609d1ba940de87aec8436~
++'System shutdown'~d215e20827b6c73c17b25377d5b05e84~
+-*
+-#text
+-#text
+"

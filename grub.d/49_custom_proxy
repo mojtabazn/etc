@@ -1,0 +1,6 @@
+#!/bin/sh
+#THIS IS A GRUB PROXY SCRIPT
+'/etc/grub.d/proxifiedScripts/custom~1' | /etc/grub.d/bin/grubcfg_proxy "-'Arch Linux, with Linux linux-cachyos'~a654f9851bb790f3f984a2902f37bc02~
++*
++#text
+"
