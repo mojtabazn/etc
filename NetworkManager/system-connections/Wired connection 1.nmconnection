@@ -1,5 +1,5 @@
 [connection]
-id=Wired connection 1
+id=Wired_AND
 uuid=2fe9fa4f-ee00-38d9-ae94-2252b66c4e3d
 type=ethernet
 autoconnect-priority=-100
