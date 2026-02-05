@@ -56,20 +56,20 @@
 #  16. SpeedTestResult { speed: 102.6 KB/s; elapsed: 955ms; connection_time: 2.17s } -> https://mirrors.ustc.edu.cn/cachyos/repo/
 #  17. SpeedTestResult { speed: 96.6 KB/s; elapsed: 911ms; connection_time: 1.58s } -> https://mirror.meowsmp.net/cachyOS/repo/
 # FINISHED AT: 2025-11-11 07:08:36.820504272 +03:30
-Server = https://mirror.yandex.ru/cachyos/repo/$arch/$repo
-Server = https://mirror.cachyos.org/repo/$arch/$repo
-Server = https://cdn.cachyos.org/repo/$arch/$repo
-Server = https://mirror.fast0ne.com/repo/$arch/$repo
-Server = https://cachyos.next-works.it/repo/$arch/$repo
-Server = https://aur.cachyos.org/repo/$arch/$repo
-Server = https://us.cachyos.org/repo/$arch/$repo
-Server = https://cdn-1.cachyos.org/$arch/$repo
-Server = https://no.mirror.cx/cachyos/repo/$arch/$repo
-Server = https://mirror.hb9hil.org/cachyos/repo/$arch/$repo
-Server = https://cachyos.doridian.net/repo/$arch/$repo
-Server = https://mirror.limda.net/cachy/repo/$arch/$repo
-Server = https://mirror.nju.edu.cn/cachyos/repo/$arch/$repo
-Server = https://mirror.lesviallon.fr/cachy/repo/$arch/$repo
-Server = https://cdn77.cachyos.org/repo/$arch/$repo
-Server = https://mirrors.ustc.edu.cn/cachyos/repo/$arch/$repo
-Server = https://mirror.meowsmp.net/cachyOS/repo/$arch/$repo
+Server = https://mirror.yandex.ru/cachyos/repo/$arch_v3/$repo
+Server = https://mirror.cachyos.org/repo/$arch_v3/$repo
+Server = https://cdn.cachyos.org/repo/$arch_v3/$repo
+Server = https://mirror.fast0ne.com/repo/$arch_v3/$repo
+Server = https://cachyos.next-works.it/repo/$arch_v3/$repo
+Server = https://aur.cachyos.org/repo/$arch_v3/$repo
+Server = https://us.cachyos.org/repo/$arch_v3/$repo
+Server = https://cdn-1.cachyos.org/$arch_v3/$repo
+Server = https://no.mirror.cx/cachyos/repo/$arch_v3/$repo
+Server = https://mirror.hb9hil.org/cachyos/repo/$arch_v3/$repo
+Server = https://cachyos.doridian.net/repo/$arch_v3/$repo
+Server = https://mirror.limda.net/cachy/repo/$arch_v3/$repo
+Server = https://mirror.nju.edu.cn/cachyos/repo/$arch_v3/$repo
+Server = https://mirror.lesviallon.fr/cachy/repo/$arch_v3/$repo
+Server = https://cdn77.cachyos.org/repo/$arch_v3/$repo
+Server = https://mirrors.ustc.edu.cn/cachyos/repo/$arch_v3/$repo
+Server = https://mirror.meowsmp.net/cachyOS/repo/$arch_v3/$repo

@@ -1,75 +1,57 @@
-# STARTED AT: 2025-11-11 07:08:25.832693318 +03:30
-# ARGS: rate-mirrors --save /tmp/tmp.3jPrcbhkS7 --allow-root cachyos --fetch-mirrors-timeout=300000
+# STARTED AT: 2026-02-05 05:45:33.990124435 +03:30
+# ARGS: rate-mirrors --save /tmp/tmp.Uu19E8rQgo cachyos
 # MIRRORS LEFT AFTER FILTERING: 20
 # JUMP #1
-# EXPLORING US
-# VISITED US
+# EXPLORING IR
+# VISITED IR
 # BLANK ITERATION
 # COUNTRY JUMPING YIELDED TOO FEW MIRRORS (0), ADDING OTHERS TO UNLABELED
 # 
 
 # TESTING UNLABELED MIRRORS
+# FAILED TO CONNECT TO https://archlinux.gay/cachy/repo/x86_64/cachyos/cachyos.files
 # FAILED TO CONNECT TO https://de-nue.soulharsh007.dev/cachyos/repo/x86_64/cachyos/cachyos.files
-# FAILED TO CONNECT TO https://sg-sin.soulharsh007.dev/cachyos/x86_64/cachyos/cachyos.files
-# SpeedTestResult { speed: 839.2 KB/s; elapsed: 897ms; connection_time: 443ms }
-# FAILED TO CONNECT TO https://mirror.funami.tech/cachy/repo/x86_64/cachyos/cachyos.files
-# SpeedTestResult { speed: 665.3 KB/s; elapsed: 867ms; connection_time: 594ms }
-# SpeedTestResult { speed: 632.6 KB/s; elapsed: 964ms; connection_time: 617ms }
-# SpeedTestResult { speed: 511.5 KB/s; elapsed: 696ms; connection_time: 687ms }
-# SpeedTestResult { speed: 580.4 KB/s; elapsed: 987ms; connection_time: 772ms }
-# SpeedTestResult { speed: 426.3 KB/s; elapsed: 893ms; connection_time: 774ms }
-# SpeedTestResult { speed: 257.5 KB/s; elapsed: 951ms; connection_time: 785ms }
-# SpeedTestResult { speed: 369.5 KB/s; elapsed: 975ms; connection_time: 811ms }
-# SpeedTestResult { speed: 175.8 KB/s; elapsed: 836ms; connection_time: 1.09s }
-# SpeedTestResult { speed: 117.7 KB/s; elapsed: 830ms; connection_time: 1.14s }
-# SpeedTestResult { speed: 412.0 KB/s; elapsed: 993ms; connection_time: 1.34s }
-# SpeedTestResult { speed: 239.3 KB/s; elapsed: 956ms; connection_time: 1.39s }
-# SpeedTestResult { speed: 163.1 KB/s; elapsed: 931ms; connection_time: 1.40s }
-# SpeedTestResult { speed: 96.6 KB/s; elapsed: 911ms; connection_time: 1.58s }
-# SpeedTestResult { speed: 168.4 KB/s; elapsed: 874ms; connection_time: 1.63s }
-# SpeedTestResult { speed: 168.3 KB/s; elapsed: 874ms; connection_time: 2.14s }
-# SpeedTestResult { speed: 102.6 KB/s; elapsed: 955ms; connection_time: 2.17s }
+# FAILED TO CONNECT TO https://us-mnz.soulharsh007.dev/cachyos/repo/x86_64/cachyos/cachyos.files
+# TOO FEW BYTES LOADED https://cachyos.next-works.it/repo/
+# SpeedTestResult { speed: 1.4 MB/s; elapsed: 833ms; connection_time: 748ms }
+# SpeedTestResult { speed: 1.3 MB/s; elapsed: 964ms; connection_time: 769ms }
+# SpeedTestResult { speed: 1.1 MB/s; elapsed: 996ms; connection_time: 796ms }
+# SpeedTestResult { speed: 187.6 KB/s; elapsed: 958ms; connection_time: 858ms }
+# TOO FEW BYTES LOADED https://mirror.lesviallon.fr/cachy/repo/
+# SpeedTestResult { speed: 377.8 KB/s; elapsed: 866ms; connection_time: 1.14s }
+# SpeedTestResult { speed: 204.6 KB/s; elapsed: 957ms; connection_time: 1.38s }
+# SpeedTestResult { speed: 224.8 KB/s; elapsed: 873ms; connection_time: 2.19s }
+# SpeedTestResult { speed: 115.1 KB/s; elapsed: 993ms; connection_time: 2.21s }
+# FAILED TO CONNECT TO https://nl.mirror.cx/cachyos/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://mirror.hb9hil.org/cachyos/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://mirrors.lansing2600.org/cachyos/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://mirror.meowsmp.net/cachyOS/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://mirror.limda.net/cachy/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://ca.mirror.cx/cachyos/repo/x86_64/cachyos/cachyos.files
+# FAILED TO CONNECT TO https://cdn77.cachyos.org/repo/x86_64/cachyos/cachyos.files
 # 
 
 # RE-TESTING TOP MIRRORS
-# SpeedTestResult { speed: 2.6 MB/s; elapsed: 992ms; connection_time: 347ms }
-# SpeedTestResult { speed: 2.3 MB/s; elapsed: 1.00s; connection_time: 429ms }
-# SpeedTestResult { speed: 2.5 MB/s; elapsed: 1.00s; connection_time: 406ms }
-# SpeedTestResult { speed: 2.1 MB/s; elapsed: 998ms; connection_time: 624ms }
-# SpeedTestResult { speed: 2.2 MB/s; elapsed: 999ms; connection_time: 595ms }
+# SpeedTestResult { speed: 3.2 MB/s; elapsed: 983ms; connection_time: 420ms }
+# SpeedTestResult { speed: 2.8 MB/s; elapsed: 994ms; connection_time: 720ms }
+# SpeedTestResult { speed: 3.0 MB/s; elapsed: 995ms; connection_time: 651ms }
+# SpeedTestResult { speed: 2.9 MB/s; elapsed: 994ms; connection_time: 1.12s }
+# SpeedTestResult { speed: 211.2 KB/s; elapsed: 851ms; connection_time: 1.65s }
 # ==== RESULTS (top re-tested) ====
-#   1. SpeedTestResult { speed: 2.6 MB/s; elapsed: 992ms; connection_time: 347ms } -> https://mirror.yandex.ru/cachyos/repo/
-#   2. SpeedTestResult { speed: 2.5 MB/s; elapsed: 1.00s; connection_time: 406ms } -> https://mirror.cachyos.org/repo/
-#   3. SpeedTestResult { speed: 2.3 MB/s; elapsed: 1.00s; connection_time: 429ms } -> https://cdn.cachyos.org/repo/
-#   4. SpeedTestResult { speed: 2.2 MB/s; elapsed: 999ms; connection_time: 595ms } -> https://mirror.fast0ne.com/repo/
-#   5. SpeedTestResult { speed: 2.1 MB/s; elapsed: 998ms; connection_time: 624ms } -> https://cachyos.next-works.it/repo/
-#   6. SpeedTestResult { speed: 426.3 KB/s; elapsed: 893ms; connection_time: 774ms } -> https://aur.cachyos.org/repo/
-#   7. SpeedTestResult { speed: 412.0 KB/s; elapsed: 993ms; connection_time: 1.34s } -> https://us.cachyos.org/repo/
-#   8. SpeedTestResult { speed: 369.5 KB/s; elapsed: 975ms; connection_time: 811ms } -> https://cdn-1.cachyos.org/
-#   9. SpeedTestResult { speed: 257.5 KB/s; elapsed: 951ms; connection_time: 785ms } -> https://no.mirror.cx/cachyos/repo/
-#  10. SpeedTestResult { speed: 239.3 KB/s; elapsed: 956ms; connection_time: 1.39s } -> https://mirror.hb9hil.org/cachyos/repo/
-#  11. SpeedTestResult { speed: 175.8 KB/s; elapsed: 836ms; connection_time: 1.09s } -> https://cachyos.doridian.net/repo/
-#  12. SpeedTestResult { speed: 168.4 KB/s; elapsed: 874ms; connection_time: 1.63s } -> https://mirror.limda.net/cachy/repo/
-#  13. SpeedTestResult { speed: 168.3 KB/s; elapsed: 874ms; connection_time: 2.14s } -> https://mirror.nju.edu.cn/cachyos/repo/
-#  14. SpeedTestResult { speed: 163.1 KB/s; elapsed: 931ms; connection_time: 1.40s } -> https://mirror.lesviallon.fr/cachy/repo/
-#  15. SpeedTestResult { speed: 117.7 KB/s; elapsed: 830ms; connection_time: 1.14s } -> https://cdn77.cachyos.org/repo/
-#  16. SpeedTestResult { speed: 102.6 KB/s; elapsed: 955ms; connection_time: 2.17s } -> https://mirrors.ustc.edu.cn/cachyos/repo/
-#  17. SpeedTestResult { speed: 96.6 KB/s; elapsed: 911ms; connection_time: 1.58s } -> https://mirror.meowsmp.net/cachyOS/repo/
-# FINISHED AT: 2025-11-11 07:08:36.820504272 +03:30
-Server = https://mirror.yandex.ru/cachyos/repo/$arch_v3/$repo
-Server = https://mirror.cachyos.org/repo/$arch_v3/$repo
+#   1. SpeedTestResult { speed: 3.2 MB/s; elapsed: 983ms; connection_time: 420ms } -> https://cdn.cachyos.org/repo/
+#   2. SpeedTestResult { speed: 3.0 MB/s; elapsed: 995ms; connection_time: 651ms } -> https://at.cachyos.org/repo/
+#   3. SpeedTestResult { speed: 2.9 MB/s; elapsed: 994ms; connection_time: 1.12s } -> https://us.cachyos.org/repo/
+#   4. SpeedTestResult { speed: 2.8 MB/s; elapsed: 994ms; connection_time: 720ms } -> https://mirror.cachyos.org/repo/
+#   5. SpeedTestResult { speed: 211.2 KB/s; elapsed: 851ms; connection_time: 1.65s } -> https://mirror.nju.edu.cn/cachyos/repo/
+#   6. SpeedTestResult { speed: 204.6 KB/s; elapsed: 957ms; connection_time: 1.38s } -> https://no.mirror.cx/cachyos/repo/
+#   7. SpeedTestResult { speed: 187.6 KB/s; elapsed: 958ms; connection_time: 858ms } -> https://cachyos.doridian.net/repo/
+#   8. SpeedTestResult { speed: 115.1 KB/s; elapsed: 993ms; connection_time: 2.21s } -> https://mirrors.ustc.edu.cn/cachyos/repo/
+# FINISHED AT: 2026-02-05 05:45:52.126090038 +03:30
 Server = https://cdn.cachyos.org/repo/$arch_v3/$repo
-Server = https://mirror.fast0ne.com/repo/$arch_v3/$repo
-Server = https://cachyos.next-works.it/repo/$arch_v3/$repo
-Server = https://aur.cachyos.org/repo/$arch_v3/$repo
+Server = https://at.cachyos.org/repo/$arch_v3/$repo
 Server = https://us.cachyos.org/repo/$arch_v3/$repo
-Server = https://cdn-1.cachyos.org/$arch_v3/$repo
-Server = https://no.mirror.cx/cachyos/repo/$arch_v3/$repo
-Server = https://mirror.hb9hil.org/cachyos/repo/$arch_v3/$repo
-Server = https://cachyos.doridian.net/repo/$arch_v3/$repo
-Server = https://mirror.limda.net/cachy/repo/$arch_v3/$repo
+Server = https://mirror.cachyos.org/repo/$arch_v3/$repo
 Server = https://mirror.nju.edu.cn/cachyos/repo/$arch_v3/$repo
-Server = https://mirror.lesviallon.fr/cachy/repo/$arch_v3/$repo
-Server = https://cdn77.cachyos.org/repo/$arch_v3/$repo
+Server = https://no.mirror.cx/cachyos/repo/$arch_v3/$repo
+Server = https://cachyos.doridian.net/repo/$arch_v3/$repo
 Server = https://mirrors.ustc.edu.cn/cachyos/repo/$arch_v3/$repo
-Server = https://mirror.meowsmp.net/cachyOS/repo/$arch_v3/$repo
