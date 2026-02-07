@@ -10657,6 +10657,7 @@ atm-uhas        11367/udp
 hkp             11371/tcp
 hkp             11371/udp
 lsdp            11430/udp
+ollama          11434/tcp
 asgcypresstcps  11489/tcp
 tempest-port    11600/tcp
 tempest-port    11600/udp
