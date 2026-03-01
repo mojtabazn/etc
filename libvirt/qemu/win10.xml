@@ -63,6 +63,7 @@ or other application using the libvirt API.
     </disk>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
+      <source file='/run/media/mojtaba/Data/Downloaded/PCS7_V10_POWEREN_IR/PCS7_V10.iso'/>
       <target dev='sdb' bus='sata'/>
       <readonly/>
       <address type='drive' controller='0' bus='0' target='0' unit='1'/>
