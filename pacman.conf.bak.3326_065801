@@ -59,22 +59,26 @@ LocalFileSigLevel = Optional
 # after the header, and they will be used before the default mirrors.
 
 [cachyos-v3]
-SigLevel = TrustAll
+
 Include = /etc/pacman.d/cachyos-v3-mirrorlist
+SigLevel = TrustAll
 
 [cachyos-core-v3]
 SigLevel = TrustAll
-SigLevel = TrustAll
+
 Include = /etc/pacman.d/cachyos-v3-mirrorlist
+SigLevel = TrustAll
 
 [cachyos-extra-v3]
 SigLevel = TrustAll
-SigLevel = TrustAll
+
 Include = /etc/pacman.d/cachyos-v3-mirrorlist
+SigLevel = TrustAll
 
 [cachyos]
-SigLevel = TrustAll
+
 Include = /etc/pacman.d/cachyos-mirrorlist
+SigLevel = TrustAll
 
 [core]
 
@@ -94,10 +98,9 @@ Include = /etc/pacman.d/mirrorlist
 #SigLevel = Optional TrustAll
 #Server = file:///home/custompkgs
 
-#[chaotic-aur]
-#SigLevel = Optional TrustAll
-#Include = /etc/pacman.d/chaotic-mirrorlist
-
-#[blackarch]
-#SigLevel = Optional TrustAll
-#Include = /etc/pacman.d/blackarch-mirrorlist
+[chaotic-aur]
+SigLevel = Optional TrustAll
+Include = /etc/pacman.d/chaotic-mirrorlist
+[blackarch]
+SigLevel = Optional TrustAll
+Include = /etc/pacman.d/blackarch-mirrorlist
