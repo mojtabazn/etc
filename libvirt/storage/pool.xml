@@ -1,19 +1,19 @@
 <!--
 WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
 OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh pool-edit PCS7-PowerEn
+  virsh pool-edit pool
 or other application using the libvirt API.
 -->
 
 <pool type='dir'>
-  <name>PCS7-PowerEn</name>
-  <uuid>896a9434-62bc-4308-bdcb-748ecad31968</uuid>
+  <name>pool</name>
+  <uuid>6610b218-3809-472a-b5f2-d48ff4c5d48c</uuid>
   <capacity unit='bytes'>0</capacity>
   <allocation unit='bytes'>0</allocation>
   <available unit='bytes'>0</available>
   <source>
   </source>
   <target>
-    <path>/run/media/mojtaba/Data/PCS7-v9.1-PowerEn.ir/PCS7-PowerEn</path>
+    <path>/run/media/mojtaba/Data/PCS7-v9.1-VIRTUAL_MACHINE</path>
   </target>
 </pool>
