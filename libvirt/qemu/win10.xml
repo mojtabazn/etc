@@ -15,10 +15,11 @@ or other application using the libvirt API.
   </metadata>
   <memory unit='KiB'>8388608</memory>
   <currentMemory unit='KiB'>8388608</currentMemory>
-  <vcpu placement='static'>16</vcpu>
+  <vcpu placement='static'>20</vcpu>
   <os>
     <type arch='x86_64' machine='pc-q35-10.2'>hvm</type>
     <boot dev='hd'/>
+    <bootmenu enable='yes'/>
   </os>
   <features>
     <acpi/>
@@ -135,11 +136,23 @@ or other application using the libvirt API.
       <target chassis='14' port='0x1d'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x5'/>
     </controller>
+    <controller type='pci' index='15' model='pcie-root-port'>
+      <model name='pcie-root-port'/>
+      <target chassis='15' port='0x1e'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x6'/>
+    </controller>
+    <controller type='pci' index='16' model='pcie-to-pci-bridge'>
+      <model name='pcie-pci-bridge'/>
+      <address type='pci' domain='0x0000' bus='0x05' slot='0x00' function='0x0'/>
+    </controller>
     <controller type='sata' index='0'>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x1f' function='0x2'/>
     </controller>
     <controller type='virtio-serial' index='0'>
       <address type='pci' domain='0x0000' bus='0x03' slot='0x00' function='0x0'/>
+    </controller>
+    <controller type='scsi' index='0' model='lsilogic'>
+      <address type='pci' domain='0x0000' bus='0x10' slot='0x01' function='0x0'/>
     </controller>
     <interface type='network'>
       <mac address='52:54:00:85:4e:12'/>
