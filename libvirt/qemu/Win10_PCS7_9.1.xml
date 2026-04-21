@@ -15,6 +15,10 @@ or other application using the libvirt API.
   </metadata>
   <memory unit='KiB'>8388608</memory>
   <currentMemory unit='KiB'>8388608</currentMemory>
+  <memoryBacking>
+    <source type='memfd'/>
+    <access mode='shared'/>
+  </memoryBacking>
   <vcpu placement='static'>20</vcpu>
   <os>
     <type arch='x86_64' machine='pc-q35-10.2'>hvm</type>
@@ -162,6 +166,12 @@ or other application using the libvirt API.
     <controller type='scsi' index='0' model='lsilogic'>
       <address type='pci' domain='0x0000' bus='0x10' slot='0x01' function='0x0'/>
     </controller>
+    <filesystem type='mount' accessmode='passthrough'>
+      <driver type='virtiofs'/>
+      <source dir='/home/mojtaba/Public'/>
+      <target dir='Public'/>
+      <address type='pci' domain='0x0000' bus='0x06' slot='0x00' function='0x0'/>
+    </filesystem>
     <interface type='network'>
       <mac address='52:54:00:85:4e:12'/>
       <source network='default'/>
