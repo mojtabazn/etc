@@ -106,3 +106,4 @@ brlapi:!*::brltty
 brltty:!*::
 gluster:!*::
 qemu:!*::
+empower:!*::

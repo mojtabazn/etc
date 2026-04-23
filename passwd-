@@ -61,3 +61,6 @@ git:x:999:999:git daemon user:/:/bin/bash
 mojtaba:x:1000:100:Mojtaba:/home/mojtaba:/bin/bash
 guest:x:1001:1001:Guest:/home/guest:/bin/bash
 pcscd:x:964:964:PC/SC Smart Card Daemon:/:/usr/bin/nologin
+brltty:x:962:962:Braille Device Daemon:/var/lib/brltty:/usr/bin/nologin
+gluster:x:961:961:GlusterFS daemons:/var/run/gluster:/usr/bin/nologin
+qemu:x:960:960:QEMU user:/:/usr/bin/nologin

@@ -61,3 +61,6 @@ git:!:16049::::::
 mojtaba:$6$hUTbhYf7$rS0jvpCmF56rlbhBps.KdYNHAkt8W5aZgPZ9C3z6Da83ENRMVojIuIooD01/tTqptSn2v5pJX3F2g06tXAdXR.:16034:0:99999:7:::
 guest:$6$E4ZBsuK/3Gxn3Vo4$fZCU8gRg.PZcHOzCmsmWARAVjJs0j.5cNhYT7gVl0BLfd3Qxcwbjp2/YQNvUtu5CxNpX1b0daOcYIfN8OSpfm1:19337:0:99999:7:::
 pcscd:!*:20400:::::1:
+brltty:!*:20427:::::1:
+gluster:!*:20427:::::1:
+qemu:!*:20427:::::1:
