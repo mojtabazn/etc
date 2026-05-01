@@ -1,0 +1,15 @@
+version: 5
+daemon:
+  log_level: info
+  admin_group: wheel
+  disable_clocks_cleanup: false
+apply_settings_timer: 5
+gpus:
+  10DE:24E0-1D72:2136-0000:01:00.0:
+    fan_control_enabled: false
+    min_core_clock: 210
+    min_memory_clock: 405
+    max_core_clock: 1234
+    max_memory_clock: 7001
+current_profile: null
+auto_switch_profiles: false
