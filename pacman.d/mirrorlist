@@ -576,5 +576,8 @@
 # 183. [US] SpeedTestResult { speed: 83.5 KB/s; elapsed: 977ms; connection_time: 1.46s } -> https://ziply.mm.fcix.net/archlinux/
 # 184. [CN] SpeedTestResult { speed: 70.9 KB/s; elapsed: 999ms; connection_time: 2.50s } -> https://mirrors.hit.edu.cn/archlinux/
 # FINISHED AT: 2026-02-05 05:45:33.981371049 +03:30
+Server = http://repo.iut.ac.ir/repo/archlinux/$repo/os/$arch
+Server = https://linux-mirror.liara.ir/repository/arch/$repo/os/$arch
 Server = https://mirror.arvancloud.ir/archlinux/$repo/os/$arch
+
 
