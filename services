@@ -8091,6 +8091,7 @@ roce             4791/udp
 unified-bus      4792/tcp
 unified-bus      4792/udp
 uet              4793/udp
+veroce           4794/udp
 iims             4800/tcp
 iims             4800/udp
 iwec             4801/tcp
@@ -8527,6 +8528,8 @@ hacl-poll        5315/udp
 hpbladems        5316/tcp
 hpdevms          5317/tcp
 pkix-cmc         5318/tcp
+roughtime        5319/tcp
+roughtime        5319/udp
 bsfserver-zn     5320/tcp
 bsfsvr-zn-ssl    5321/tcp
 kfserver         5343/tcp
@@ -10252,6 +10255,8 @@ apani4           9163/tcp
 apani4           9163/udp
 apani5           9164/tcp
 apani5           9164/udp
+sirius-agent     9183/tcp
+sirius-agent     9183/udp
 sun-as-jpda      9191/tcp
 sun-as-jpda      9191/udp
 wap-wsp          9200/tcp
@@ -11334,6 +11339,9 @@ profinet-rtm    34963/tcp
 profinet-rtm    34963/udp
 profinet-cm     34964/tcp
 profinet-cm     34964/udp
+profinet-cm-sec 34965/tcp
+profinet-cm-sec 34965/udp
+profinet-rt-sec 34966/udp
 ethercat        34980/tcp
 ethercat        34980/udp
 heathview       35000/tcp

@@ -6,6 +6,6 @@ Exec=xdg-user-dirs-update
 StartupNotify=false
 NoDisplay=true
 
-X-GNOME-Autostart-Phase=Initialization
+X-GNOME-Autostart-Phase=EarlyInitialization
 X-KDE-autostart-phase=1
 X-systemd-skip=true

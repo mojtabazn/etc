@@ -83,6 +83,7 @@
   <delegate decode="jpg" encode="lep" mode="encode" command="&apos;lepton&apos; &apos;%i&apos; &apos;%o&apos;"/>
   <delegate decode="jxr" command="/usr/bin/mv &apos;%i&apos; &apos;%i.jxr&apos;; &apos;JxrDecApp&apos; -i &apos;%i.jxr&apos; -o &apos;%o.tiff&apos;; /usr/bin/mv &apos;%i.jxr&apos; &apos;%i&apos;; /usr/bin/mv &apos;%o.tiff&apos; &apos;%o&apos;"/>
   <delegate decode="lep" mode="decode" command="&apos;lepton&apos; &apos;%i&apos; &apos;%o&apos;"/>
+  <delegate decode="png" encode="open" spawn="True" command="&apos;open&apos; -a Preview &apos;%i&apos;"/>
   <delegate decode="miff" encode="show" spawn="True" command="&apos;magick&apos; display -immutable -delay 0 -title &apos;%M&apos; &apos;%i&apos;"/>
   <delegate decode="miff" encode="win" stealth="True" spawn="True" command="&apos;magick&apos; display -immutable -delay 0 -title &apos;%M&apos; &apos;%i&apos;"/>
   <delegate decode="odg" command="&apos;libreoffice&apos; --convert-to pdf --outdir `dirname &apos;%i&apos;` &apos;%i&apos; 2&gt; &apos;%u&apos;; /usr/bin/mv &apos;%i.pdf&apos; &apos;%o&apos;"/>
