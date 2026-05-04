@@ -1,4 +1,5 @@
-default_mode = "Auto"
+default_sched = "scx_bpfland"
+default_mode = "LowLatency"
 
 [scheds.scx_bpfland]
 auto_mode = []
@@ -6,11 +7,11 @@ gaming_mode = ["-m", "performance"]
 lowlatency_mode = ["-k", "-s", "5000", "-l", "5000"]
 powersave_mode = ["-m", "powersave"]
 
-[scheds.scx_lavd]
+[scheds.scx_rusty]
 auto_mode = []
-gaming_mode = ["--performance"]
-lowlatency_mode = ["--performance"]
-powersave_mode = ["--powersave"]
+gaming_mode = []
+lowlatency_mode = []
+powersave_mode = []
 
 [scheds.scx_flash]
 auto_mode = []
@@ -18,8 +19,8 @@ gaming_mode = []
 lowlatency_mode = []
 powersave_mode = []
 
-[scheds.scx_rusty]
+[scheds.scx_lavd]
 auto_mode = []
-gaming_mode = []
-lowlatency_mode = []
-powersave_mode = []
+gaming_mode = ["--performance"]
+lowlatency_mode = ["--performance"]
+powersave_mode = ["--powersave"]
