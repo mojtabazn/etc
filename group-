@@ -1,6 +1,6 @@
 root:x:0:brltty,root
 bin:x:1:root,bin,daemon
-daemon:x:2:root,bin,daemon
+daemon:x:2:root,bin,daemon,mojtaba
 sys:x:3:root,bin
 adm:x:4:root,daemon
 tty:x:5:brltty

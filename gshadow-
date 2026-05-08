@@ -1,6 +1,6 @@
 root:::brltty,root
 bin:::root,bin,daemon
-daemon:::root,bin,daemon
+daemon:::root,bin,daemon,mojtaba
 sys:::root,bin
 adm:::root,daemon
 tty:::brltty
