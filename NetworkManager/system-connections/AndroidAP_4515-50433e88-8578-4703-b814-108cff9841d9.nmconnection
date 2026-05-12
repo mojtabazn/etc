@@ -1,9 +1,8 @@
 [connection]
 id=AndroidAP_4515
-uuid=53ccf176-c7d6-46a0-a03d-14c6b94f401c
+uuid=50433e88-8578-4703-b814-108cff9841d9
 type=wifi
 interface-name=wlan0
-permissions=user:mojtaba:;
 
 [wifi]
 mode=infrastructure
@@ -12,9 +11,7 @@ ssid=AndroidAP_4515
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
-leap-password-flags=1
-psk-flags=1
-wep-key-flags=1
+psk=nzmnzmnzm
 
 [ipv4]
 method=auto
