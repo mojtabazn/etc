@@ -65,7 +65,7 @@ mysql:x:618:
 sddm:x:619:
 lightdm:x:620:
 libvirtdbus:x:967:
-libvirt-qemu:x:968:
+libvirt-qemu:x:968:mojtaba
 libvirt:x:969:mojtaba
 greeter:x:970:
 cosmic-greeter:x:971:
