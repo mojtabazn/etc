@@ -7859,6 +7859,8 @@ prRegister       4457/udp
 mcp              4458/tcp
 mcp              4458/udp
 ntske            4460/tcp
+agtp             4480/tcp
+agtp-quic        4480/udp
 hpssmgmt         4484/tcp
 hpssmgmt         4484/udp
 assyst-dr        4485/tcp
