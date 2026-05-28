@@ -1,1 +1,1 @@
-performance
+balanced
