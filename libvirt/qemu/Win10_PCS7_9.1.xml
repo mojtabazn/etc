@@ -173,7 +173,7 @@ or other application using the libvirt API.
     </filesystem>
     <interface type='network'>
       <mac address='52:54:00:85:4e:12'/>
-      <source network='default'/>
+      <source network='network'/>
       <model type='e1000e'/>
       <link state='up'/>
       <address type='pci' domain='0x0000' bus='0x01' slot='0x00' function='0x0'/>

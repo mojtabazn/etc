@@ -1,19 +1,20 @@
 <!--
 WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
 OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh net-edit default
+  virsh net-edit network
 or other application using the libvirt API.
 -->
 
 <network>
-  <name>default</name>
-  <uuid>1711f394-5510-4f08-97ac-253d0c3b9224</uuid>
+  <name>network</name>
+  <uuid>41d28835-dde7-484a-a50a-ab7f794e588b</uuid>
   <forward mode='nat'/>
   <bridge name='virbr0' stp='on' delay='0'/>
-  <mac address='52:54:00:b1:48:ce'/>
-  <ip address='192.168.122.1' netmask='255.255.255.0'>
+  <mac address='52:54:00:23:78:26'/>
+  <domain name='network'/>
+  <ip address='192.168.100.1' netmask='255.255.255.0'>
     <dhcp>
-      <range start='192.168.122.2' end='192.168.122.254'/>
+      <range start='192.168.100.128' end='192.168.100.254'/>
     </dhcp>
   </ip>
 </network>
