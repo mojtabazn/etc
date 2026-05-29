@@ -1,0 +1,35 @@
+# Add games in alphabetical order.
+# Add name of game next to the url.
+# Get name of game from steam.
+# If not from any store add name you think it needs.
+
+### J ###
+
+# Jabroni Brawl: Episode 3 https://store.steampowered.com/app/869480/Jabroni_Brawl_Episode_3/
+{ "name": "jbep3", "type": "Game" }
+
+# Jackal https://store.steampowered.com/app/3124230/Jackal/
+{ "name": "jackal", "type": "Game" }
+
+# Jagged Alliance - Back in Action https://store.steampowered.com/app/57740/Jagged_Alliance__Back_in_Action/
+{ "name": "JabiaLinux.x86_64", "type": "Game" }
+
+# Jazzpunk: Director's Cut https://store.steampowered.com/app/250260/Jazzpunk_Directors_Cut/
+{ "name": "Jazzpunk.x86", "type": "Game" }
+
+# Jets'n'Guns Gold https://store.steampowered.com/app/262260/JetsnGuns_Gold/
+{ "name": "jng_gold", "type": "Game" }
+
+# Jotun: Valhalla Edition https://store.steampowered.com/app/323580/Jotun_Valhalla_Edition/
+{ "name": "Jotun.x86_64", "type": "Game" }
+{ "name": "Jotun.x86", "type": "Game" }
+
+# Journey of a Roach https://store.steampowered.com/app/255300/Journey_of_a_Roach/
+{ "name": "JoaR.x86", "type": "Game" }
+{ "name": "JoaR.x86_64", "type": "Game" }
+
+# Juice Galaxy https://store.steampowered.com/app/1708150/Juice_Galaxy/
+{ "name": "Juice Galaxy.x86_64", "type": "Game" }
+
+# Just Shapes & Beats https://store.steampowered.com/app/531510/Just_Shapes__Beats/
+{ "name": "JSB.x86_64", "type": "Game" }

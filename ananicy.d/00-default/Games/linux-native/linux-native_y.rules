@@ -1,0 +1,39 @@
+# Add games in alphabetical order.
+# Add name of game next to the url.
+# Get name of game from steam.
+# If not from any store add name you think it needs.
+
+### Y ###
+
+# yamagi-quake2 https://www.yamagi.org/quake2/
+{ "name": "quake2", "type": "Game" }
+{ "name": "yamagi-quake2", "type": "Game" }
+{ "name": "yamagi-quake2-git", "type": "Game" }
+
+# Yi Xian: The Cultivation Card Game https://store.steampowered.com/app/1948800/Yi_Xian_The_Cultivation_Card_Game/
+{ "name": "YiXianPai.x86_64", "type": "Game" }
+
+# Yooka-Laylee https://store.steampowered.com/app/360830/YookaLaylee/
+{ "name": "YookaLaylee.x86_64", "type": "Game" }
+
+# You Have to Win the Game https://store.steampowered.com/app/286100/You_Have_to_Win_the_Game/
+{ "name": "TheGame_NFML", "type": "Game" }
+
+# You Must Build A Boat https://store.steampowered.com/app/290890/You_Must_Build_A_Boat/
+{ "name": "YMBAB.x86", "type": "Game" }
+
+# Your Chronicle https://store.steampowered.com/app/1546320/Your_Chronicle/
+{ "name": "YourChronicle.x86_64", "type": "Game" }
+
+# Your Only Move Is HUSTLE https://store.steampowered.com/app/2212330/Your_Only_Move_Is_HUSTLE/
+{ "name": "YourOnlyMoveIsHUSTLE.x86_64", "type": "Game" }
+
+# Youtubers Life https://store.steampowered.com/app/428690/Youtubers_Life/
+{ "name": "YoutubersLife.x86", "type": "Game" }
+{ "name": "YoutubersLife.x86_64", "type": "Game" }
+
+# Youtubers Life 2 https://store.steampowered.com/app/1493760/Youtubers_Life_2/
+{ "name": "Youtubers Life 2.x86_64", "type": "Game" }
+
+# Yuppie Psycho: Executive Edition https://store.steampowered.com/app/597760/Yuppie_Psycho_Executive_Edition/
+{ "name": "yuppiepsycho", "type": "Game" }

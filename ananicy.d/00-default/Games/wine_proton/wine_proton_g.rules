@@ -1,0 +1,784 @@
+# Add games in alphabetical order.
+# Add name of game next to the url.
+# Get name of game from steam.
+# If not from any store add name you think it needs.
+
+### G ###
+
+# Gabriel Knight: Sins of the Fathers 20th Anniversary Edition https://store.steampowered.com/app/262000/Gabriel_Knight_Sins_of_the_Fathers_20th_Anniversary_Edition/
+{ "name": "GK1.exe", "type": "Game" }
+
+# Gaiadon: Eternal Quest https://store.steampowered.com/app/3000030/Gaiadon_Eternal_Quest/
+{ "name": "Gaiadon.exe", "type": "Game" }
+
+# Galactic Civilizations III https://store.steampowered.com/app/226860/Galactic_Civilizations_III/
+{ "name": "GalCiv3.exe", "type": "Game" }
+
+# Galactic Civilizations II: Ultimate Edition https://store.steampowered.com/app/202200/Galactic_Civilizations_II_Ultimate_Edition/
+{ "name": "GalCiv2.exe", "type": "Game" }
+
+# Galactic Civilizations I: Ultimate Edition https://store.steampowered.com/app/214150/Galactic_Civilizations_I_Ultimate_Edition/
+{ "name": "GalCiv.exe", "type": "Game" }
+
+# Galactic Civilizations IV https://store.steampowered.com/app/1357210/Galactic_Civilizations_IV/
+{ "name": "GalCiv4.exe", "type": "Game" }
+
+# Galactic Glitch https://store.steampowered.com/app/1536620/Galactic_Glitch/
+{ "name": "GalacticGlitch.exe", "type": "Game" }
+
+# Galaxy Burger https://store.steampowered.com/app/2749770/Galaxy_Burger/
+{ "name": "Galaxy Burger.exe", "type": "Game" }
+
+# Galaxy Life https://store.steampowered.com/app/1927780/Galaxy_Life/
+{ "name": "GalaxyLifeUE5.exe", "type": "Game" }
+{ "name": "Galaxy Life.exe", "type": "Game" }
+
+# Galaxy on Fire 2 Full HD https://store.steampowered.com/app/212010/Galaxy_on_Fire_2_Full_HD/
+{ "name": "GoF2Launcher.exe", "type": "Game" }
+{ "name": "GOF2.exe", "type": "Game" }
+
+# Gamblers Table https://store.steampowered.com/app/3618390/Gamblers_Table/
+{ "name": "gamblers-table.exe", "type": "Game" }
+
+# Gamble With Your Friends https://store.steampowered.com/app/3892270/Gamble_With_Your_Friends/
+{ "name": "Gamble With Your Friends.exe", "type": "Game" }
+
+# Gambonanza https://store.steampowered.com/app/3509230/Gambonanza/
+{ "name": "Gambonanza.exe", "type": "Game" }
+
+# Game Dev Tycoon https://store.steampowered.com/app/239820/Game_Dev_Tycoon/
+{ "name": "GameDevTycoon.exe", "type": "Game" }
+
+# GameMaker Studio 2 Desktop https://store.steampowered.com/app/585410/Unsupported_GameMaker_Studio_2_Desktop/
+{ "name": "GameMakerStudio.exe", "type": "Game" }
+{ "name": "GameMaker.exe", "type": "Game" }
+
+# Game of Thrones https://store.steampowered.com/app/208730/Game_of_Thrones/
+{ "name": "ShippingPC-AGOTGame.exe", "type": "Game" }
+
+# Game of Thrones: Kingsroad https://store.steampowered.com/app/3183280/Game_of_Thrones_Kingsroad/
+{ "name": "GameOfThrones-Kingsroad.exe", "type": "Game" }
+{ "name": "ProjectT-Win64-Shipping.exe", "type": "Game" }
+
+# Game of Thrones Winter is Coming https://store.steampowered.com/app/1105420/Game_of_Thrones_Winter_is_Coming/
+{ "name": "GotPC.exe", "type": "Game" }
+
+# Gaming Cafe Simulator https://store.steampowered.com/app/2978540/Gaming_Cafe_Simulator/
+{ "name": "GamingCafeSimulator.exe", "type": "Game" }
+{ "name": "GamingCafeSimulator-Win64-Shipping.exe", "type": "Game" }
+
+# Gang Beasts https://store.steampowered.com/app/285900/Gang_Beasts/
+{ "name": "Gang Beasts.exe", "type": "Game" }
+
+# Gang of Frogs https://store.steampowered.com/app/3081510/Gang_of_Frogs/
+{ "name": "NebulaCoopProject.exe", "type": "Game" }
+{ "name": "NebulaCoopProject-Win64-Shipping.exe", "type": "Game" }
+
+# Gangs of Sherwood https://store.steampowered.com/app/1351000/Gangs_of_Sherwood/
+{ "name": "Hood.exe", "type": "Game" }
+{ "name": "Hood-Win64-Shipping.exe", "type": "Game" }
+
+# Gaokao.Love.100Days https://store.steampowered.com/app/347620/GaokaoLove100Days/
+{ "name": "gaokao100.exe", "type": "Game" }
+{ "name": "Gaokao100.exe", "type": "Game" }
+
+# Garden Galaxy https://store.steampowered.com/app/1970460/Garden_Galaxy/
+{ "name": "Garden Galaxy.exe", "type": "Game" }
+
+# Garden Life: A Cozy Simulator https://store.steampowered.com/app/1915380/Garden_Life_A_Cozy_Simulator/
+{ "name": "GardenLife.exe", "type": "Game" }
+{ "name": "GardenLife-Win64-Shipping.exe", "type": "Game" }
+
+# Garden of Witches https://store.steampowered.com/app/2530470/Garden_of_Witches/
+{ "name": "Garden of Witches.exe", "type": "Game" }
+
+# Garden Paws https://store.steampowered.com/app/840010/Garden_Paws/
+{ "name": "GardenPaws.exe", "type": "Game" }
+
+# Garfield Kart https://store.steampowered.com/app/362930/Garfield_Kart/
+{ "name": "Garfield_Master7.exe", "type": "Game" }
+{ "name": "GarfieldKartNoMulti.exe", "type": "Game" }
+
+# Garfield Kart - Furious Racing https://store.steampowered.com/app/1085510/Garfield_Kart__Furious_Racing/
+{ "name": "Garfield Kart Furious Racing.exe", "type": "Game" }
+
+# Garry's Mod https://store.steampowered.com/app/4000/Garrys_Mod/
+{ "name": "gmod.exe", "type": "Game" }
+
+# Garten of Banban https://store.steampowered.com/app/2232840/Garten_of_Banban/
+{ "name": "Garten_of_Banban.exe", "type": "Game" }
+{ "name": "Garten_of_Banban_VR.exe", "type": "Game" }
+{ "name": "Clay-Win64-Shipping.exe", "type": "Game" }
+
+# Gary Grigsby's War in the East https://store.steampowered.com/app/370540/Gary_Grigsbys_War_in_the_East/
+{ "name": "WarInTheEast.exe", "type": "Game" }
+
+# Gary Grigsby's War in the East 2 https://store.steampowered.com/app/1775550/Gary_Grigsbys_War_in_the_East_2/
+{ "name": "WarInTheEast2.exe", "type": "Game" }
+
+# Gary Grigsby's War in the West https://store.steampowered.com/app/644710/Gary_Grigsbys_War_in_the_West/
+{ "name": "WarInTheWest.exe", "type": "Game" }
+
+# Gas Guzzlers Extreme https://store.steampowered.com/app/243800/Gas_Guzzlers_Extreme/
+{ "name": "GGDedicatedServerLauncher.exe", "type": "Game" }
+{ "name": "GasGuzzlers.exe", "type": "Game" }
+
+# Gas Station Simulator https://store.steampowered.com/app/1149620/Gas_Station_Simulator/
+{ "name": "GSS2.exe", "type": "Game" }
+{ "name": "GSS2-Win64-Shipping.exe", "type": "Game" }
+
+# Gatekeeper https://store.steampowered.com/app/2106670/Gatekeeper/
+{ "name": "Gatekeeper.exe", "type": "Game" }
+
+# Gato Roboto https://store.steampowered.com/app/916730/Gato_Roboto/
+{ "name": "GatoRoboto.exe", "type": "Game" }
+
+# Gauntlet Slayer Edition https://store.steampowered.com/app/258970/Gauntlet_Slayer_Edition/
+{ "name": "gauntlet.exe", "type": "Game" }
+
+# GearBlocks https://store.steampowered.com/app/1305080/GearBlocks/
+{ "name": "GearBlocks.exe", "type": "Game" }
+
+# GearCity https://store.steampowered.com/app/285110/GearCity/
+{ "name": "GearCity.exe", "type": "Game" }
+{ "name": "GearCityFBS1.exe", "type": "Game" }
+{ "name": "GearCity_ModToolSuite.exe", "type": "Game" }
+{ "name": "VideoSettings.exe", "type": "Game" }
+
+# Gears 5 https://store.steampowered.com/app/1097840/Gears_5/
+{ "name": "Gears5.exe", "type": "Game" }
+{ "name": "Gears5_EAC.exe", "type": "BG_CPUIO" }
+
+# Gears of War: Reloaded https://store.steampowered.com/app/2523720/Gears_of_War_Reloaded/
+{ "name": "GOWDE-Steam.exe", "type": "Game" }
+
+# Gears Tactics https://store.steampowered.com/app/1184050/Gears_Tactics/
+{ "name": "GearsTactics.exe", "type": "Game" }
+
+# Gear Up https://store.steampowered.com/app/214420/Gear_Up/
+{ "name": "Traktor.Amalgam.Game.App.exe", "type": "Game" }
+
+# Gecko Gods https://store.steampowered.com/app/1290760/Gecko_Gods/
+{ "name": "GeckoGods.exe", "type": "Game" }
+
+# GeckoShop https://store.steampowered.com/app/3392420/GeckoShop/
+{ "name": "GeckoShop.exe", "type": "Game" }
+
+# Gedonia https://store.steampowered.com/app/1114220/Gedonia/
+{ "name": "Gedonia.exe", "type": "Game" }
+
+# GemCraft - Chasing Shadows https://store.steampowered.com/app/296490/GemCraft__Chasing_Shadows/
+{ "name": "GemCraft Chasing Shadows.exe", "type": "Game" }
+
+# GemCraft - Frostborn Wrath https://store.steampowered.com/app/1106530/GemCraft__Frostborn_Wrath/
+{ "name": "GemCraft Frostborn Wrath.exe", "type": "Game" }
+
+# Gemini Rue https://store.steampowered.com/app/80310/Gemini_Rue/
+{ "name": "Gemini Rue.exe", "type": "Game" }
+{ "name": "gemini_rue_pc.exe", "type": "Game" }
+{ "name": "winsetup.exe", "type": "Game" }
+
+# Gemporium: A Cute Mining Sim https://store.steampowered.com/app/2836100/Gemporium_A_Cute_Mining_Sim/
+{ "name": "Gemporium.exe", "type": "Game" }
+
+# Gems of War - Puzzle RPG https://store.steampowered.com/app/329110/Gems_of_War__Puzzle_RPG/
+{ "name": "GemsOfWar.exe", "type": "Game" }
+
+# Generation Zero https://store.steampowered.com/app/704270/Generation_Zero/
+{ "name": "GenerationZero_F.exe", "type": "Game" }
+
+# Genesis Alpha One Deluxe Edition https://store.steampowered.com/app/712190/Genesis_Alpha_One_Deluxe_Edition/
+{ "name": "Genesis.exe", "type": "Game" }
+
+# Genital Jousting https://store.steampowered.com/app/469820/Genital_Jousting/
+{ "name": "GenitalJousting.exe", "type": "Game" }
+
+# Genome Guardian 2 https://store.steampowered.com/app/4130120/Genome_Guardian_2/
+{ "name": "Genome Guardian 2.exe", "type": "Game" }
+
+# Genshin Impact Chinese version https://genshin.hoyoverse.com/en/
+{ "name": "YuanShen.exe", "type": "Game" }
+
+# Genshin Impact International version https://genshin.hoyoverse.com/en/
+{ "name": "GenshinImpact.exe", "type": "Game" }
+
+# GeoGuessr Steam Edition https://store.steampowered.com/app/3478870/GeoGuessr_Steam_Edition/
+{ "name": "GeoGuessr.exe", "type": "Game" }
+
+# Geometry Dash https://store.steampowered.com/app/322170/Geometry_Dash/
+{ "name": "GeometryDash.exe", "type": "Game" }
+
+# Geometry Wars: Retro Evolved https://store.steampowered.com/app/8400/Geometry_Wars_Retro_Evolved/
+{ "name": "GeometryWars.exe", "type": "Game" }
+
+# GET EVEN https://store.steampowered.com/app/299950/GET_EVEN/
+{ "name": "GetEven.exe", "type": "Game" }
+
+# Get Off My Lawn! https://store.steampowered.com/app/260410/Get_Off_My_Lawn/
+{ "name": "goml.exe", "type": "Game" }
+{ "name": "GOML.exe", "type": "Game" }
+
+# Getting Over It with Bennett Foddy https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/
+{ "name": "GettingOverIt.exe", "type": "Game" }
+
+# Get To Work https://store.steampowered.com/app/2706170/Get_To_Work/
+{ "name": "Get To Work.exe", "type": "Game" }
+
+# Ghostbusters: Spirits Unleashed Ecto Edition https://store.steampowered.com/app/2383990/Ghostbusters_Spirits_Unleashed_Ecto_Edition/
+{ "name": "SwayzeGame.exe", "type": "Game" }
+
+# Ghost Exile https://store.steampowered.com/app/1807080/Ghost_Exile/
+{ "name": "GhostExile.exe", "type": "Game" }
+
+# Ghost Janitors https://store.steampowered.com/app/2772990/Ghost_Janitors/
+{ "name": "Ghost Janitors.exe", "type": "Game" }
+
+# Ghost of a Tale https://store.steampowered.com/app/417290/Ghost_of_a_Tale/
+{ "name": "GoaT.exe", "type": "Game" }
+
+# Ghost of Tsushima DIRECTOR'S CUT https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/
+{ "name": "GhostOfTsushima.exe", "type": "Game" }
+
+# Ghostrunner https://store.steampowered.com/app/1139900/Ghostrunner/
+{ "name": "Ghostrunner.exe", "type": "Game" }
+{ "name": "Ghostrunner-Win64-Shipping.exe", "type": "Game" }
+
+# Ghostrunner 2 https://store.steampowered.com/app/2144740/Ghostrunner_2/
+{ "name": "Ghostrunner2.exe", "type": "Game" }
+{ "name": "Ghostrunner2-Win64-Shipping.exe", "type": "Game" }
+
+# Ghosts 'n Goblins Resurrection https://store.steampowered.com/app/1375400/Ghosts_n_Goblins_Resurrection/
+{ "name": "makaimura_GG_RE.exe", "type": "Game" }
+
+# Ghosts Of Tabor https://store.steampowered.com/app/1957780/
+{ "name": "GhostsOfTabor.exe", "type": "Game" }
+{ "name": "GhostsOfTaborBE.exe", "type": "Game" }
+{ "name": "GotBootstrapper.exe", "type": "BG_CPUIO" }
+
+# Ghost Song https://store.steampowered.com/app/347800/Ghost_Song/
+{ "name": "GhostSong.exe", "type": "Game" }
+
+# Ghost Trick: Phantom Detective https://store.steampowered.com/app/1967430/Ghost_Trick_Phantom_Detective/
+{ "name": "Ghost Trick.exe", "type": "Game" }
+
+# Ghost Watchers https://store.steampowered.com/app/1850740/Ghost_Watchers/
+{ "name": "Ghost Watchers.exe", "type": "Game" }
+
+# Ghostwire: Tokyo https://store.steampowered.com/app/1475810/Ghostwire_Tokyo/
+{ "name": "GWT.exe", "type": "Game" }
+
+# Giana Sisters: Twisted Dreams https://store.steampowered.com/app/223220/Giana_Sisters_Twisted_Dreams/
+{ "name": "GSGameExe.exe", "type": "Game" }
+{ "name": "GSGameExe_DX9.exe", "type": "Game" }
+{ "name": "GSLauncher.exe", "type": "Game" }
+
+# GigaBash https://store.steampowered.com/app/1546400/GigaBash/
+{ "name": "GigaBash.exe", "type": "Game" }
+{ "name": "TitanXX-Win64-Shipping.exe", "type": "Game" }
+
+# GIGANTIC ARMY https://store.steampowered.com/app/278930/GIGANTIC_ARMY/
+{ "name": "GIGANTIC ARMY.exe", "type": "Game" }
+
+# GIRLS' FRONTLINE 2: EXILIUM https://store.steampowered.com/app/3347400/GIRLS_FRONTLINE_2_EXILIUM/
+{ "name": "GF2_Exilium.exe", "type": "Game" }
+
+# Gladiator Guild Manager https://store.steampowered.com/app/1043260/Gladiator_Guild_Manager/
+{ "name": "Gladiator Manager.exe", "type": "Game" }
+
+# Gladio Mori https://store.steampowered.com/app/2689120/Gladio_Mori/
+{ "name": "Gladio Mori.exe", "type": "Game" }
+
+# Global Rescue https://store.steampowered.com/app/2873660/Global_Rescue/
+{ "name": "GR.exe", "type": "Game" }
+
+# Gloomwood https://store.steampowered.com/app/1150760/Gloomwood/
+{ "name": "Gloomwood.exe", "type": "Game" }
+
+# Gloria Sinica: Han Xiongnu Wars https://store.steampowered.com/app/688470/Han_Xiongnu_Wars/
+{ "name": "HanXiongnuWars.exe", "type": "Game" }
+
+# Gloria Victis: Medieval MMORPG https://store.steampowered.com/app/327070/Gloria_Victis_Medieval_MMORPG/
+{ "name": "gv.exe", "type": "Game" }
+
+# Glyphica: Typing Survival https://store.steampowered.com/app/2400160/Glyphica_Typing_Survival/
+{ "name": "neosphere.exe", "type": "Game" }
+
+# GNOG https://store.steampowered.com/app/290510/GNOG/
+{ "name": "GNOG.exe", "type": "Game" }
+
+# Gnomes https://store.steampowered.com/app/3133060/Gnomes/
+{ "name": "gnomes.exe", "type": "Game" }
+
+# Gnomoria https://store.steampowered.com/app/224500/Gnomoria/
+{ "name": "gnomoria.exe", "type": "Game" }
+
+# GNOSIA https://store.steampowered.com/app/1608290/GNOSIA/
+{ "name": "Gnosia.exe", "type": "Game" }
+
+# Goat Simulator https://store.steampowered.com/app/265930/Goat_Simulator/
+{ "name": "GoatGame-Win32-Shipping.exe", "type": "Game" }
+
+# Goat Simulator 3 https://store.steampowered.com/app/850190/Goat_Simulator_3/
+{ "name": "Goat2.exe", "type": "Game" }
+{ "name": "Goat2-Win64-Shipping.exe", "type": "Game" }
+
+# Goat Simulator: Remastered https://store.steampowered.com/app/1762930/Goat_Simulator_Remastered/
+{ "name": "Goatsim_UE4.exe", "type": "Game" }
+{ "name": "Goatsim_UE4-Win64-Shipping.exe", "type": "Game" }
+
+# Goblin Cleanup https://store.steampowered.com/app/2748340/Goblin_Cleanup/
+{ "name": "Goblin Cleanup.exe", "type": "Game" }
+
+# GOD EATER 2 Rage Burst https://store.steampowered.com/app/438490/GOD_EATER_2_Rage_Burst/
+{ "name": "GE2RB.exe", "type": "Game" }
+
+# GOD EATER 3 https://store.steampowered.com/app/899440/GOD_EATER_3/
+{ "name": "ge3.exe", "type": "Game" }
+
+# God Mode https://store.steampowered.com/app/227480/God_Mode/
+{ "name": "GodMode.exe", "type": "Game" }
+
+# God of War https://store.steampowered.com/app/1593500/God_of_War/
+{ "name": "GoW.exe", "type": "Game" }
+
+# God of War Ragnarök https://store.steampowered.com/app/2322010/God_of_War_Ragnark/
+{ "name": "GoWR.exe", "type": "Game" }
+
+# God Of Weapons https://store.steampowered.com/app/2342950/God_Of_Weapons/
+{ "name": "God Of Weapons.exe", "type": "Game" }
+
+# Godot Engine https://store.steampowered.com/app/404790/Godot_Engine/
+{ "name": "godot.windows.opt.tools.64.exe", "type": "Game" }
+{ "name": "godot.windows.opt.tools.32.exe", "type": "Game" }
+
+# Gods Will Be Watching https://store.steampowered.com/app/274290/Gods_Will_Be_Watching/
+{ "name": "gwbw.exe", "type": "Game" }
+
+# Godus https://store.steampowered.com/app/232810/Godus/
+{ "name": "Godus.exe", "type": "Game" }
+{ "name": "godus.exe", "type": "Game" }
+
+# gogh: Focus with Your Avatar https://store.steampowered.com/app/3213850/gogh_Focus_with_Your_Avatar/
+{ "name": "gogh.exe", "type": "Game" }
+
+# Go! Go! Nippon! ~My First Trip to Japan~ https://store.steampowered.com/app/251870/Go_Go_Nippon_My_First_Trip_to_Japan/
+{ "name": "ggn2015.exe", "type": "Game" }
+{ "name": "ggn2016.exe", "type": "Game" }
+
+# Go-Go Town! https://store.steampowered.com/app/2195120/GoGo_Town/
+{ "name": "GGT.exe", "type": "Game" }
+
+# Go Home Annie: An SCP Game https://store.steampowered.com/app/1939100/Go_Home_Annie_An_SCP_Game/
+{ "name": "Go Home Annie.exe", "type": "Game" }
+
+# Going Medieval https://store.steampowered.com/app/1029780/Going_Medieval/
+{ "name": "Going Medieval.exe", "type": "Game" }
+
+# Going Under https://store.steampowered.com/app/1154810/Going_Under/
+{ "name": "Going Under.exe", "type": "Game" }
+
+# Golden Lap https://store.steampowered.com/app/2052040/Golden_Lap/
+{ "name": "goldenlap.exe", "type": "Game" }
+
+# Golden Light https://store.steampowered.com/app/1245430/Golden_Light/
+{ "name": "Golden Light.exe", "type": "Game" }
+
+# Gold Mining Simulator https://store.steampowered.com/app/451340/Gold_Mining_Simulator/
+{ "name": "GoldMiningSimulator.exe", "type": "Game" }
+{ "name": "GoldRushTheGame.exe", "type": "Game" }
+
+# Golf Gang https://store.steampowered.com/app/1151050/Golf_Gang/
+{ "name": "Golf Gang.exe", "type": "Game" }
+
+# Golf It! https://store.steampowered.com/app/571740/Golf_It/
+{ "name": "GolfIt.exe", "type": "Game" }
+{ "name": "GolfIt-Win64-Shipping.exe", "type": "Game" }
+
+# Golf With Your Friends https://store.steampowered.com/app/431240/Golf_With_Your_Friends/
+{ "name": "Golf With Your Friends.exe", "type": "Game" }
+
+# Gomo https://store.steampowered.com/app/265330/Gomo/
+{ "name": "Gomo.exe", "type": "Game" }
+
+# GONE Fishing https://store.steampowered.com/app/3645890/GONE_Fishing/
+{ "name": "GONEfishing.exe", "type": "Game" }
+{ "name": "GONEfishing-Win64-Shipping.exe", "type": "Game" }
+
+# Gone Home https://store.steampowered.com/app/232430/Gone_Home/
+{ "name": "GoneHome.exe", "type": "Game" }
+{ "name": "GoneHome32.exe", "type": "Game" }
+
+# Goobies https://store.steampowered.com/app/2294130/Goobies/
+{ "name": "Goobies_Vulkan.exe", "type": "Game" }
+{ "name": "Goobies_DX11.exe", "type": "Game" }
+{ "name": "Shooter-Win64-Shipping.exe", "type": "Game" }
+
+# Goodbye Deponia https://store.steampowered.com/app/241910/Goodbye_Deponia/
+{ "name": "Deponia3.exe", "type": "Game" }
+
+# Good Pizza, Great Pizza - Cooking Simulator Game https://store.steampowered.com/app/770810/Good_Pizza_Great_Pizza__Cooking_Simulator_Game/
+{ "name": "PizzaBusiness.exe", "type": "Game" }
+
+# Goofy Gorillas https://store.steampowered.com/app/2627570/Goofy_Gorillas/
+{ "name": "Goofy.exe", "type": "Game" }
+{ "name": "Goofy-Win64-Shipping.exe", "type": "Game" }
+
+# Google Earth VR https://steamdb.info/app/348250/
+{ "name": "Earth.exe", "type": "Game" }
+
+# Goose Goose Duck https://store.steampowered.com/app/1568590/Goose_Goose_Duck/
+{ "name": "Goose Goose Duck.exe", "type": "Game" }
+
+# Gordian Quest https://store.steampowered.com/app/981430/Gordian_Quest/
+{ "name": "GordianQuest.exe", "type": "Game" }
+
+# GoreBox https://store.steampowered.com/app/2027330/GoreBox/
+{ "name": "GoreBox.exe", "type": "Game" }
+
+# Gore Sword https://store.steampowered.com/app/3853910/Gore_Sword/
+{ "name": "Gore Sword.exe", "type": "Game" }
+
+# Gorilla Tag https://store.steampowered.com/app/1533390/Gorilla_Tag/
+{ "name": "Gorilla Tag.exe", "type": "Game" }
+
+# Gorky 17 https://store.steampowered.com/app/253920/Gorky_17/
+{ "name": "Gorky17.exe", "type": "Game" }
+{ "name": "puzzle.exe", "type": "Game" }
+
+# GORN 2 https://store.steampowered.com/app/3391450/GORN_2/
+{ "name": "GORN2.exe", "type": "Game" }
+
+# Gorogoa https://store.steampowered.com/app/557600/Gorogoa/
+{ "name": "Gorogoa.exe", "type": "Game" }
+
+# Gotham City Impostors Free to Play https://store.steampowered.com/app/206210/Gotham_City_Impostors_Free_to_Play/
+{ "name": "Impostors.exe", "type": "Game" }
+
+# Gotham Knights https://store.steampowered.com/app/1496790/Gotham_Knights/
+{ "name": "GothamKnights.exe", "type": "Game" }
+
+# Gothic 1 https://store.steampowered.com/app/65540/Gothic_1/
+{ "name": "GOTHIC.EXE", "type": "Game" }
+{ "name": "GothicMod.exe", "type": "Game" }
+
+# Gothic 1 Remake - Demo (Nyras Prologue) https://store.steampowered.com/app/3448280/Gothic_1_Remake__Demo_Nyras_Prologue/
+{ "name": "G1R-Win64-Shipping.exe", "type": "Game" }
+{ "name": "G1R.exe", "type": "Game" }
+
+# Gothic 3 https://store.steampowered.com/app/39500/Gothic_3/
+{ "name": "Gothic3.exe", "type": "Game" }
+
+# Gothic 3: Forsaken Gods Enhanced Edition https://store.steampowered.com/app/65600/Gothic_3_Forsaken_Gods_Enhanced_Edition/
+{ "name": "Gothic III Forsaken Gods.exe", "type": "Game" }
+
+# Gothic Playable Teaser https://store.steampowered.com/app/950670/Gothic_Playable_Teaser/
+{ "name": "GothicRemake.exe", "type": "Game" }
+
+# Gourdlets https://store.steampowered.com/app/2013730/Gourdlets/
+{ "name": "windows.exe", "type": "Game" }
+
+# Governor of Poker 3 https://store.steampowered.com/app/436150/Governor_of_Poker_3/
+{ "name": "GOP3.exe", "type": "Game" }
+
+# GP Bikes https://store.steampowered.com/app/848050/GP_Bikes/
+{ "name": "gpbikes.exe", "type": "Game" }
+
+# Graalonline Era https://store.steampowered.com/app/2358050/GraalOnline_Era/
+{ "name": "Era.exe", "type": "Game" }
+
+# Granado Espada https://store.steampowered.com/app/663090/Granado_Espada/
+{ "name": "ge.exe", "type": "Game" }
+
+# Granblue Fantasy: Relink https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/
+{ "name": "granblue_fantasy_relink.exe", "type": "Game" }
+
+# Granblue Fantasy: Versus https://store.steampowered.com/app/1090630/Granblue_Fantasy_Versus/
+{ "name": "GBVS.exe", "type": "Game" }
+{ "name": "GBVS-Win64-Shipping.exe", "type": "Game" }
+
+# Granblue Fantasy Versus: Rising https://store.steampowered.com/app/2157560/Granblue_Fantasy_Versus_Rising/
+{ "name": "GBVSR.exe", "type": "Game" }
+{ "name": "GBVSR-Win64-Shipping.exe", "type": "Game" }
+
+# GrandChase https://store.steampowered.com/app/985810/GrandChase/
+{ "name": "GrandChase.exe", "type": "Game" }
+
+# GRANDIA HD Remaster https://store.steampowered.com/app/1034860/GRANDIA_HD_Remaster/
+{ "name": "grandia.exe", "type": "Game" }
+
+# GRANDIA II HD Remaster https://store.steampowered.com/app/330390/GRANDIA_II_HD_Remaster/
+{ "name": "grandia2.exe", "type": "Game" }
+
+# Grand Tactician: The Civil War (1861-1865) https://store.steampowered.com/app/654890/Grand_Tactician_The_Civil_War_18611865/
+{ "name": "The Civil War (1861-1865).exe", "type": "Game" }
+
+# Grand Theft Auto https://store.steampowered.com/app/12170/Grand_Theft_Auto/
+{ "name": "Grand Theft Auto.exe", "type": "Game" }
+
+# Grand Theft Auto 2 https://store.steampowered.com/app/12180/Grand_Theft_Auto_2/
+{ "name": "gta2.exe", "type": "Game" }
+
+# Grand Theft Auto: Episodes from Liberty City https://store.steampowered.com/app/12220/Grand_Theft_Auto_Episodes_from_Liberty_City/
+{ "name": "LaunchEFLC.exe", "type": "Game" }
+{ "name": "EFLC.exe", "type": "Game" }
+
+# Grand Theft Auto III https://store.steampowered.com/app/12100/Grand_Theft_Auto_III/
+{ "name": "gta3.exe", "type": "Game" }
+
+# Grand Theft Auto III – The Definitive Edition https://store.steampowered.com/app/1546970/Grand_Theft_Auto_III__The_Definitive_Edition/
+{ "name": "PlayGTA3.exe", "type": "Game" }
+{ "name": "LibertyCity.exe", "type": "Game" }
+
+# Grand Theft Auto IV: The Complete Edition https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/
+{ "name": "GTAIV.exe", "type": "Game" }
+
+# Grand Theft Auto: San Andreas https://store.steampowered.com/app/12120/Grand_Theft_Auto_San_Andreas/
+{ "name": "gta-sa.exe", "type": "Game" }
+
+# Grand Theft Auto: San Andreas – The Definitive Edition https://store.steampowered.com/app/1547000/Grand_Theft_Auto_San_Andreas__The_Definitive_Edition/
+{ "name": "PlayGTASanAndreas.exe", "type": "Game" }
+{ "name": "SanAndreas.exe", "type": "Game" }
+
+# Grand Theft Auto V Enhanced https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/
+{ "name": "GTA5_Enhanced.exe", "type": "Game" }
+{ "name": "GTA5_Enhanced_BE.exe", "type": "Game" }
+
+# Grand Theft Auto: Vice City https://store.steampowered.com/app/12110/Grand_Theft_Auto_Vice_City/
+{ "name": "gta-vc.exe", "type": "Game" }
+
+# Grand Theft Auto: Vice City – The Definitive Edition https://store.steampowered.com/app/1546990/Grand_Theft_Auto_Vice_City__The_Definitive_Edition/
+{ "name": "PlayGTAViceCity.exe", "type": "Game" }
+{ "name": "ViceCity.exe", "type": "Game" }
+
+# Grand Theft Auto V Legacy https://store.steampowered.com/app/271590/Grand_Theft_Auto_V_Legacy/
+{ "name": "GTA5.exe", "type": "Game" }
+
+# Granny https://store.steampowered.com/app/962400/Granny/
+{ "name": "Granny.exe", "type": "Game" }
+
+# Granny: Escape Together https://store.steampowered.com/app/3070520/Granny_Escape_Together/
+{ "name": "GrannyEscapeTogether-Win64-Shipping.exe", "type": "Game" }
+{ "name": "GrannyEscapeTogether.exe", "type": "Game" }
+
+# Gravel https://store.steampowered.com/app/558260/Gravel/
+{ "name": "gravel.exe", "type": "Game" }
+{ "name": "gravel-Win64-Shipping.exe", "type": "Game" }
+
+# Graveyard Gunslingers https://store.steampowered.com/app/2462060/Graveyard_Gunslingers/
+{ "name": "Graveyard Gunslingers.exe", "type": "Game" }
+
+# Graveyard Keeper https://store.steampowered.com/app/599140/Graveyard_Keeper/
+{ "name": "Graveyard Keeper.exe", "type": "Game" }
+
+# Gravity Circuit https://store.steampowered.com/app/858710/Gravity_Circuit/
+{ "name": "GravityCircuit.exe", "type": "Game" }
+
+# Gray Zone Warfare https://store.steampowered.com/app/2479810/Gray_Zone_Warfare/
+{ "name": "GZWClientSteam-Win64-Shipping.exe", "type": "Game" }
+{ "name": "GZWClientEAC.exe", "type": "Game" }
+
+# GreedFall https://store.steampowered.com/app/606880/GreedFall/
+{ "name": "GreedFall.exe", "type": "Game" }
+
+# GreedFall: The Dying World https://store.steampowered.com/app/1997660/GreedFall_The_Dying_World/
+{ "name": "GreedFall2.exe", "type": "Game" }
+
+# Greedland https://store.steampowered.com/app/2218400/Greedland/
+{ "name": "NewGreedland.exe", "type": "Game" }
+{ "name": "NewGreedland-Win64-Shipping.exe", "type": "Game" }
+
+# Gremlins, Inc. https://store.steampowered.com/app/369990/Gremlins_Inc/
+{ "name": "Gremlins_Inc.exe", "type": "Game" }
+
+# Grey Goo https://store.steampowered.com/app/290790/Grey_Goo/
+{ "name": "ClientLauncherG.exe", "type": "Game" }
+{ "name": "GooG.exe", "type": "Game" }
+
+# Grey Hack https://store.steampowered.com/app/605230/Grey_Hack/
+{ "name": "Grey Hack.exe", "type": "Game" }
+
+# GRID (2019) https://store.steampowered.com/app/703860/GRID/
+{ "name": "Grid_win64_do.exe", "type": "Game" }
+{ "name": "Grid_dx12.exe", "type": "Game" }
+{ "name": "Grid_dx12_win64_do.exe", "type": "Game" }
+{ "name": "Grid.exe", "type": "Game" }
+
+# GRID Autosport https://store.steampowered.com/app/255220/GRID_Autosport/
+{ "name": "GRIDAutosport.exe", "type": "Game" }
+{ "name": "GRIDAutosport_avx.exe", "type": "Game" }
+
+# GRID Legends https://store.steampowered.com/app/1307710/GRID_Legends/
+{ "name": "GridLegends.exe", "type": "Game" }
+
+# Griftlands https://store.steampowered.com/app/601840/Griftlands/
+{ "name": "Griftlands.exe", "type": "Game" }
+
+# Grim https://store.steampowered.com/app/1403940/Grim/
+{ "name": "Grim.exe", "type": "Game" }
+{ "name": "Grim-Win64-Shipping.exe", "type": "Game" }
+
+# Grim Dawn https://store.steampowered.com/app/219990/Grim_Dawn/
+{ "name": "Grim Dawn.exe", "type": "Game" }
+
+# GRIME https://store.steampowered.com/app/1123050/GRIME/
+{ "name": "GRIME.exe", "type": "Game" }
+
+# GRIME II https://store.steampowered.com/app/2529790/GRIME_II/
+{ "name": "GRIME II.exe", "type": "Game" }
+
+# Grim Fandango Remastered https://store.steampowered.com/app/316790/Grim_Fandango_Remastered/
+{ "name": "GrimFandango.exe", "type": "Game" }
+
+# Grim Legends 2: Song of the Dark Swan https://store.steampowered.com/app/279800/Grim_Legends_2_Song_of_the_Dark_Swan/
+{ "name": "GrimLegends_SongOfTheDarkSwan.exe", "type": "Game" }
+
+# Grim Legends: The Forsaken Bride https://store.steampowered.com/app/284850/Grim_Legends_The_Forsaken_Bride/
+{ "name": "GrimLegends_TheForsakenBride.exe", "type": "Game" }
+
+# Grimm https://store.steampowered.com/app/252150/Grimm/
+{ "name": "GrimmLauncher.exe", "type": "Game" }
+
+# Grimshire https://store.steampowered.com/app/2238470/Grimshire/
+{ "name": "Grimshire.exe", "type": "Game" }
+
+# Grind Survivors https://store.steampowered.com/app/3816930/Grind_Survivors/
+{ "name": "GrindSurvivors.exe", "type": "Game" }
+{ "name": "GrindSurvivors-Win64-Shipping.exe", "type": "Game" }
+
+# GRIP: Combat Racing https://store.steampowered.com/app/396900/GRIP_Combat_Racing/
+{ "name": "Grip.exe", "type": "Game" }
+{ "name": "Grip-Win64-Shipping.exe", "type": "Game" }
+
+# GRIS https://store.steampowered.com/app/683320/GRIS/
+{ "name": "GRIS.exe", "type": "Game" }
+
+# Grocery Store Simulator https://store.steampowered.com/app/2961880/Grocery_Store_Simulator/
+{ "name": "Simulatorita.exe", "type": "Game" }
+{ "name": "Simulatorita-Win64-Shipping.exe", "type": "Game" }
+
+# GROUND BRANCH https://store.steampowered.com/app/16900/GROUND_BRANCH/
+{ "name": "GroundBranch.exe", "type": "Game" }
+{ "name": "GroundBranch-Win64-Shipping.exe", "type": "Game" }
+
+# Grounded https://store.steampowered.com/app/962130/Grounded/
+{ "name": "Maine-Win64-Shipping.exe", "type": "Game" }
+{ "name": "Grounded.exe", "type": "Game" }
+
+# Grounded 2 https://store.steampowered.com/app/2661300/Grounded_2/
+{ "name": "Grounded2-WinGRTS-Shipping.exe", "type": "Game" }
+{ "name": "Grounded2.exe", "type": "Game" }
+
+# Ground of Aces https://store.steampowered.com/app/2308690/Ground_of_Aces/
+{ "name": "GroundOfAces.exe", "type": "Game" }
+
+# Ground Zero https://store.steampowered.com/app/2340130/Ground_Zero/
+{ "name": "GroundZero.exe", "type": "Game" }
+{ "name": "GroundZero-Win64-Shipping.exe", "type": "Game" }
+
+# Grow Defense https://store.steampowered.com/app/1083600/Grow_Defense/
+{ "name": "Grow Defense.exe", "type": "Game" }
+
+# Grow Home https://store.steampowered.com/app/323320/Grow_Home/
+{ "name": "GrowHome.exe", "type": "Game" }
+
+# Growing Up https://store.steampowered.com/app/1191120/Growing_Up/
+{ "name": "Growing Up.exe", "type": "Game" }
+
+# Grow: Song of the Evertree https://store.steampowered.com/app/1380420/Grow_Song_of_the_Evertree/
+{ "name": "Grow.exe", "type": "Game" }
+
+# G String https://store.steampowered.com/app/1224600/G_String/
+{ "name": "gstring.exe", "type": "Game" }
+
+# GTFO https://store.steampowered.com/app/493520/GTFO/
+{ "name": "GTFO.exe", "type": "Game" }
+
+# Guacamelee! 2 https://store.steampowered.com/app/534550/Guacamelee_2/
+{ "name": "Guac2_x64.exe", "type": "Game" }
+{ "name": "Guac2_x86.exe", "type": "Game" }
+
+# Guacamelee! Gold Edition https://store.steampowered.com/app/214770/Guacamelee_Gold_Edition/
+{ "name": "Guac.exe", "type": "Game" }
+
+# Guardians of Middle-earth https://store.steampowered.com/app/111900/Guardians_of_Middleearth/
+{ "name": "GOME.exe", "type": "Game" }
+
+# Guild Wars 2 https://store.steampowered.com/app/1284210/Guild_Wars_2/
+{ "name": "Gw2-64.exe", "type": "Game" }
+
+# Guilty as Sock! https://store.steampowered.com/app/3400930/Guilty_as_Sock/
+{ "name": "StandaloneWindows64.exe", "type": "Game" }
+
+# GUILTY GEAR -STRIVE- https://store.steampowered.com/app/1384160/GUILTY_GEAR_STRIVE/
+{ "name": "GGST.exe", "type": "Game" }
+{ "name": "GGST-Win64-Shipping.exe", "type": "Game" }
+
+# GUILTY GEAR Xrd REV 2 https://store.steampowered.com/app/520440/GUILTY_GEAR_Xrd_REV_2/
+{ "name": "BootGGXrd.exe", "type": "Game" }
+{ "name": "GuiltyGearXrd.exe", "type": "Game" }
+
+# GUILTY GEAR XX ACCENT CORE PLUS R https://store.steampowered.com/app/348550/GUILTY_GEAR_XX_ACCENT_CORE_PLUS_R/
+{ "name": "GGXXACPR_Win.exe", "type": "Game" }
+
+# Gujian3(古剑奇谭三) https://store.steampowered.com/app/994280/Gujian3/
+{ "name": "Gujian3.exe", "type": "Game" }
+
+# GUN https://store.steampowered.com/app/2610/GUN/
+{ "name": "Gun.exe", "type": "Game" }
+
+# Gunboat God https://store.steampowered.com/app/2511210/Gunboat_God/
+{ "name": "GunboatGod.exe", "type": "Game" }
+
+# Guncraft https://store.steampowered.com/app/241720/Guncraft/
+{ "name": "GunCraft.exe", "type": "Game" }
+{ "name": "Guncraft.exe", "type": "Game" }
+
+# GUNDAM BREAKER 4 https://store.steampowered.com/app/1672500/GUNDAM_BREAKER_4/
+{ "name": "GB4.exe", "type": "Game" }
+{ "name": "GB4-Win64-Shipping.exe", "type": "Game" }
+
+# Gun Factory Simulator https://store.steampowered.com/app/3137520/Gun_Factory_Simulator/
+{ "name": "Gun Factory.exe", "type": "Game" }
+
+# Gunfire Reborn https://store.steampowered.com/app/1217060/Gunfire_Reborn/
+{ "name": "Gunfire Reborn.exe", "type": "Game" }
+
+# Gun Metal https://store.steampowered.com/app/267920/Gun_Metal/
+{ "name": "gunmetal.exe", "type": "Game" }
+{ "name": "Gunmetal.exe", "type": "Game" }
+
+# Gunner-chan! https://store.steampowered.com/app/2516990/Gunnerchan/
+{ "name": "gunner-chan.exe", "type": "Game" }
+
+# Gunner, HEAT, PC! https://store.steampowered.com/app/1705180/Gunner_HEAT_PC/
+{ "name": "GHPC.exe", "type": "Game"}
+
+# Gunpoint https://store.steampowered.com/app/206190/Gunpoint/
+{ "name": "Gunpoint.exe", "type": "Game" }
+
+# Gunscape https://store.steampowered.com/app/342480/Gunscape/
+{ "name": "Gunscape.exe", "type": "Game" }
+
+# Guns, Gore and Cannoli 2 https://store.steampowered.com/app/525510/Guns_Gore_and_Cannoli_2/
+{ "name": "ggc2.exe", "type": "Game" }
+
+# Guns, Gore & Cannoli https://store.steampowered.com/app/322210/Guns_Gore__Cannoli/
+{ "name": "ggc.exe", "type": "Game" }
+
+# Gunsmith Simulator https://store.steampowered.com/app/1101120/Gunsmith_Simulator/
+{ "name": "Gunsmith Simulator.exe", "type": "Game" }
+
+# Gunsmith Simulator: Prologue https://store.steampowered.com/app/1230170/Gunsmith_Simulator_Prologue/
+{ "name": "Gunsmith Simulator Prologue.exe", "type": "Game" }
+
+# GunZ 2: The Second Duel https://store.steampowered.com/app/242720/GunZ_2_The_Second_Duel/
+{ "name": "Gunz2_Steam.exe", "type": "Game" }
+
+# Guts and Glory https://store.steampowered.com/app/537340/Guts_and_Glory/
+{ "name": "Guts and Glory.exe", "type": "Game" }
+
+# GWENT: The Witcher Card Game https://store.steampowered.com/app/1284410/GWENT_The_Witcher_Card_Game/
+{ "name": "Gwent.exe", "type": "Game" }
+
+# Gym Simulator 24 https://store.steampowered.com/app/2559270/Gym_Simulator_24/
+{ "name": "GymSimulator24.exe", "type": "Game" }

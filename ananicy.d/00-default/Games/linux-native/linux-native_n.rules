@@ -1,0 +1,81 @@
+# Add games in alphabetical order.
+# Add name of game next to the url.
+# Get name of game from steam.
+# If not from any store add name you think it needs.
+
+### N ###
+
+# Narcissu 1st & 2nd https://store.steampowered.com/app/264380/Narcissu_1st__2nd/
+{ "name": "narcissu", "type": "Game" }
+
+# Nation Red https://store.steampowered.com/app/39800/Nation_Red/
+{ "name": "NationRed", "type": "Game" }
+
+# Natural Selection 2 http://store.steampowered.com/app/4920/Natural_Selection_2/
+{ "name": "ns2_linux", "type": "Game" }
+
+# Nebuchadnezzar https://store.steampowered.com/app/1157220/Nebuchadnezzar/
+{ "name": "nebuchadnezzar", "type": "Game" }
+
+# Neighbours from Hell Compilation https://store.steampowered.com/app/260750/Neighbours_from_Hell_Compilation/
+{ "name": "NeighboursFromHell.x86", "type": "Game" }
+
+# NEO Scavenger https://store.steampowered.com/app/248860/NEO_Scavenger/
+{ "name": "NEOScavenger", "type": "Game" }
+
+# NERTS! Online https://store.steampowered.com/app/1131190/NERTS_Online/
+{ "name": "NertsOnline", "type": "Game" }
+
+# Neverending Nightmares https://store.steampowered.com/app/253330/Neverending_Nightmares/
+{ "name": "nightmare", "type": "Game" }
+
+# Neverway https://store.steampowered.com/app/2318330/Neverway/
+{ "name": "Neverway", "type": "Game" }
+
+# Neverwinter Nights: Enhanced Edition https://store.steampowered.com/app/704450/Neverwinter_Nights_Enhanced_Edition/
+{ "name": "nwmain-linux", "type": "Game" }
+
+# NEXT JUMP: Shmup Tactics https://store.steampowered.com/app/624690/NEXT_JUMP_Shmup_Tactics/
+{ "name": "NEXT JUMP Shmup Tactics", "type": "Game" }
+
+# Niche - a genetics survival game https://store.steampowered.com/app/440650/Niche__a_genetics_survival_game/
+{ "name": "Niche.x86", "type": "Game" }
+{ "name": "Niche.x86_64", "type": "Game" }
+
+# Night in the Woods https://store.steampowered.com/app/481510/Night_in_the_Woods/
+{ "name": "Night in the Woods.x86_64", "type": "Game" }
+{ "name": "Night in the Woods.x86", "type": "Game" }
+
+# Nightmares from the Deep: The Cursed Heart https://store.steampowered.com/app/259740/Nightmares_from_the_Deep_The_Cursed_Heart/
+{ "name": "NightmaresFromTheDeep_TheCursedHeart_amd64", "type": "Game" }
+{ "name": "NightmaresFromTheDeep_TheCursedHeart_i386", "type": "Game" }
+
+# NightSky https://store.steampowered.com/app/99700/NightSky/
+{ "name": "nightsky.x64", "type": "Game" }
+{ "name": "nightsky.i386", "type": "Game" }
+
+# Nihilumbra https://store.steampowered.com/app/252670/Nihilumbra/
+{ "name": "Nihilumbra.x86", "type": "Game" }
+{ "name": "Nihilumbra.x86_64", "type": "Game" }
+
+# N++ (NPLUSPLUS) https://store.steampowered.com/app/230270/N_NPLUSPLUS/
+{ "name": "N++.bin.x86", "type": "Game" }
+{ "name": "N++.bin.x86_64", "type": "Game" }
+
+# Nordhold https://store.steampowered.com/app/3028310/Nordhold/
+{ "name": "NordHold.x86_64", "type": "Game" }
+
+# Nordic Ashes: Survivors of Ragnarok https://store.steampowered.com/app/2068280/Nordic_Ashes_Survivors_of_Ragnarok/
+{ "name": "NordicAshes.x86_64", "type": "Game" }
+
+# No Time https://store.steampowered.com/app/1043340/No_Time/
+{ "name": "NoTime64.x86_64", "type": "Game" }
+
+# NSFW Solitaire & Puzzles https://store.steampowered.com/app/2274120/NSFW_Solitaire/
+{ "name": "NSFWSolitaire.x86_64", "type": "Game" }
+
+# Nuclear Dawn https://store.steampowered.com/app/17710/Nuclear_Dawn/
+{ "name": "nd_linux", "type": "Game" }
+
+# Nunholy https://store.steampowered.com/app/2854740/Nunholy/
+{ "name": "Nunholy.x86_64", "type": "Game" }

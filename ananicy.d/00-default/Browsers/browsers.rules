@@ -1,7 +1,6 @@
 ### Chromium-Based Browsers ###
 
 # Brave - https://brave.com/
-{ "name": "/usr/lib/brave-bin/brave", "type": "Doc-View" }
 { "name": "brave", "type": "Doc-View" }
 { "name": "brave-bin", "type": "Doc-View" }
 { "name": "brave-browser", "type": "Doc-View" }
@@ -18,8 +17,19 @@
 # Chromium - https://www.chromium.org/
 { "name": "chromium", "type": "Doc-View" }
 
+# Microsoft Edge - https://www.microsoft.com/en-us/edge/
+{ "name": "msedge", "type": "Doc-View" }
+{ "name": "msedge_crashpad", "type": "BG_CPUIO" }
+# Thorium - https://thorium.rocks/
+{ "name": "thorium", "type": "Doc-View" }
+{ "name": "thorium-browser", "type": "Doc-View" }
+
 # Cromite - https://github.com/uazo/cromite
 { "name": "cromite", "type": "Doc-View" }
+
+# Helium - https://helium.computer/
+{ "name": "helium", "type": "Doc-View" }
+{ "name": "helium_crashpad_handler", "type": "BG_CPUIO" }
 
 # Opera - https://www.opera.com/
 { "name": "opera", "type": "Doc-View" }
@@ -62,6 +72,6 @@
 # Floorp - https://floorp.app
 { "name": "floorp", "type": "Doc-View" }
 
-# Microsoft Edge - https://www.microsoft.com/en-us/edge/
-{ "name": "msedge", "type": "Doc-View" }
-{ "name": "msedge_crashpad", "type": "BG_CPUIO" }
+# Mullvad - https://mullvad.net/en/browser
+{ "name": "mullvadbrowser.real", "type": "Doc-View" }
+
