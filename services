@@ -11252,6 +11252,8 @@ kingdomsonline  30260/tcp
 kingdomsonline  30260/udp
 gs-realtime     30400/tcp
 samsung-disc    30832/udp
+dilithium3      30939/tcp
+dilithium3      30939/udp
 ovobs           30999/tcp
 ovobs           30999/udp
 ka-sddp         31016/tcp
