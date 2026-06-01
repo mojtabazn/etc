@@ -5,6 +5,7 @@ type=ethernet
 autoconnect-priority=-100
 
 [ethernet]
+mac-address=B6:B7:22:10:03:A1
 
 [ipv4]
 dns=8.8.8.8;

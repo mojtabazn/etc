@@ -1,0 +1,17 @@
+[connection]
+id=New 802-3-ethernet connection
+uuid=c0904905-5c68-42e0-9ffe-8eb217b5bc36
+type=ethernet
+
+[ethernet]
+auto-negotiate=true
+mac-address=1C:83:41:C6:70:A0
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
