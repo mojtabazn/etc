@@ -78,17 +78,16 @@ SigLevel = TrustAll
 Include = /etc/pacman.d/cachyos-mirrorlist
 
 [core]
-SigLevel = Optional TrustAll
 Include = /etc/pacman.d/mirrorlist
+SigLevel = Optional TrustAll
 
 [extra]
-SigLevel = Optional TrustAll
 Include = /etc/pacman.d/mirrorlist
-
+SigLevel = Optional TrustAll
 [multilib]
-SigLevel = Optional TrustAll
-Include = /etc/pacman.d/mirrorlist
 
+Include = /etc/pacman.d/mirrorlist
+SigLevel = Optional TrustAll
 # An example of a custom package repository.  See the pacman manpage for
 # tips on creating your own repositories.
 #[custom]
@@ -103,10 +102,10 @@ Include = /etc/pacman.d/chaotic-mirrorlist
 #SigLevel = Never Optional TrustAll
 #Include = /etc/pacman.d/blackarch-mirrorlist
 
+
 #[nemesis_repo]
 #SigLevel = Never
 #Server = https://erikdubois.github.io/$repo/$arch
-
-#[archlinuxcn]
-#SigLevel = Optional TrustAll
-#Server = https://repo.archlinuxcn.org/$arch
+[archlinuxcn]
+Server = https://repo.archlinuxcn.org/$arch
+SigLevel = Optional TrustAll
