@@ -18,8 +18,8 @@
   "count_boot" : "5",
   "date_format" : "%Y-%m-%d %H:%M:%S",
   "exclude" : [
-    "/home/mojtaba/**",
     "/home/guest/**",
+    "/home/mojtaba/**",
     "/root/**"
   ],
   "exclude-apps" : []
