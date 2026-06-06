@@ -72,7 +72,7 @@ Server = https://ftp.halifax.rwth-aachen.de/blackarch/$repo/os/$arch
 #Server = https://mirror.maa.albony.in/blackarch/$repo/os/$arch
 
 # Iran
-#Server = http://mirror.blackrepo.com/$repo/os/$arch
+Server = http://mirror.blackrepo.com/$repo/os/$arch
 
 # Italy
 #Server = http://blackarch.mirror.garr.it/mirrors/blackarch/$repo/os/$arch
@@ -113,10 +113,10 @@ Server = https://ftp.halifax.rwth-aachen.de/blackarch/$repo/os/$arch
 #Server = https://mirrors.hostico.ro/blackarch/$repo/os/$arch
 
 # Russia
-#Server = http://repository.su/blackarch/$repo/os/$arch
-#Server = https://repository.su/blackarch/$repo/os/$arch
-#Server = http://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
-#Server = ftp://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
+Server = http://repository.su/blackarch/$repo/os/$arch
+Server = https://repository.su/blackarch/$repo/os/$arch
+Server = http://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
+Server = ftp://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
 
 # Singapore
 #Server = http://sg.mirrors.cicku.me/blackarch/$repo/os/$arch
@@ -139,11 +139,11 @@ Server = https://ftp.halifax.rwth-aachen.de/blackarch/$repo/os/$arch
 #Server = https://ch.mirrors.cicku.me/blackarch/$repo/os/$arch
 
 # Turkey
-#Server = http://ftp.linux.org.tr/blackarch/$repo/os/$arch
-#Server = https://ftp.linux.org.tr/blackarch/$repo/os/$arch
-#Server = ftp://ftp.linux.org.tr/blackarch/$repo/os/$arch
-#Server = http://tr.mirrors.cicku.me/blackarch/$repo/os/$arch
-#Server = https://tr.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = http://ftp.linux.org.tr/blackarch/$repo/os/$arch
+Server = https://ftp.linux.org.tr/blackarch/$repo/os/$arch
+Server = ftp://ftp.linux.org.tr/blackarch/$repo/os/$arch
+Server = http://tr.mirrors.cicku.me/blackarch/$repo/os/$arch
+Server = https://tr.mirrors.cicku.me/blackarch/$repo/os/$arch
 
 # Taiwan
 #Server = http://blackarch.cs.nycu.edu.tw/$repo/os/$arch

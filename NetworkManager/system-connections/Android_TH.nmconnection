@@ -1,14 +1,12 @@
 [connection]
-id=Wired_AND
-uuid=2fe9fa4f-ee00-38d9-ae94-2252b66c4e3d
+id=Android_TH
+uuid=66529a55-fcf2-3555-9cd4-eb0e4a8b225b
 type=ethernet
 autoconnect-priority=-100
 
 [ethernet]
-mac-address=B6:B7:22:10:03:A1
 
 [ipv4]
-dns=8.8.8.8;
 method=auto
 
 [ipv6]
