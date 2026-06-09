@@ -29,76 +29,76 @@ Server = https://cdn-mirror.chaotic.cx/$repo/$arch
 ## --- Country mirrors ---
 
 # Australia (AU)
-#Server = https://au-mirror.chaotic.cx/$repo/$arch
+Server = https://au-mirror.chaotic.cx/$repo/$arch
 
 # Brazil (BR)
 Server = https://br-mirror.chaotic.cx/$repo/$arch
 
 # Canada (CA)
-#Server = https://ca-mirror.chaotic.cx/$repo/$arch
+Server = https://ca-mirror.chaotic.cx/$repo/$arch
 
 # Chile (CL)
-#Server = https://cl-mirror.chaotic.cx/$repo/$arch
+Server = https://cl-mirror.chaotic.cx/$repo/$arch
 
 # Colombia (CO)
-#Server = https://co-mirror.chaotic.cx/$repo/$arch
+Server = https://co-mirror.chaotic.cx/$repo/$arch
 
 # France (FR)
-#Server = https://fr-mirror.chaotic.cx/$repo/$arch
+Server = https://fr-mirror.chaotic.cx/$repo/$arch
 
 # Germany (DE)
 Server = https://de-mirror.chaotic.cx/$repo/$arch
 
 # Greece (GR)
-#Server = https://gr-mirror.chaotic.cx/$repo/$arch
+Server = https://gr-mirror.chaotic.cx/$repo/$arch
 
 # India (IN)
 Server = https://in-mirror.chaotic.cx/$repo/$arch
 
 # Israel (IL)
-#Server = https://il-mirror.chaotic.cx/$repo/$arch
+Server = https://il-mirror.chaotic.cx/$repo/$arch
 
 # Italy (IT)
-#Server = https://it-mirror.chaotic.cx/$repo/$arch
+Server = https://it-mirror.chaotic.cx/$repo/$arch
 
 # Japan (JP)
-#Server = https://jp-mirror.chaotic.cx/$repo/$arch
+Server = https://jp-mirror.chaotic.cx/$repo/$arch
 
 # Mexico (MX)
-#Server = https://mx-mirror.chaotic.cx/$repo/$arch
+Server = https://mx-mirror.chaotic.cx/$repo/$arch
 
 # Netherlands (NL)
-#Server = https://nl-mirror.chaotic.cx/$repo/$arch
+Server = https://nl-mirror.chaotic.cx/$repo/$arch
 
 # Russia (RU)
-#Server = https://ru-mirror.chaotic.cx/$repo/$arch
+Server = https://ru-mirror.chaotic.cx/$repo/$arch
 
 # Saudi Arabia (SA)
-#Server = https://sa-mirror.chaotic.cx/$repo/$arch
+Server = https://sa-mirror.chaotic.cx/$repo/$arch
 
 # Singapore (SG)
-#Server = https://sg-mirror.chaotic.cx/$repo/$arch
+Server = https://sg-mirror.chaotic.cx/$repo/$arch
 
 # South Africa (ZA)
-#Server = https://za-mirror.chaotic.cx/$repo/$arch
+Server = https://za-mirror.chaotic.cx/$repo/$arch
 
 # South Korea (KR)
-#Server = https://kr-mirror.chaotic.cx/$repo/$arch
+Server = https://kr-mirror.chaotic.cx/$repo/$arch
 
 # Spain (ES)
-#Server = https://es-mirror.chaotic.cx/$repo/$arch
+Server = https://es-mirror.chaotic.cx/$repo/$arch
 
 # Sweden (SE)
-#Server = https://se-mirror.chaotic.cx/$repo/$arch
+Server = https://se-mirror.chaotic.cx/$repo/$arch
 
 # Switzerland (CH)
-#Server = https://ch-mirror.chaotic.cx/$repo/$arch
+Server = https://ch-mirror.chaotic.cx/$repo/$arch
 
 # United Arab Emirates (AE)
-#Server = https://ae-mirror.chaotic.cx/$repo/$arch
+Server = https://ae-mirror.chaotic.cx/$repo/$arch
 
 # United Kingdom (GB)
-#Server = https://gb-mirror.chaotic.cx/$repo/$arch
+Server = https://gb-mirror.chaotic.cx/$repo/$arch
 
 # United States of America (US)
 Server = https://us-mirror.chaotic.cx/$repo/$arch
